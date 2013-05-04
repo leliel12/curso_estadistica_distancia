@@ -89,5 +89,21 @@ Actividad nro. 2
        suponen el :underline:`0` % del total.
 
 
+Actividad nro. 3
+----------------
 
+1) Realice un gráfico de barras correspondiente a la variable USTED
+   (es usted).
+
+.. figure:: graphs/act3_1_usted_freq.png
+    :align: center
+    :scale: 60 %
+
+    Situación laboral
+
+2) Realice la tabla de frecuencias ordenada por categorías y responda
+a las siguientes preguntas.
+
+.. csv-table:: Tabla de frecuencia de Situación Laboral
+    :file: tables/act3_2_usted_freq.csv
 

@@ -110,14 +110,15 @@ USTED_VARS = {1: u"Patrón o empleado",
               3: u"Obrero o empleado",
               4: u"Trabajador sin salario"}
 
-with open("tables/act3_1_{}.csv".format("usted_freq"), "w") as fp:
+with open("tables/act3_2_{}.csv".format("usted_freq"), "w") as fp:
     writer = csv.writer(fp)
 
     writer.writerow([u"Situación Laboral".encode("utf8"), u"Frecuencia"])
     cnt = 0
-    for k, cat in sorted(USTED_VARS.items()):
+    for idx, values in enumerate(sorted(USTED_VARS.items())):
+        k, cat = values
         rows = cool.filter(lambda r: int(r["USTED"]) == k)
-        writer.writerow([cat.encode("utf8"), len(rows)])
+        writer.writerow([(unicode(idx) + "- "+ cat).encode("utf8"), len(rows)])
         cnt += len(rows)
     writer.writerow([u"Total", cnt])
 
