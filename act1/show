@@ -1,3 +1,3 @@
 tf=$(tempfile);
-rst2pdf act1.rst -o $tf;
+rst2pdf act1.rst -s act.style -o $tf;
 evince $tf;

@@ -20,9 +20,12 @@ with open("tables/act2_1_{}.csv".format("sexo_freq"), "w") as fp:
     writer = csv.writer(fp)
 
     writer.writerow([u"Sexo", u"Frecuencia"])
+    cnt = 0
     for k, cat in sorted(SEXO_VARS.items()):
         rows = cool.filter(lambda r: int(r["SEXO"]) == k)
         writer.writerow([cat.encode("utf8"), len(rows)])
+        cnt += len(rows)
+    writer.writerow([u"Total", cnt])
 
 #===============================================================================
 # CIVIL
@@ -38,9 +41,12 @@ with open("tables/act2_1_{}.csv".format("civil_freq"), "w") as fp:
     writer = csv.writer(fp)
 
     writer.writerow([u"Estado Civil", u"Frecuencia"])
+    cnt = 0
     for k, cat in sorted(CIVIL_VARS.items()):
         rows = cool.filter(lambda r: int(r["CIVIL"]) == k)
         writer.writerow([cat.encode("utf8"), len(rows)])
+        cnt += len(rows)
+    writer.writerow([u"Total", cnt])
 
 #===============================================================================
 # ESTUD
@@ -61,10 +67,12 @@ with open("tables/act2_1_{}.csv".format("estud_freq"), "w") as fp:
 
     writer.writerow([u"Estudios que cursa o cursó".encode("utf8"),
                      u"Frecuencia"])
+    cnt = 0
     for k, cat in sorted(ESTUD_VARS.items()):
         rows = cool.filter(lambda r: int(r["ESTUD"]) == k)
         writer.writerow([cat.encode("utf8"), len(rows)])
-
+        cnt += len(rows)
+    writer.writerow([u"Total", cnt])
 
 #===============================================================================
 # VIVIEN
@@ -83,8 +91,10 @@ with open("tables/act2_1_{}.csv".format("vivien_freq"), "w") as fp:
     writer = csv.writer(fp)
 
     writer.writerow([u"Vivienda".encode("utf8"), u"Frecuencia"])
+    cnt = 0
     for k, cat in sorted(VIVIEN_VARS.items()):
         rows = cool.filter(lambda r: int(r["VIVIEN"]) == k)
         writer.writerow([cat.encode("utf8"), len(rows)])
-
+        cnt += len(rows)
+    writer.writerow([u"Total", cnt])
 
