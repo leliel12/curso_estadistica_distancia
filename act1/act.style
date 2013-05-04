@@ -1,0 +1,6 @@
+{
+    "styles": {
+        "underline": {"underline": true},
+        "strike": {"strike": true}
+    }
+}
