@@ -118,7 +118,7 @@ with open("tables/act3_2_{}.csv".format("usted_freq"), "w") as fp:
     for idx, values in enumerate(sorted(USTED_VARS.items())):
         k, cat = values
         rows = cool.filter(lambda r: int(r["USTED"]) == k)
-        writer.writerow([(unicode(idx) + "- "+ cat).encode("utf8"), len(rows)])
+        writer.writerow([(unicode(idx + 1) + "- "+ cat).encode("utf8"), len(rows)])
         cnt += len(rows)
     writer.writerow([u"Total", cnt])
 

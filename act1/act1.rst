@@ -55,17 +55,17 @@ Actividad nro. 2
     - ESTUD (estudios que cursa o cursó) y
     - VIVIEN (tipo de vivienda).
 
-.. csv-table:: Tabla de frecuencia de Sexo
-    :file: tables/act2_1_sexo_freq.csv
+    .. csv-table:: Tabla de frecuencia de Sexo
+        :file: tables/act2_1_sexo_freq.csv
 
-.. csv-table:: Tabla de frecuencia de Estado Civil
-    :file: tables/act2_1_civil_freq.csv
+    .. csv-table:: Tabla de frecuencia de Estado Civil
+        :file: tables/act2_1_civil_freq.csv
 
-.. csv-table:: Tabla de frecuencia de Estudios
-    :file: tables/act2_1_estud_freq.csv
+    .. csv-table:: Tabla de frecuencia de Estudios
+        :file: tables/act2_1_estud_freq.csv
 
-.. csv-table:: Tabla de frecuencia de Viviendas
-    :file: tables/act2_1_vivien_freq.csv
+    .. csv-table:: Tabla de frecuencia de Viviendas
+        :file: tables/act2_1_vivien_freq.csv
 
 
 2) Responda las siguientes cuestiones:
@@ -104,6 +104,23 @@ Actividad nro. 3
 2) Realice la tabla de frecuencias ordenada por categorías y responda
 a las siguientes preguntas.
 
-.. csv-table:: Tabla de frecuencia de Situación Laboral
-    :file: tables/act3_2_usted_freq.csv
+    .. csv-table:: Tabla de frecuencia de Situación Laboral
+        :file: tables/act3_2_usted_freq.csv
+
+
+    a) La variable ES USTED tiene :underline:`4` categorías que oscilan entre la
+       categoría :underline:`1 (Patrón o empleado)` y la categoría
+       :underline:`4 (Trabajador sin salario)`.
+
+    b) La categoría más frecuente o moda es la categoría :underline:`3` que
+       corresponde a la condición ocupacional de :underline:`Obrero o empleado`.
+       Esta categoría representa el :underline:`66` % del total de entrevistados.
+
+    c) La frecuencia relativa para la categoría "trabajador por su cuenta"
+       es :underline:`0.21` y representa el :underline:`21` % del total de
+       encuestados.
+
+    d) El :underline:`4` % de los encuestados, es decir, :underline:`4`
+       jefes de hogar son “trabajadores sin salario".
+
 
