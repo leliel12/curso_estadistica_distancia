@@ -46,3 +46,15 @@ Actividad nro. 2
     - CIVIL (estado civil),
     - ESTUD (estudios que cursa o cursó) y
     - VIVIEN (tipo de vivienda).
+
+.. csv-table:: Tabla de frecuencia de Sexo
+    :file: tables/act2_1_sexo_freq.csv
+
+.. csv-table:: Tabla de frecuencia de Estado Civil
+    :file: tables/act2_1_civil_freq.csv
+
+.. csv-table:: Tabla de frecuencia de Estudios
+    :file: tables/act2_1_estud_freq.csv
+
+.. csv-table:: Tabla de frecuencia de Viviendas
+    :file: tables/act2_1_vivien_freq.csv
