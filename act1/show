@@ -1,0 +1,3 @@
+tf=$(tempfile);
+rst2pdf act1.rst -o $tf;
+evince $tf;
