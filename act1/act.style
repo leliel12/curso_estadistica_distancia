@@ -1,6 +1,8 @@
 {
     "styles": {
-        "underline": {"underline": true},
+        "underline": {"underline": true,
+                      "textColor": "darkblue",
+                      "fontName": "stdItalic"},
         "strike": {"strike": true}
     }
 }

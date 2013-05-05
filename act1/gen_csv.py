@@ -3,10 +3,18 @@
 
 import csv
 
+import numpy
+
 import csvcool
+
+
+#===============================================================================
+# READ FILE
+#===============================================================================
 
 with open("EPH.csv") as fp:
     cool = csvcool.read(fp, encoding="utf8")
+
 
 #===============================================================================
 # ACT 2.1 SEXO
@@ -160,12 +168,19 @@ with open("tables/act3_2_{}.csv".format("usted_freq"), "w") as fp:
 
 
 #===============================================================================
-# ACT 4.1 EDAD
+# ACT 4.1 y 4.2 EDAD
 #===============================================================================
 edad_freq = {}
+modes = []
+high = None
 for edad in cool.column("EDAD"):
     edad = int(edad)
     edad_freq[edad] = edad_freq.get(edad, 0) + 1
+    if high == None or high < edad_freq[edad]:
+        mode = [edad]
+        high = edad_freq[edad]
+    elif high == edad_freq[edad]:
+        modes.append(edad)
 
 with open("tables/act4_1_{}.csv".format("edad_freq"), "w") as fp:
     writer = csv.writer(fp)
@@ -181,3 +196,7 @@ with open("tables/act4_1_{}.csv".format("edad_freq"), "w") as fp:
         Hi += hi
         writer.writerow([edad, ni, hi, Ni, "{0:.2f}".format(Hi)])
     writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
+    writer.writerow([u"Media", "{0:.2f}".format(numpy.mean(edad_freq.keys()))])
+    writer.writerow([u"Mediana", "{0:.2f}".format(numpy.median(edad_freq.keys()))])
+    writer.writerow([u"Moda"] + mode)
+

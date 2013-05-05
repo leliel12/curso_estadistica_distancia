@@ -29,7 +29,7 @@ Actividad nro. 1
 =====================  =============   ==========
 **Variable**           **Tipo**        **Escala**
 =====================  =============   ==========
-Edad                   Cuantitativa    Discreta
+Edad                   Cuantitativa    Continua [#]_
 Sexo                   Categórica      Nominal
 Estado Civil           Categórica      Nominal
 Hs. Trabajadas         Cuantitativa    Continua
@@ -132,7 +132,7 @@ Actividad nro. 4
 
 1) Construya una tabla de frecuencias para la variable EDAD.
 
-    .. csv-table:: Tabla de frecuencia de Situación Laboral
+    .. csv-table:: Tabla de frecuencia de Edad
         :file: tables/act4_1_edad_freq.csv
 
 
@@ -146,5 +146,43 @@ Actividad nro. 4
     c) Los jefes de hogar con más de 30 años son :underline:`64` y
        representan el :underline:`64` % del total.
 
+    d) ¿Podría usted construir un gráfico de barras con esta variable?
+       :underline:`No`. Justifique su respuesta.
+       :underline:`Por que las variables continuas deben representarse`
+       :underline:`gráficamente mediante áreas o superficies pues la escala`
+       :underline:`que esta medida las mismas permiten tomar valores en`
+       :underline:`cualquier punto del eje horizontal` [#]_
+
+    e) ¿Cree usted que un gráfico de frecuencias le aporta conocimiento sobre
+       la :underline:`` variable? Justifique su respuesta. :underline:``
+
+    f) ¿Qué debería hacer con esta variable para solucionar el problema de su
+       representación gráfica? :underline:`Agruparlas en intervalos de clase`.
+
+    g) La edad más frecuente es :underline:`43 y 26` años. El promedio de edad
+       de los jefes de hogar es de :underline:`40,36` años.
+       ¿Es el promedio mayor a la mediana? :underline:`si`.
+
+    h) De acuerdo a las medidas de tendencia central calculadas en el punto
+       anterior, se puede decir que la distribución de la edad es
+       (simétrica, asimétrica derecha/izquierda) :underline:`izquierda`.
 
 
+
+
+.. =============================================================================
+.. FOOTNOTES
+.. =============================================================================
+
+.. [#] Si bien la definición que reza en el archivo
+       ``Anexo_Base_de_datos.doc``
+
+            *Columna 2: (EDAD) - Edad del jefe del hogar*
+            *(medida en años cumplidos).*
+
+       Se entiende a la variable edad como una variable **Discreta** las
+       actividades no concuerdan con esta característica; por lo cual decidí
+       definirla como variable **Continua**.
+
+.. [#] *Módulo II - Organización y resumen de datos*, p.38, Curso de Postgrado
+       Estadística Aplicada a la Investigación.
