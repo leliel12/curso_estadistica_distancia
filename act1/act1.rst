@@ -196,13 +196,34 @@ siguiente tabla de frecuencias:
     c) Los jefes de hogar con más de 30 años son :underline:`65` y
        representan el :underline:`64` % del total.
 
+
 Actividad nro. 6
 ----------------
+
+1) Con los datos originales de la variable EDAD, realice los siguientes
+   gráficos: diagrama de tallo e Histograma.
 
     .. csv-table:: Tallo y hojas de Edad
         :file: tables/act6_1_talloyhojas.csv
         :header-rows: 1
         :widths: 20, 20, 60
+
+
+2) Responda:
+
+    a) ¿Cómo interpreta el Diagrama de tallo y hoja? _________________________________________________________
+    ___________________________________________________________________________________________________________________________________________________________________________________.
+
+
+    b) Observando la distribución de frecuencias (Diagrama de Tallo y Hoja), ¿Qué relación encuentra entre este gráfico y el correspondiente a la distribución de frecuencias de la variable EDAD 1 (agrupada)? _________________________________________________________.
+
+    c) ¿Podría utilizar un gráfico Tallo y Hoja para efectuar el agrupamiento de una variable? _________ ¿Por qué? _________________
+    ________________________________________________________.
+
+    d) El 5 por 100 de las personas más jóvenes de la muestra no superan los _________ años de edad, mientras que el 5 por 100 de las personas de mayor edad superan los ________ años. El 50 por 100 de los empleados de la muestra tienen _________ años o menos.
+
+    e) Observe el histograma y defina si la distribución de EDAD es (simétrica, asimétrica derecha/izquierda) _________ ¿Qué indicaría esta forma de la distribución? __________________________________________.
+
 
 .. =============================================================================
 .. FOOTNOTES
