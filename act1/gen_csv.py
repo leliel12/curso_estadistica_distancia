@@ -170,6 +170,7 @@ with open("tables/act3_2_{}.csv".format("usted_freq"), "w") as fp:
 #===============================================================================
 # ACT 4.1 y 4.2 EDAD
 #===============================================================================
+
 edad_freq = {}
 modes = []
 high = None
@@ -199,4 +200,35 @@ with open("tables/act4_1_{}.csv".format("edad_freq"), "w") as fp:
     writer.writerow([u"Media", "{0:.2f}".format(numpy.mean(edad_freq.keys()))])
     writer.writerow([u"Mediana", "{0:.2f}".format(numpy.median(edad_freq.keys()))])
     writer.writerow([u"Moda"] + mode)
+
+
+#===============================================================================
+# ACT 5.1
+#===============================================================================
+
+EDAD_INTER = [(10, 19), (20, 29), (30, 39), (40, 49), (50, 59), (60, 69)]
+
+edad_inter_freq = {}
+for k, v in edad_freq.items():
+    for idx, tops in enumerate(EDAD_INTER):
+        li, ls = tops
+        if k >= li and k <= ls:
+            edad_inter_freq[idx] = edad_inter_freq.get(idx, 0) + v
+            break
+
+
+with open("tables/act5_1_{}.csv".format("edad_inter_freq"), "w") as fp:
+    writer = csv.writer(fp)
+    writer.writerow([u"Número de intervalo".encode("utf8"),
+                     u"Valores que comprende",
+                     u"Frecuencia",
+                     u"Frecuencia relativa",
+                     u"Frecuencia Relativa acumulada"])
+    Hi = 0
+    for idx, tops in enumerate(EDAD_INTER):
+        tops = map(unicode, tops)
+        ni = edad_inter_freq[idx]
+        hi = ni / float(len(cool))
+        Hi += hi
+        writer.writerow([idx + 1, "-".join(tops), ni, hi, "{0:.2f}".format(Hi)])
 

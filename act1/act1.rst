@@ -168,6 +168,26 @@ Actividad nro. 4
        (simétrica, asimétrica derecha/izquierda) :underline:`izquierda`.
 
 
+Actividad nro. 5
+----------------
+
+1) Reagrupe la variable EDAD en los siguientes intervalos y complete la
+siguiente tabla de frecuencias:
+
+    .. csv-table::
+        :file: tables/act5_1_edad_inter_freq.csv
+
+
+2) Con los datos de la nueva variable que llamaremos EDAD 1, responda las
+   siguientes preguntas:
+
+    a) Las edades de los jefes de hogar entrevistados oscilan entre
+       :underline:`10` años y :underline:`69` años.
+
+    b) El :underline:`57` % de los jefes de hogar tienen menos de 40 años.
+
+    c) Los jefes de hogar con más de 30 años son :underline:`65` y
+       representan el :underline:`64` % del total.
 
 
 .. =============================================================================
