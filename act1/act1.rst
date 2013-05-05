@@ -27,7 +27,7 @@ Actividad nro. 1
    variable es categórica indique su escala.
 
 =====================  =============   ==========
-**Variable**           **Tipo**        **Escala**
+Variable               Tipo            Escala
 =====================  =============   ==========
 Edad                   Cuantitativa    Continua [#]_
 Sexo                   Categórica      Nominal
@@ -57,15 +57,19 @@ Actividad nro. 2
 
     .. csv-table:: Tabla de frecuencia de Sexo
         :file: tables/act2_1_sexo_freq.csv
+        :header-rows: 1
 
     .. csv-table:: Tabla de frecuencia de Estado Civil
         :file: tables/act2_1_civil_freq.csv
+        :header-rows: 1
 
     .. csv-table:: Tabla de frecuencia de Estudios
         :file: tables/act2_1_estud_freq.csv
+        :header-rows: 1
 
     .. csv-table:: Tabla de frecuencia de Viviendas
         :file: tables/act2_1_vivien_freq.csv
+        :header-rows: 1
 
 
 2) Responda las siguientes cuestiones:
@@ -109,6 +113,7 @@ a las siguientes preguntas.
 
     .. csv-table:: Tabla de frecuencia de Situación Laboral
         :file: tables/act3_2_usted_freq.csv
+        :header-rows: 1
 
 
     a) La variable ES USTED tiene :underline:`4` categorías que oscilan entre la
@@ -134,6 +139,7 @@ Actividad nro. 4
 
     .. csv-table:: Tabla de frecuencia de Edad
         :file: tables/act4_1_edad_freq.csv
+        :header-rows: 1
 
 
 2) Luego responda las siguientes cuestiones:
@@ -176,6 +182,7 @@ siguiente tabla de frecuencias:
 
     .. csv-table::
         :file: tables/act5_1_edad_inter_freq.csv
+        :header-rows: 1
 
 
 2) Con los datos de la nueva variable que llamaremos EDAD 1, responda las
@@ -194,6 +201,8 @@ Actividad nro. 6
 
     .. csv-table:: Tallo y hojas de Edad
         :file: tables/act6_1_talloyhojas.csv
+        :header-rows: 1
+        :widths: 20, 20, 60
 
 .. =============================================================================
 .. FOOTNOTES
