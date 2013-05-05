@@ -1,5 +1,7 @@
 {
     "styles": {
+        "table-heading":{"fontName": "stdBold"},
+
         "underline": {"underline": true,
                       "textColor": "darkblue",
                       "fontName": "stdItalic"},

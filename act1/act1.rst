@@ -220,3 +220,12 @@ Actividad nro. 6
 
 .. [#] *Módulo II - Organización y resumen de datos*, p.38, Curso de Postgrado
        Estadística Aplicada a la Investigación.
+
+
+.. =============================================================================
+.. HEADER AND FOOTER
+.. =============================================================================
+
+.. header::
+    .. image:: graphs/head.png
+        :scale: 100 %
