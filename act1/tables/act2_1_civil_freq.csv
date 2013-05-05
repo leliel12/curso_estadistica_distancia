@@ -1,7 +1,7 @@
-Estado Civil,Frecuencia
-Soltero,47
-Unido,3
-Casado,33
-Separado/divorciado,8
-Viudo,9
-Total,100
+Estado Civil,Frecuencia Absoluta (ni),Frecuencia Relativa (hi),Frecuencia Absoluta Acumulada (Ni),Frecuencia Relativa Acumulada (Hi)
+Soltero,47,0.47,47,0.4700
+Unido,3,0.03,50,0.5000
+Casado,33,0.33,83,0.8300
+Separado / divorciado,8,0.08,91,0.9100
+Viudo,9,0.09,100,1.0000
+Total,100,1.0,100,1.0000

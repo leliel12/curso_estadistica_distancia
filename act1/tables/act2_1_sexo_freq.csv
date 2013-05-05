@@ -1,4 +1,4 @@
-Sexo,Frecuencia
-Varón,46
-Mujer,54
-Total,100
+Sexo,Frecuencia Absoluta (ni),Frecuencia Relativa (hi),Frecuencia Absoluta Acumulada (Ni),Frecuencia Relativa Acumulada (Hi)
+Varón,46,0.46,46,0.4600
+Mujer,54,0.54,100,1.0000
+Total,100,1.0,100,1.0000

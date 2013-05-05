@@ -19,13 +19,21 @@ SEXO_VARS = {1: u"Varón",
 with open("tables/act2_1_{}.csv".format("sexo_freq"), "w") as fp:
     writer = csv.writer(fp)
 
-    writer.writerow([u"Sexo", u"Frecuencia"])
-    cnt = 0
+    writer.writerow([u"Sexo",
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
     for k, cat in sorted(SEXO_VARS.items()):
         rows = cool.filter(lambda r: int(r["SEXO"]) == k)
-        writer.writerow([cat.encode("utf8"), len(rows)])
-        cnt += len(rows)
-    writer.writerow([u"Total", cnt])
+        ni = len(rows)
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.4f}".format(Hi)])
+
+    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
 
 
 #===============================================================================
@@ -35,19 +43,26 @@ with open("tables/act2_1_{}.csv".format("sexo_freq"), "w") as fp:
 CIVIL_VARS = {1: u"Soltero",
               2: u"Unido",
               3: u"Casado",
-              4: u"Separado/divorciado",
+              4: u"Separado / divorciado",
               5: u"Viudo"}
 
 with open("tables/act2_1_{}.csv".format("civil_freq"), "w") as fp:
     writer = csv.writer(fp)
 
-    writer.writerow([u"Estado Civil", u"Frecuencia"])
-    cnt = 0
+    writer.writerow([u"Estado Civil",
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
     for k, cat in sorted(CIVIL_VARS.items()):
         rows = cool.filter(lambda r: int(r["CIVIL"]) == k)
-        writer.writerow([cat.encode("utf8"), len(rows)])
-        cnt += len(rows)
-    writer.writerow([u"Total", cnt])
+        ni = len(rows)
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.4f}".format(Hi)])
+    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
 
 
 #===============================================================================
@@ -68,13 +83,19 @@ with open("tables/act2_1_{}.csv".format("estud_freq"), "w") as fp:
     writer = csv.writer(fp)
 
     writer.writerow([u"Estudios que cursa o cursó".encode("utf8"),
-                     u"Frecuencia"])
-    cnt = 0
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
     for k, cat in sorted(ESTUD_VARS.items()):
         rows = cool.filter(lambda r: int(r["ESTUD"]) == k)
-        writer.writerow([cat.encode("utf8"), len(rows)])
-        cnt += len(rows)
-    writer.writerow([u"Total", cnt])
+        ni = len(rows)
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.4f}".format(Hi)])
+    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
 
 #===============================================================================
 # ACT 2.1 VIVIEN
@@ -92,13 +113,20 @@ VIVIEN_VARS = {1: u"Casa",
 with open("tables/act2_1_{}.csv".format("vivien_freq"), "w") as fp:
     writer = csv.writer(fp)
 
-    writer.writerow([u"Vivienda".encode("utf8"), u"Frecuencia"])
-    cnt = 0
+    writer.writerow([u"Vivienda".encode("utf8"),
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
     for k, cat in sorted(VIVIEN_VARS.items()):
         rows = cool.filter(lambda r: int(r["VIVIEN"]) == k)
-        writer.writerow([cat.encode("utf8"), len(rows)])
-        cnt += len(rows)
-    writer.writerow([u"Total", cnt])
+        ni = len(rows)
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.4f}".format(Hi)])
+    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
 
 
 #===============================================================================
@@ -113,28 +141,43 @@ USTED_VARS = {1: u"Patrón o empleado",
 with open("tables/act3_2_{}.csv".format("usted_freq"), "w") as fp:
     writer = csv.writer(fp)
 
-    writer.writerow([u"Situación Laboral".encode("utf8"), u"Frecuencia"])
-    cnt = 0
+    writer.writerow([u"Situación Laboral".encode("utf8"),
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
     for idx, values in enumerate(sorted(USTED_VARS.items())):
         k, cat = values
         rows = cool.filter(lambda r: int(r["USTED"]) == k)
-        writer.writerow([(unicode(idx + 1) + "- "+ cat).encode("utf8"), len(rows)])
-        cnt += len(rows)
-    writer.writerow([u"Total", cnt])
+        ni = len(rows)
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([(unicode(idx + 1) + "- "+ cat).encode("utf8"),
+                          ni, hi, Ni, "{0:.4f}".format(Hi)])
+    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
 
 
 #===============================================================================
 # ACT 4.1 EDAD
 #===============================================================================
 edad_freq = {}
-cnt = 0
 for edad in cool.column("EDAD"):
     edad = int(edad)
     edad_freq[edad] = edad_freq.get(edad, 0) + 1
-    cnt += 1
 
 with open("tables/act4_1_{}.csv".format("edad_freq"), "w") as fp:
     writer = csv.writer(fp)
-    writer.writerow([u"Edad".encode("utf8"), u"Frecuencia"])
-    writer.writerows(sorted(edad_freq.items()))
-    writer.writerow([u"Total", cnt])
+    writer.writerow([u"Edad".encode("utf8"),
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
+    for edad, ni in sorted(edad_freq.items()):
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([edad, ni, hi, Ni, "{0:.4f}".format(Hi)])
+    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
