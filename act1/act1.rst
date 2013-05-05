@@ -124,3 +124,14 @@ a las siguientes preguntas.
        jefes de hogar son “trabajadores sin salario".
 
 
+Actividad nro. 4
+----------------
+
+1) Construya una tabla de frecuencias para la variable EDAD.
+
+    .. csv-table:: Tabla de frecuencia de Situación Laboral
+        :file: tables/act4_1_edad_freq.csv
+
+
+2) Luego responda las siguientes cuestiones:
+

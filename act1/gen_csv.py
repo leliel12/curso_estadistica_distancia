@@ -102,7 +102,7 @@ with open("tables/act2_1_{}.csv".format("vivien_freq"), "w") as fp:
 
 
 #===============================================================================
-# ACT 2.1 USTED LABORAL
+# ACT 2.2 USTED LABORAL
 #===============================================================================
 
 USTED_VARS = {1: u"Patrón o empleado",
@@ -122,3 +122,19 @@ with open("tables/act3_2_{}.csv".format("usted_freq"), "w") as fp:
         cnt += len(rows)
     writer.writerow([u"Total", cnt])
 
+
+#===============================================================================
+# ACT 4.1 EDAD
+#===============================================================================
+edad_freq = {}
+cnt = 0
+for edad in cool.column("EDAD"):
+    edad = int(edad)
+    edad_freq[edad] = edad_freq.get(edad, 0) + 1
+    cnt += 1
+
+with open("tables/act4_1_{}.csv".format("edad_freq"), "w") as fp:
+    writer = csv.writer(fp)
+    writer.writerow([u"Edad".encode("utf8"), u"Frecuencia"])
+    writer.writerows(sorted(edad_freq.items()))
+    writer.writerow([u"Total", cnt])
