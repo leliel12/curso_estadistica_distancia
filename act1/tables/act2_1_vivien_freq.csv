@@ -1,10 +1,10 @@
 Vivienda,Frecuencia Absoluta (ni),Frecuencia Relativa (hi),Frecuencia Absoluta Acumulada (Ni),Frecuencia Relativa Acumulada (Hi)
-Casa,65,0.65,65,0.6500
-Departamento,22,0.22,87,0.8700
-Vivienda en lugar de trabajo,5,0.05,92,0.9200
-Inquilinato,3,0.03,95,0.9500
-Hotel o pensión,0,0.0,95,0.9500
-Construcción no destinada a fines habitacionales,2,0.02,97,0.9700
-Vivienda en villa,3,0.03,100,1.0000
-Otros,0,0.0,100,1.0000
-Total,100,1.0,100,1.0000
+Casa,65,0.65,65,0.65
+Departamento,22,0.22,87,0.87
+Vivienda en lugar de trabajo,5,0.05,92,0.92
+Inquilinato,3,0.03,95,0.95
+Hotel o pensión,0,0.0,95,0.95
+Construcción no destinada a fines habitacionales,2,0.02,97,0.97
+Vivienda en villa,3,0.03,100,1.00
+Otros,0,0.0,100,1.00
+Total,100,1.00,100,1.00

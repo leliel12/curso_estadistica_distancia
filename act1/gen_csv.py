@@ -31,9 +31,9 @@ with open("tables/act2_1_{}.csv".format("sexo_freq"), "w") as fp:
         hi = ni / float(len(cool))
         Ni += ni
         Hi += hi
-        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.4f}".format(Hi)])
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
 
-    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
 
 
 #===============================================================================
@@ -61,8 +61,8 @@ with open("tables/act2_1_{}.csv".format("civil_freq"), "w") as fp:
         hi = ni / float(len(cool))
         Ni += ni
         Hi += hi
-        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.4f}".format(Hi)])
-    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
 
 
 #===============================================================================
@@ -94,8 +94,8 @@ with open("tables/act2_1_{}.csv".format("estud_freq"), "w") as fp:
         hi = ni / float(len(cool))
         Ni += ni
         Hi += hi
-        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.4f}".format(Hi)])
-    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
 
 #===============================================================================
 # ACT 2.1 VIVIEN
@@ -125,8 +125,8 @@ with open("tables/act2_1_{}.csv".format("vivien_freq"), "w") as fp:
         hi = ni / float(len(cool))
         Ni += ni
         Hi += hi
-        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.4f}".format(Hi)])
-    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
 
 
 #===============================================================================
@@ -155,8 +155,8 @@ with open("tables/act3_2_{}.csv".format("usted_freq"), "w") as fp:
         Ni += ni
         Hi += hi
         writer.writerow([(unicode(idx + 1) + "- "+ cat).encode("utf8"),
-                          ni, hi, Ni, "{0:.4f}".format(Hi)])
-    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
+                          ni, hi, Ni, "{0:.2f}".format(Hi)])
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
 
 
 #===============================================================================
@@ -179,5 +179,5 @@ with open("tables/act4_1_{}.csv".format("edad_freq"), "w") as fp:
         hi = ni / float(len(cool))
         Ni += ni
         Hi += hi
-        writer.writerow([edad, ni, hi, Ni, "{0:.4f}".format(Hi)])
-    writer.writerow([u"Total", Ni, Hi, Ni, "{0:.4f}".format(Hi)])
+        writer.writerow([edad, ni, hi, Ni, "{0:.2f}".format(Hi)])
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])

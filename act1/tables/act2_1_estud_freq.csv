@@ -1,11 +1,11 @@
 Estudios que cursa o cursó,Frecuencia Absoluta (ni),Frecuencia Relativa (hi),Frecuencia Absoluta Acumulada (Ni),Frecuencia Relativa Acumulada (Hi)
-No sabe leer ni escribir,10,0.1,10,0.1000
-Primario,15,0.15,25,0.2500
-Nacional,17,0.17,42,0.4200
-Comercial,19,0.19,61,0.6100
-Normal,8,0.08,69,0.6900
-Técnica,6,0.06,75,0.7500
-Otra enseñanza media,3,0.03,78,0.7800
-Superior,6,0.06,84,0.8400
-Universitaria,16,0.16,100,1.0000
-Total,100,1.0,100,1.0000
+No sabe leer ni escribir,10,0.1,10,0.10
+Primario,15,0.15,25,0.25
+Nacional,17,0.17,42,0.42
+Comercial,19,0.19,61,0.61
+Normal,8,0.08,69,0.69
+Técnica,6,0.06,75,0.75
+Otra enseñanza media,3,0.03,78,0.78
+Superior,6,0.06,84,0.84
+Universitaria,16,0.16,100,1.00
+Total,100,1.00,100,1.00
