@@ -189,6 +189,11 @@ siguiente tabla de frecuencias:
     c) Los jefes de hogar con más de 30 años son :underline:`65` y
        representan el :underline:`64` % del total.
 
+Actividad nro. 6
+----------------
+
+    .. csv-table:: Tallo y hojas de Edad
+        :file: tables/act6_1_talloyhojas.csv
 
 .. =============================================================================
 .. FOOTNOTES

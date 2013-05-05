@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import csv
+import csv, os
 
 import numpy
 
@@ -14,6 +14,9 @@ import csvcool
 
 with open("EPH.csv") as fp:
     cool = csvcool.read(fp, encoding="utf8")
+
+if not os.path.exists("tables"):
+    os.mkdir("tables")
 
 
 #===============================================================================
@@ -232,3 +235,27 @@ with open("tables/act5_1_{}.csv".format("edad_inter_freq"), "w") as fp:
         Hi += hi
         writer.writerow([idx + 1, "-".join(tops), ni, hi, "{0:.2f}".format(Hi)])
 
+
+#===============================================================================
+# ACT 6.1
+#===============================================================================
+
+def steam_and_leaft(arr):
+    arr = map(str, arr)
+    sal = {}
+    for e in arr:
+        steam = "0" if len(e) == 1 else e[:-1]
+        if steam not in sal:
+            sal[steam] = []
+        sal[steam].append(e if len(e) == 1 else e[-1])
+        sal[steam].sort()
+    return sorted(sal.items())
+
+
+with open("tables/act6_1_{}.csv".format("talloyhojas"), "w") as fp:
+    writer = csv.writer(fp)
+    writer.writerow([u"Frecuencia", u"Tallo", u"Hojas"])
+    for t, h in steam_and_leaft(cool.column("EDAD")):
+        ni = len(h)
+        h = " ".join(h)
+        writer.writerow([ni, t, h])
