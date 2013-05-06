@@ -5,6 +5,7 @@
         "underline": {"underline": true,
                       "textColor": "darkblue",
                       "fontName": "stdItalic"},
-        "strike": {"strike": true}
+        "strike": {"strike": true},
+        "dedication": {"alignment": "right"}
     }
 }

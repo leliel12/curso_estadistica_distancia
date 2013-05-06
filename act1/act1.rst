@@ -14,7 +14,7 @@
 ACTIVIDADES INTEGRADORAS - MODULOS I Y II
 =========================================
 
-.. class:: aclaracion
+.. class:: dedication
 
     +---------------------------------------------------+------------------------+
     | Para la realización de las siguientes actividades | .. image:: img/arr.png |
