@@ -266,9 +266,9 @@ de 0 a 300; de 300 a 600; de 600 a 1000; de 1000 a 2000 y de 2000 a 2200,
 cerrados por izquierda). La tabla de frecuencias bidimensional nos indicará la
 cantidad de varones y mujeres que tienen ingresos de cierta categoría.
 
-    .. csv-table:: Sexo x Edad
-        :file: tables/act_7_sexo_x_edad.csv
-        :header-rows: 1
+.. csv-table:: Sexo x Edad
+    :file: tables/act_7_sexo_x_edad.csv
+    :header-rows: 1
 
 
 .. =============================================================================
