@@ -254,6 +254,23 @@ siguiente tabla de frecuencias:
        :underline:`son mas viejos`.
 
 
+|hamster| Actividad nro. 7
+--------------------------
+
+Veremos ahora una tabla de frecuencias bidimensional. Recordemos que una tabla
+de frecuencias bidimensional es una tabla de dos variables (doble-entrada) que
+registra la cantidad de individuos que responden a dos categorías de las
+variables seleccionadas. Por ejemplo, analicemos la relación entre la variable
+SEXO y la variable sueldo agrupada (considerar los siguientes intervalos:
+de 0 a 300; de 300 a 600; de 600 a 1000; de 1000 a 2000 y de 2000 a 2200,
+cerrados por izquierda). La tabla de frecuencias bidimensional nos indicará la
+cantidad de varones y mujeres que tienen ingresos de cierta categoría.
+
+    .. csv-table:: Sexo x Edad
+        :file: tables/act_7_sexo_x_edad.csv
+        :header-rows: 1
+
+
 .. =============================================================================
 .. FOOTNOTES
 .. =============================================================================

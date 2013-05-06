@@ -259,3 +259,33 @@ with open("tables/act6_1_{}.csv".format("talloyhojas"), "w") as fp:
         ni = len(h)
         h = " ".join(h)
         writer.writerow([ni, t, h])
+
+
+#===============================================================================
+# 7.1
+#===============================================================================
+
+SUELDO_INTER = [(0, 300), (300, 600), (600, 1000), (1000, 2000), (2000, 2200)]
+
+bi_table = {}
+
+for var, label in SEXO_VARS.items():
+    sueldos = []
+    for li, ls in SUELDO_INTER:
+
+        def sueldo_edad_filter(r):
+            sueldo = int(r["SUELDO"])
+            sexo = int(r["SEXO"])
+            return sexo == var and sueldo >= li and sueldo < ls
+
+        rows = cool.filter(sueldo_edad_filter)
+        sueldos.append(len(rows))
+    bi_table[label] = sueldos
+
+with open("tables/act_7_sexo_x_edad.csv", "w") as fp:
+    writer = csv.writer(fp)
+    writer.writerow(["Sexo/Sueldo"] +
+                    ["{} a {}".format(*l) for l in SUELDO_INTER] +
+                    ["Total"])
+    for sex, values in bi_table.items():
+        writer.writerow([sex.encode("utf8")] + values + [sum(values)])
