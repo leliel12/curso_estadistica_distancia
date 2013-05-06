@@ -1,9 +1,13 @@
 .. =============================================================================
-.. ROLES
+.. ROLES AND IMAGES
 .. =============================================================================
 
 .. role:: underline
 .. role:: strike
+
+
+.. |hamster| image:: graphs/hamster.png
+                :scale: 15 %
 
 
 =========================================
@@ -16,8 +20,9 @@ integradoras, se deberá utilizar el archivo
 EPH.xls. Puede acceder a la base EPH desde el
 aula virtual del curso.
 
-Actividad nro. 1
-----------------
+
+|hamster| Actividad nro. 1
+--------------------------
 
 1) Con los datos de la Encuesta Permanente de Hogares, determine en cada
    una de las variables consideradas, su tipo y escala de medición, si
@@ -46,8 +51,9 @@ Total personas         Cuantitativa    Discreta
 Total econ. activas    Cuantitativa    Discreta
 =====================  =============   ==========
 
-Actividad nro. 2
-----------------
+
+|hamster| Actividad nro. 2
+--------------------------
 
 1) Construya tablas de frecuencias con las siguientes variables:
     - SEXO (género),
@@ -96,8 +102,8 @@ Actividad nro. 2
        suponen el :underline:`0` % del total.
 
 
-Actividad nro. 3
-----------------
+|hamster| Actividad nro. 3
+--------------------------
 
 1) Realice un gráfico de barras correspondiente a la variable USTED
    (es usted).
@@ -132,8 +138,8 @@ a las siguientes preguntas.
        jefes de hogar son “trabajadores sin salario".
 
 
-Actividad nro. 4
-----------------
+|hamster| Actividad nro. 4
+--------------------------
 
 1) Construya una tabla de frecuencias para la variable EDAD.
 
@@ -174,8 +180,8 @@ Actividad nro. 4
        (simétrica, asimétrica derecha/izquierda) :underline:`izquierda`.
 
 
-Actividad nro. 5
-----------------
+|hamster| Actividad nro. 5
+--------------------------
 
 1) Reagrupe la variable EDAD en los siguientes intervalos y complete la
 siguiente tabla de frecuencias:
@@ -197,8 +203,8 @@ siguiente tabla de frecuencias:
        representan el :underline:`64` % del total.
 
 
-Actividad nro. 6
-----------------
+|hamster| Actividad nro. 6
+--------------------------
 
 1) Con los datos originales de la variable EDAD, realice los siguientes
    gráficos: diagrama de tallo e Histograma.
