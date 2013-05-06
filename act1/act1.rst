@@ -211,18 +211,35 @@ Actividad nro. 6
 
 2) Responda:
 
-    a) ¿Cómo interpreta el Diagrama de tallo y hoja? _________________________________________________________
-    ___________________________________________________________________________________________________________________________________________________________________________________.
+    a) ¿Cómo interpreta el Diagrama de tallo y hoja?
+       :underline:`Es un gráfico de distribución de frecuencias donde cada`
+       :underline:`tallo representan los datos agrupados por decenas. En`
+       :underline:`resumen: permite obtener simultáneamente una distribución`
+       :underline:`de frecuencias de la variable y su representación gráfica`
 
+    b) Observando la distribución de frecuencias (Diagrama de Tallo y Hoja),
+       ¿Qué relación encuentra entre este gráfico y el correspondiente a la
+       distribución de frecuencias de la variable EDAD 1 (agrupada)?
+       :underline:`Dado que en la variable EDAD 1 se utilizó intervalos`
+       :underline:`coincidentes con décadas, el el diagrama de tallo y hoja`
+       :underline:`al agrupar por decenas tiene la misma cantidad de`
+       :underline:`intervalos con frcuencias coincidentes`.
 
-    b) Observando la distribución de frecuencias (Diagrama de Tallo y Hoja), ¿Qué relación encuentra entre este gráfico y el correspondiente a la distribución de frecuencias de la variable EDAD 1 (agrupada)? _________________________________________________________.
+    c) ¿Podría utilizar un gráfico Tallo y Hoja para efectuar el agrupamiento
+       de una variable? :underline:`Si` ¿Por qué?
+       :underline:`De hecho diagrama en si mismo es una agrupación de una`
+       :underline:`variable en intervalos de clase coincidentes con decenas`.
 
-    c) ¿Podría utilizar un gráfico Tallo y Hoja para efectuar el agrupamiento de una variable? _________ ¿Por qué? _________________
-    ________________________________________________________.
+    d) El 5 por 100 de las personas más jóvenes de la muestra no superan los
+       :underline:`20` años de edad, mientras que el 5 por 100 de las personas
+       de mayor edad superan los :underline:`50` años. El 50 por 100 de los
+       empleados de la muestra tienen :underline:`30` años o menos.
 
-    d) El 5 por 100 de las personas más jóvenes de la muestra no superan los _________ años de edad, mientras que el 5 por 100 de las personas de mayor edad superan los ________ años. El 50 por 100 de los empleados de la muestra tienen _________ años o menos.
-
-    e) Observe el histograma y defina si la distribución de EDAD es (simétrica, asimétrica derecha/izquierda) _________ ¿Qué indicaría esta forma de la distribución? __________________________________________.
+    e) Observe el histograma y defina si la distribución de EDAD es (simétrica,
+       asimétrica derecha/izquierda) :underline:`asimetrica izquierda`
+       ¿Qué indicaría esta forma de la distribución?
+       :underline:`Que los hombres tienden a ser jefes de familia a medida que`
+       :underline:`son mas viejos`.
 
 
 .. =============================================================================
