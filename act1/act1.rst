@@ -1,12 +1,12 @@
 .. =============================================================================
-.. ROLES AND IMAGES
+.. ROLES AND INLINE IMAGES
 .. =============================================================================
 
 .. role:: underline
 .. role:: strike
 
 
-.. |hamster| image:: graphs/hamster.png
+.. |hamster| image:: img/hamster.png
                 :scale: 15 %
 
 
@@ -14,11 +14,17 @@
 ACTIVIDADES INTEGRADORAS - MODULOS I Y II
 =========================================
 
+.. class:: aclaracion
 
-Para la realización de las siguientes actividades
-integradoras, se deberá utilizar el archivo
-EPH.xls. Puede acceder a la base EPH desde el
-aula virtual del curso.
+    +---------------------------------------------------+------------------------+
+    | Para la realización de las siguientes actividades | .. image:: img/arr.png |
+    | integradoras, se deberá utilizar el archivo       |     :align: right      |
+    | EPH.xls. Puede acceder a la base EPH desde el     |     :scale: 100 %      |
+    | aula virtual del curso.                           |                        |
+    +---------------------------------------------------+------------------------+
+
+
+**Actividades**
 
 
 |hamster| Actividad nro. 1
@@ -271,5 +277,10 @@ siguiente tabla de frecuencias:
 .. =============================================================================
 
 .. header::
-    .. image:: graphs/head.png
+    .. image:: img/head.png
         :scale: 100 %
+
+
+.. footer::
+
+    ###Page###
