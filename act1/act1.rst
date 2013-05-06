@@ -18,8 +18,8 @@ ACTIVIDADES INTEGRADORAS - MODULOS I Y II
 
     +---------------------------------------------------+------------------------+
     | Para la realización de las siguientes actividades | .. image:: img/arr.png |
-    | integradoras, se deberá utilizar el archivo       |     :align: right      |
-    | EPH.xls. Puede acceder a la base EPH desde el     |     :scale: 100 %      |
+    | integradoras, se deberá utilizar el **archivo**   |     :align: right      |
+    | **EPH.xls**. Puede acceder a la base EPH desde el |     :scale: 100 %      |
     | aula virtual del curso.                           |                        |
     +---------------------------------------------------+------------------------+
 
