@@ -16,12 +16,12 @@ ACTIVIDADES INTEGRADORAS - MODULOS I Y II
 
 .. class:: dedication
 
-    +---------------------------------------------------+------------------------+
-    | Para la realización de las siguientes actividades | .. image:: img/arr.png |
-    | integradoras, se deberá utilizar el **archivo**   |     :align: right      |
-    | **EPH.xls**. Puede acceder a la base EPH desde el |     :scale: 100 %      |
-    | aula virtual del curso.                           |                        |
-    +---------------------------------------------------+------------------------+
++---------------------------------------------------+------------------------+
+| Para la realización de las siguientes actividades | .. image:: img/arr.png |
+| integradoras, se deberá utilizar el **archivo**   |     :align: right      |
+| **EPH.xls**. Puede acceder a la base EPH desde el |     :scale: 100 %      |
+| aula virtual del curso.                           |                        |
++---------------------------------------------------+------------------------+
 
 
 **Actividades**
@@ -172,7 +172,11 @@ a las siguientes preguntas.
        :underline:`cualquier punto del eje horizontal` [#]_
 
     e) ¿Cree usted que un gráfico de frecuencias le aporta conocimiento sobre
-       la :underline:`` variable? Justifique su respuesta. :underline:``
+       la variable?:underline:`Si` Justifique su respuesta.
+       :underline:`debido a que se explicita de una manera sencilla cuales son`
+       :underline:`edades mas comunes de los jefes de familia y permite`
+       :underline:`concentrarse en otras características comunes de jefes de`
+       :underline:`esa edad`.
 
     f) ¿Qué debería hacer con esta variable para solucionar el problema de su
        representación gráfica? :underline:`Agruparlas en intervalos de clase`.
