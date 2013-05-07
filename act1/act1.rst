@@ -282,6 +282,36 @@ cantidad de varones y mujeres que tienen ingresos de cierta categoría.
        600 y 1000 pesos.
 
 
+|hamster| Actividad nro. 8
+--------------------------
+
+1) Repita la tabla del ejercicio anterior, pero agregando los porcentajes en
+   fila y en columna.
+
+.. csv-table:: Sexo x Edad con porcentajes (el último intervalo también es cerrado por derecha)
+    :file: tables/act_8.1_sexo_x_edad.csv
+    :header-rows: 1
+
+2) Responda las siguientes preguntas:
+
+    a) Del total de jefes de hogar con sueldo de hasta 300 pesos, el
+       :underline:`10` % son varones y el :underline:`6` % son mujeres.
+
+    b) Entre los 46 varones hay 8 que ganan entre 600 y 1000 pesos y
+       representan el :underline:`17.39` % del total de varones. [#]_
+
+    c) Entre las 54 mujeres hay 5 que ganan entre 1000 y 2000 pesos y
+       representan :underline:`9,25` % del total de mujeres. [#]_
+
+    d) Un 10% de los jefes de hogar son mujeres y ganan entre :underline:`0`
+       y :underline:`300` pesos.
+
+    e) El :underline:`49` % de los jefes de hogar ganan entre 300 y 600 pesos,
+       mientras que sólo el 9% ganan entre :underline:`1000` y
+       :underline:`2000` pesos.
+
+
+
 
 .. =============================================================================
 .. FOOTNOTES
@@ -299,6 +329,16 @@ cantidad de varones y mujeres que tienen ingresos de cierta categoría.
 
 .. [#] *Módulo II - Organización y resumen de datos*, p.38, Curso de Postgrado
        Estadística Aplicada a la Investigación.
+
+.. [#] Obtuve el porcentaje con respecto al total de varones calculando el
+       cociente del *porcentaje de varones* que ganan entre *600 y 1000*
+       respecto del *porcentaje total de varones*; y multiplicando ese
+       valor por *100*.
+
+.. [#] Obtuve el porcentaje con respecto al total de mujeres calculando el
+       cociente del *porcentaje de mujeres* que ganan entre *1000 y 2000*
+       respecto del *porcentaje total de mujeres*; y multiplicando ese
+       valor por *100*.
 
 
 .. =============================================================================

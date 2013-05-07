@@ -298,3 +298,29 @@ with open("tables/act_7_sexo_x_edad.csv", "w") as fp:
         totot += sum(values)
         writer.writerow([sex.encode("utf8")] + values + [sum(values)])
     writer.writerow(["Totales"] + totcols +  [totot])
+
+
+
+#===============================================================================
+# 7.1
+#===============================================================================
+
+SUELDO_INTER = [(0, 300), (300, 600), (600, 1000), (1000, 2000), (2000, 2200)]
+
+with open("tables/act_8.1_sexo_x_edad.csv", "w") as fp:
+    writer = csv.writer(fp)
+    writer.writerow(["Sexo/Sueldo"] +
+                    ["{} a {}".format(*l) for l in SUELDO_INTER] +
+                    ["Total"])
+    totcols = [0] * len(SUELDO_INTER)
+    totot = 0
+    for sex, values in bi_table.items():
+        totcols = map(lambda v: sum(v), zip(totcols, values))
+        totot += sum(values)
+        values_porc = ["{} ({}%)".format(v, v) for v in values]
+        tp = "{} ({}%)".format(sum(values), sum(values))
+        writer.writerow([sex.encode("utf8")] + values_porc + [tp])
+    totcolsp = ["{} ({}%)".format(v, v) for v in totcols]
+    tototp = "{} ({}%)".format(totot, totot)
+    writer.writerow(["Totales"] + totcolsp +  [tototp])
+
