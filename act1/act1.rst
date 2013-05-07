@@ -266,9 +266,21 @@ de 0 a 300; de 300 a 600; de 600 a 1000; de 1000 a 2000 y de 2000 a 2200,
 cerrados por izquierda). La tabla de frecuencias bidimensional nos indicará la
 cantidad de varones y mujeres que tienen ingresos de cierta categoría.
 
-.. csv-table:: Sexo x Edad
+.. csv-table:: Sexo x Edad (el último intervalo también es cerrado por derecha)
     :file: tables/act_7_sexo_x_edad.csv
     :header-rows: 1
+
+1) Responda las siguientes preguntas:
+
+    a) De los jefes de hogar que tienen ingresos menores a 300 pesos
+       :underline:`6` son varones y :underline:`16` son mujeres.
+
+    b) La mayoría de los jefes de hogar con un sueldo de 2000 a 2200 pesos son
+       (varones/mujeres) :underline:`varones`.
+
+    c) Hay un total de :underline:`21` personas que ganan entre
+       600 y 1000 pesos.
+
 
 
 .. =============================================================================

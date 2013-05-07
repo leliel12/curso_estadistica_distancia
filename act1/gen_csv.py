@@ -273,9 +273,13 @@ for var, label in SEXO_VARS.items():
     sueldos = []
     for li, ls in SUELDO_INTER:
 
+        last = (li, ls) == SUELDO_INTER[-1]
+
         def sueldo_edad_filter(r):
             sueldo = int(r["SUELDO"])
             sexo = int(r["SEXO"])
+            if last:
+                return sexo == var and sueldo >= li and sueldo <= ls
             return sexo == var and sueldo >= li and sueldo < ls
 
         rows = cool.filter(sueldo_edad_filter)
@@ -287,5 +291,10 @@ with open("tables/act_7_sexo_x_edad.csv", "w") as fp:
     writer.writerow(["Sexo/Sueldo"] +
                     ["{} a {}".format(*l) for l in SUELDO_INTER] +
                     ["Total"])
+    totcols = [0] * len(SUELDO_INTER)
+    totot = 0
     for sex, values in bi_table.items():
+        totcols = map(lambda v: sum(v), zip(totcols, values))
+        totot += sum(values)
         writer.writerow([sex.encode("utf8")] + values + [sum(values)])
+    writer.writerow(["Totales"] + totcols +  [totot])
