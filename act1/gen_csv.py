@@ -324,3 +324,96 @@ with open("tables/act_8.1_sexo_x_edad.csv", "w") as fp:
     tototp = "{} ({}%)".format(totot, totot)
     writer.writerow(["Totales"] + totcolsp +  [tototp])
 
+
+#===============================================================================
+# 9.1 LEER
+#===============================================================================
+
+
+LEER_VARS = {1: u"Sí",
+             2: u"No"}
+
+
+with open("tables/act_9.1_leer_freq.csv", "w") as fp:
+    writer = csv.writer(fp)
+
+    writer.writerow([u"Sabe Leer",
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
+    for k, cat in sorted(LEER_VARS.items()):
+        rows = cool.filter(lambda r: int(r["LEER"]) == k)
+        ni = len(rows)
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
+
+
+#===============================================================================
+# 9.1 ESTUD
+#===============================================================================
+
+ESTUD_VARS = {0: u"No sabe leer ni escribir",
+              1: u"Primario",
+              2: u"Nacional",
+              3: u"Comercial",
+              4: u"Normal",
+              5: u"Técnica",
+              6: u"Otra enseñanza media",
+              7: u"Superior",
+              8: u"Universitaria"}
+
+
+with open("tables/act_9.1_estud_freq.csv", "w") as fp:
+    writer = csv.writer(fp)
+
+    writer.writerow([u"Estudios",
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
+    for k, cat in sorted(ESTUD_VARS.items()):
+        rows = cool.filter(lambda r: int(r["ESTUD"]) == k)
+        ni = len(rows)
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
+
+
+#===============================================================================
+# 9.1 FINAL
+#===============================================================================
+
+FINAL_VARS = {0: u"No sabe leer ni escribir",
+              1: u"Sí",
+              2: u"No"}
+
+
+with open("tables/act_9.1_final_freq.csv", "w") as fp:
+    writer = csv.writer(fp)
+
+    writer.writerow([u"Finalizó Estudios".encode("utf8"),
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
+    for k, cat in sorted(FINAL_VARS.items()):
+        rows = cool.filter(lambda r: int(r["FINAL"]) == k)
+        ni = len(rows)
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
+

@@ -67,21 +67,21 @@ Total econ. activas    Cuantitativa    Discreta
     - ESTUD (estudios que cursa o cursó) y
     - VIVIEN (tipo de vivienda).
 
-    .. csv-table:: Tabla de frecuencia de Sexo
-        :file: tables/act2_1_sexo_freq.csv
-        :header-rows: 1
+.. csv-table:: Tabla de frecuencia de Sexo
+    :file: tables/act2_1_sexo_freq.csv
+    :header-rows: 1
 
-    .. csv-table:: Tabla de frecuencia de Estado Civil
-        :file: tables/act2_1_civil_freq.csv
-        :header-rows: 1
+.. csv-table:: Tabla de frecuencia de Estado Civil
+    :file: tables/act2_1_civil_freq.csv
+    :header-rows: 1
 
-    .. csv-table:: Tabla de frecuencia de Estudios
-        :file: tables/act2_1_estud_freq.csv
-        :header-rows: 1
+.. csv-table:: Tabla de frecuencia de Estudios
+    :file: tables/act2_1_estud_freq.csv
+    :header-rows: 1
 
-    .. csv-table:: Tabla de frecuencia de Viviendas
-        :file: tables/act2_1_vivien_freq.csv
-        :header-rows: 1
+.. csv-table:: Tabla de frecuencia de Viviendas
+    :file: tables/act2_1_vivien_freq.csv
+    :header-rows: 1
 
 
 2) Responda las siguientes cuestiones:
@@ -120,13 +120,13 @@ Total econ. activas    Cuantitativa    Discreta
 
     Situación laboral
 
+
 2) Realice la tabla de frecuencias ordenada por categorías y responda
 a las siguientes preguntas.
 
     .. csv-table:: Tabla de frecuencia de Situación Laboral
         :file: tables/act3_2_usted_freq.csv
         :header-rows: 1
-
 
     a) La variable ES USTED tiene :underline:`4` categorías que oscilan entre la
        categoría :underline:`1 (Patrón o empleado)` y la categoría
@@ -196,9 +196,15 @@ a las siguientes preguntas.
 1) Reagrupe la variable EDAD en los siguientes intervalos y complete la
 siguiente tabla de frecuencias:
 
-    .. csv-table::
-        :file: tables/act5_1_edad_inter_freq.csv
-        :header-rows: 1
+.. csv-table::
+    :file: tables/act5_1_edad_inter_freq.csv
+    :header-rows: 1
+
+.. figure:: graphs/act5_1_edad_freq.png
+    :align: center
+    :scale: 60 %
+
+    Histograma de Edades
 
 
 2) Con los datos de la nueva variable que llamaremos EDAD 1, responda las
@@ -315,7 +321,27 @@ cantidad de varones y mujeres que tienen ingresos de cierta categoría.
        :underline:`2000` pesos.
 
 
+|hamster| Actividad nro. 9
+--------------------------
 
+Vamos a comparar las variables educaciones por sexo:
+LEER (Sabe leer y escribir), ESTUD (estudios que cursa o cursó) y FINAL
+(finalizó ese estudio).
+
+1) Construya las tablas de frecuencias para estas variables y represente cada
+   tabla con un gráfico de barras.
+
+.. csv-table:: Tabla de frecuencia de variable Leer
+    :file: tables/act_9.1_leer_freq.csv
+    :header-rows: 1
+
+.. csv-table:: Tabla de frecuencia de variable Estudios
+    :file: tables/act_9.1_estud_freq.csv
+    :header-rows: 1
+
+.. csv-table:: Tabla de frecuencia de variable Final
+    :file: tables/act_9.1_final_freq.csv
+    :header-rows: 1
 
 .. =============================================================================
 .. FOOTNOTES
@@ -352,6 +378,8 @@ cantidad de varones y mujeres que tienen ingresos de cierta categoría.
 .. header::
     .. image:: img/head.png
         :scale: 100 %
+
+    Falta grafico 9.1
 
 
 .. footer::
