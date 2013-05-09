@@ -104,7 +104,7 @@ Total econ. activas    Cuantitativa    Discreta
     d) Con respecto al tipo de vivienda, la categoría más
        frecuente es la de :underline:`casa` que supone un total de
        :underline:`65` % del total y la categoría menos frecuente es
-       la :underline:`hotel o pension` con sólo :underline:`0` encuestados que
+       la :underline:`hotel o pensión` con sólo :underline:`0` encuestados que
        suponen el :underline:`0` % del total.
 
 
@@ -245,7 +245,7 @@ siguiente tabla de frecuencias:
        :underline:`Dado que en la variable EDAD 1 se utilizó intervalos`
        :underline:`coincidentes con décadas, el el diagrama de tallo y hoja`
        :underline:`al agrupar por decenas tiene la misma cantidad de`
-       :underline:`intervalos con frcuencias coincidentes`.
+       :underline:`intervalos con frecuencias coincidentes`.
 
     c) ¿Podría utilizar un gráfico Tallo y Hoja para efectuar el agrupamiento
        de una variable? :underline:`Si` ¿Por qué?
@@ -258,7 +258,7 @@ siguiente tabla de frecuencias:
        empleados de la muestra tienen :underline:`30` años o menos.
 
     e) Observe el histograma y defina si la distribución de EDAD es (simétrica,
-       asimétrica derecha/izquierda) :underline:`asimetrica izquierda`
+       asimétrica derecha/izquierda) :underline:`asimétrica izquierda`
        ¿Qué indicaría esta forma de la distribución?
        :underline:`Que los hombres tienden a ser jefes de familia a medida que`
        :underline:`son mas viejos`.
@@ -385,7 +385,7 @@ LEER (Sabe leer y escribir), ESTUD (estudios que cursa o cursó) y FINAL
     e) Tratemos ahora de obtener una conclusión general al estudio educacional
        realizado.
        :underline:`si bíen en cad análisis que se hizo parece ser que la`
-       :underline:`cantidad de varones y de mujeres que tienene los mismos`
+       :underline:`cantidad de varones y de mujeres que tiene los mismos`
        :underline:`niveles educativos es similar; dado la proporción de mujeres`
        :underline:`relevadas (superior a los varones) se evidencia que menos`
        :underline:`mujeres llegan (en proporción) a los mismos niveles de`
@@ -404,10 +404,11 @@ LEER (Sabe leer y escribir), ESTUD (estudios que cursa o cursó) y FINAL
     :file: tables/act_10.csv
     :header-rows: 1
 
-
 ¿Qué diferencia encuentra entre este tipo de análisis y el realizado
 anteriormente tomando en forma separada la información de ambos sexos?
-:underline:``
+:underline:`En este caso este análisis al no mostrar proporciones respecto de
+:underline:`cada sexo oculta el dato de que las mujeres llegan a niveles de`
+:underline:`estudio mas bajo que los hombres en proporción`.
 
 .. =============================================================================
 .. FOOTNOTES

@@ -486,29 +486,30 @@ with open("tables/act_9.1_final_mujeres_freq.csv", "w") as fp:
 
 bi_2_table = {}
 
-for svar, slabel in sorted(SEXO_VARS.items()):
-    estuds = []
-    for evar, elabel in sorted(ESTUD_VARS.items()):
+for evar, elabel in sorted(ESTUD_VARS.items()):
+    sexs = []
+    for svar, slabel in sorted(SEXO_VARS.items()):
         def sex_estud_filter(r):
             estud = int(r["ESTUD"])
             sexo = int(r["SEXO"])
             return sexo == svar and estud == evar
 
         rows = cool.filter(sex_estud_filter)
-        estuds.append(len(rows))
-    bi_2_table[slabel] = estuds
+        sexs.append(len(rows))
+    bi_2_table[elabel] = sexs
 
 
 with open("tables/act_10.csv", "w") as fp:
     writer = csv.writer(fp)
-    writer.writerow(["Sexo/Estudio"] +
-                    ["{} a {}".format(*l) for _, l in sorted(SEXO_VARS.items())] +
+    writer.writerow(["Estudio/Sexo"] +
+                    [l.encode("utf8") for _, l in sorted(SEXO_VARS.items())] +
                     ["Total"])
     totcols = [0] * len(SEXO_VARS)
     totot = 0
-    for sex, values in sorted(bi_2_table.items()):
+    for evar, elabel in sorted(ESTUD_VARS.items()):
+        values = bi_2_table[elabel]
         totcols = map(lambda v: sum(v), zip(totcols, values))
         totot += sum(values)
-        writer.writerow([sex.encode("utf8")] + values + [sum(values)])
+        writer.writerow([elabel.encode("utf8")] + values + [sum(values)])
     writer.writerow(["Totales"] + totcols +  [totot])
 
