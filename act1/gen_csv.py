@@ -329,6 +329,8 @@ with open("tables/act_8.1_sexo_x_edad.csv", "w") as fp:
 # 9.1 LEER
 #===============================================================================
 
+TOTAL_VARONES = float(len(cool.filter(lambda r: int(r["SEXO"]) == 1)))
+TOTAL_MUJERES = len(cool) - TOTAL_VARONES
 
 LEER_VARS = {1: u"Sí",
              2: u"No"}
@@ -346,10 +348,10 @@ with open("tables/act_9.1_leer_varones_freq.csv", "w") as fp:
     for k, cat in sorted(LEER_VARS.items()):
         rows = cool.filter(lambda r: int(r["LEER"]) == k and int(r["SEXO"]) == 1)
         ni = len(rows)
-        hi = ni / float(len(cool))
+        hi = ni / TOTAL_VARONES
         Ni += ni
         Hi += hi
-        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+        writer.writerow([cat.encode("utf8"), ni, "{0:.2f}".format(hi), Ni, "{0:.2f}".format(Hi)])
 
     writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
 
@@ -366,10 +368,10 @@ with open("tables/act_9.1_leer_mujeres_freq.csv", "w") as fp:
     for k, cat in sorted(LEER_VARS.items()):
         rows = cool.filter(lambda r: int(r["LEER"]) == k and int(r["SEXO"]) == 2)
         ni = len(rows)
-        hi = ni / float(len(cool))
+        hi = ni / TOTAL_MUJERES
         Ni += ni
         Hi += hi
-        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+        writer.writerow([cat.encode("utf8"), ni, "{0:.2f}".format(hi), Ni, "{0:.2f}".format(Hi)])
 
     writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
 
@@ -388,7 +390,6 @@ ESTUD_VARS = {0: u"No sabe leer ni escribir",
               7: u"Superior",
               8: u"Universitaria"}
 
-
 with open("tables/act_9.1_estud_varones_freq.csv", "w") as fp:
     writer = csv.writer(fp)
 
@@ -401,10 +402,10 @@ with open("tables/act_9.1_estud_varones_freq.csv", "w") as fp:
     for k, cat in sorted(ESTUD_VARS.items()):
         rows = cool.filter(lambda r: int(r["ESTUD"]) == k and int(r["SEXO"]) == 1)
         ni = len(rows)
-        hi = ni / float(len(cool))
+        hi = ni / TOTAL_VARONES
         Ni += ni
         Hi += hi
-        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+        writer.writerow([cat.encode("utf8"), ni, "{0:.2f}".format(hi), Ni, "{0:.2f}".format(Hi)])
 
     writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
 
@@ -421,10 +422,10 @@ with open("tables/act_9.1_estud_mujeres_freq.csv", "w") as fp:
     for k, cat in sorted(ESTUD_VARS.items()):
         rows = cool.filter(lambda r: int(r["ESTUD"]) == k and int(r["SEXO"]) == 2)
         ni = len(rows)
-        hi = ni / float(len(cool))
+        hi = ni / TOTAL_MUJERES
         Ni += ni
         Hi += hi
-        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+        writer.writerow([cat.encode("utf8"), ni, "{0:.2f}".format(hi), Ni, "{0:.2f}".format(Hi)])
 
     writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
 
@@ -450,10 +451,10 @@ with open("tables/act_9.1_final_varones_freq.csv", "w") as fp:
     for k, cat in sorted(FINAL_VARS.items()):
         rows = cool.filter(lambda r: int(r["FINAL"]) == k and int(r["SEXO"]) == 1)
         ni = len(rows)
-        hi = ni / float(len(cool))
+        hi = ni / TOTAL_VARONES
         Ni += ni
         Hi += hi
-        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+        writer.writerow([cat.encode("utf8"), ni, "{0:.2f}".format(hi), Ni, "{0:.2f}".format(Hi)])
 
     writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
 
@@ -470,9 +471,9 @@ with open("tables/act_9.1_final_mujeres_freq.csv", "w") as fp:
     for k, cat in sorted(FINAL_VARS.items()):
         rows = cool.filter(lambda r: int(r["FINAL"]) == k and int(r["SEXO"]) == 2)
         ni = len(rows)
-        hi = ni / float(len(cool))
+        hi = ni / TOTAL_MUJERES
         Ni += ni
         Hi += hi
-        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+        writer.writerow([cat.encode("utf8"), ni, "{0:.2f}".format(hi), Ni, "{0:.2f}".format(Hi)])
 
     writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])

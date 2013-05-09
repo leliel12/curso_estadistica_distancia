@@ -355,6 +355,42 @@ LEER (Sabe leer y escribir), ESTUD (estudios que cursa o cursó) y FINAL
     :file: tables/act_9.1_final_mujeres_freq.csv
     :header-rows: 1
 
+2) Responda las siguientes preguntas:
+
+    a) Del total de encuestados hay :underline:`4` jefes de hogar varones que
+       saben leer y escribir, lo que representa el :underline:`4` % de la
+       muestra. Para el caso de las mujeres este porcentaje es del
+       :underline:`6` %. ¿Considera usted importante el porcentaje de jefes de
+       hogar que no saben leer y escribir?
+       Comente :underline:`El 10% es un porcentaje elevado de personas que no`
+       :underline:`leer ni escribir`.
+
+    b) El :underline:`9` % de los encuestados varones tienen estudios Técnicos,
+       mientras que en el caso de las mujeres este porcentaje es del
+       :underline:`4` %. [#]_
+
+    c) Hay :underline:`8` varones y :underline:`8` mujeres con estudios
+       Universitarios. ¿Se podría entonces concluir que la proporción de varones
+       y mujeres universitarios es la misma? (Sí/No) ¿Por qué?
+       :underline:`No, dado que la proporcion total de varones es inferior al`
+       :underline:`total de mujeres. Seria correcto afirmar que el número de`
+       :underline:`varones universitarios es superior.`
+
+    d) Hay más (varones/mujeres) :underline:`mujeres` que :underline:`varones`
+       que finalizaron sus estudios. Sin embargo en ambos casos los porcentajes
+       entre los que finalizaron y los que no finalizaron sus estudios es
+       (diferente/similar) :underline:`similar`. Esto indica que hay un porcentaje
+       (elevado/bajo) :underline:`bajo` de personas que no finalizan sus estudios.
+
+    e) Tratemos ahora de obtener una conclusión general al estudio educacional
+       realizado.
+       :underline:`si bíen en cad análisis que se hizo parece ser que la`
+       :underline:`cantidad de varones y de mujeres que tienene los mismos`
+       :underline:`niveles educativos es similar; dado la proporción de mujeres`
+       :underline:`relevadas (superior a los varones) se evidencia que menos`
+       :underline:`mujeres llegan (en proporción) a los mismos niveles de`
+       :underline:`estudio que los varones`.
+
 
 Actividad nro. 10
 
@@ -362,7 +398,6 @@ Actividad nro. 10
    bidimensional relacionando el SEXO con el ESTUDIO QUE CURSA O CURSÓ. De
    esta manera sabremos en una sola tabla cuantos varones y cuantas mujeres han
    cursado cada tipo se carrera.
-
 
    ¿Qué diferencia encuentra entre este tipo de análisis y el realizado
    anteriormente tomando en forma separada la información de ambos sexos?
@@ -394,6 +429,8 @@ Actividad nro. 10
        cociente del *porcentaje de mujeres* que ganan entre *1000 y 2000*
        respecto del *porcentaje total de mujeres*; y multiplicando ese
        valor por *100*.
+
+.. [#] Porcentaje con respecto a cada género.
 
 
 .. =============================================================================
