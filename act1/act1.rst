@@ -392,16 +392,22 @@ LEER (Sabe leer y escribir), ESTUD (estudios que cursa o cursó) y FINAL
        :underline:`estudio que los varones`.
 
 
-Actividad nro. 10
+|hamster| Actividad nro. 10
+---------------------------
 
 1) Probablemente sería interesante realizar una tabla de frecuencias
    bidimensional relacionando el SEXO con el ESTUDIO QUE CURSA O CURSÓ. De
    esta manera sabremos en una sola tabla cuantos varones y cuantas mujeres han
    cursado cada tipo se carrera.
 
-   ¿Qué diferencia encuentra entre este tipo de análisis y el realizado
-   anteriormente tomando en forma separada la información de ambos sexos?
-   :underline:``
+.. csv-table:: Tabla binaria de frecuencia de variable Estudio de ambos sexos
+    :file: tables/act_10.csv
+    :header-rows: 1
+
+
+¿Qué diferencia encuentra entre este tipo de análisis y el realizado
+anteriormente tomando en forma separada la información de ambos sexos?
+:underline:``
 
 .. =============================================================================
 .. FOOTNOTES

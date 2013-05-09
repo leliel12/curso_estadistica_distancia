@@ -269,7 +269,7 @@ SUELDO_INTER = [(0, 300), (300, 600), (600, 1000), (1000, 2000), (2000, 2200)]
 
 bi_table = {}
 
-for var, label in SEXO_VARS.items():
+for var, label in sorted(SEXO_VARS.items()):
     sueldos = []
     for li, ls in SUELDO_INTER:
 
@@ -293,7 +293,8 @@ with open("tables/act_7_sexo_x_edad.csv", "w") as fp:
                     ["Total"])
     totcols = [0] * len(SUELDO_INTER)
     totot = 0
-    for sex, values in bi_table.items():
+    for _, sex in sorted(SEXO_VARS.items()):
+        values = bi_table[sex]
         totcols = map(lambda v: sum(v), zip(totcols, values))
         totot += sum(values)
         writer.writerow([sex.encode("utf8")] + values + [sum(values)])
@@ -477,3 +478,37 @@ with open("tables/act_9.1_final_mujeres_freq.csv", "w") as fp:
         writer.writerow([cat.encode("utf8"), ni, "{0:.2f}".format(hi), Ni, "{0:.2f}".format(Hi)])
 
     writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
+
+
+#===============================================================================
+# 10
+#===============================================================================
+
+bi_2_table = {}
+
+for svar, slabel in sorted(SEXO_VARS.items()):
+    estuds = []
+    for evar, elabel in sorted(ESTUD_VARS.items()):
+        def sex_estud_filter(r):
+            estud = int(r["ESTUD"])
+            sexo = int(r["SEXO"])
+            return sexo == svar and estud == evar
+
+        rows = cool.filter(sex_estud_filter)
+        estuds.append(len(rows))
+    bi_2_table[slabel] = estuds
+
+
+with open("tables/act_10.csv", "w") as fp:
+    writer = csv.writer(fp)
+    writer.writerow(["Sexo/Estudio"] +
+                    ["{} a {}".format(*l) for _, l in sorted(SEXO_VARS.items())] +
+                    ["Total"])
+    totcols = [0] * len(SEXO_VARS)
+    totot = 0
+    for sex, values in sorted(bi_2_table.items()):
+        totcols = map(lambda v: sum(v), zip(totcols, values))
+        totot += sum(values)
+        writer.writerow([sex.encode("utf8")] + values + [sum(values)])
+    writer.writerow(["Totales"] + totcols +  [totot])
+
