@@ -513,3 +513,46 @@ with open("tables/act_10.csv", "w") as fp:
         writer.writerow([elabel.encode("utf8")] + values + [sum(values)])
     writer.writerow(["Totales"] + totcols +  [totot])
 
+
+#===============================================================================
+# 11
+#===============================================================================
+
+tritable = []
+
+tritable.append(["", "", u"Finalizó Estudios".encode("utf8")])
+tritable.append(["Sexo", "Estudio"] +
+                [l.encode("utf8") for _, l in sorted(FINAL_VARS.items())] +
+                ["Total"])
+
+for svar, slabel in sorted(SEXO_VARS.items()):
+    for evar, elabel in sorted(ESTUD_VARS.items()):
+        row = [slabel.encode("utf8"), elabel.encode("utf8")]
+        rtotal = 0
+        for fvar, flabel in sorted(FINAL_VARS.items()):
+
+            def filterf(r):
+                sexo = int(r["SEXO"])
+                estud = int(r["ESTUD"])
+                final = int(r["FINAL"])
+                return sexo == svar and estud == evar and final == fvar
+
+            result = cool.filter(filterf)
+            row.append(len(result))
+            rtotal += len(result)
+
+        tritable.append(row + [rtotal])
+
+row = ["", "Total"]
+for fvar, flabel in sorted(FINAL_VARS.items()):
+    result = cool.filter(lambda r: int(r["FINAL"]) == fvar)
+    row.append(len(result))
+row.append(sum(row[2:]))
+tritable.append(row)
+
+
+with open("tables/act_11.csv", "w") as fp:
+    writer = csv.writer(fp)
+    writer.writerows(tritable)
+
+

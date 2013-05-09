@@ -410,6 +410,53 @@ anteriormente tomando en forma separada la información de ambos sexos?
 :underline:`cada sexo oculta el dato de que las mujeres llegan a niveles de`
 :underline:`estudio mas bajo que los hombres en proporción`.
 
+
+|hamster| Actividad nro. 11
+---------------------------
+
+1) Trataremos ahora de construir una tabla tridimensional (tres variables)
+   considerando SEXO, ESTUDIOS QUE CURSA O CURSÓ (10) y FINALIZÓ ESE ESTUDIO.
+   De esta manera podremos obtener conclusiones de las tres variables
+   simultáneamente.
+
+.. csv-table:: Tabla tridimensionale de frecuencia de variable
+               Estudio de ambos sexos y su finalización.
+    :file: tables/act_11.csv
+    :header-rows: 1
+
+2) Responda las siguientes preguntas:
+
+    a) La cantidad de varones que finalizaron sus estudios Primarios es de
+       :underline:`2` lo que representa :underline:`4.34` % del total de
+       varones en la muestra.
+
+    b) La cantidad de mujeres que no finalizaron sus estudios Superiores es de
+       :underline:`0`  lo que representa :underline:`0` % del total de mujeres.
+
+    c) De un total de :underline:`4` varones con estudios Técnicos, hay
+       :underline:`2` varones que finalizaron su estudio y otros :underline:`2`
+       que no la finalizaron. Esto representa un :underline:`10.52` % del total
+       ded varones que finalizaron sus estudios y un :underline:`8.69` % de los
+       que no lo finalizaron. [#]_
+
+    d) El total de encuestados que finalizaron sus estudios universitarios son
+       :underline:`8`, de los cuales el :underline:`37.5` % son varones y el
+       :underline:`62.5` % son mujeres. Estas cantidades representan el
+       :underline:`6.52` % del total de varones y el :underline:`9.25` % del
+       total de mujeres.
+
+    e) El total de encuestados que no finalizó sus estudios primarios es de
+       :underline:`10`. Esta cantidad representa un :underline:`10` % del total
+       de la muestra. Los varones que no finalizaron sus estudios primarios son
+       :underline:`6`, lo que representa un :underline:`60` % del total de
+       encuestados con estudios primarios incompletos y un :underline:`26.08` %
+       del total de varones que no finalizaron sus estudios. En el caso de las
+       mujeres, hay :underline:`4` mujeres que no finalizaron sus estudios
+       primarios, lo que representa un :underline:`40` % del total de mujeres
+       que no finalizaron sus estudios y un :underline:`8.51` % del total de
+       encuestados que no finalizaron sus estudios primarios.
+
+
 .. =============================================================================
 .. FOOTNOTES
 .. =============================================================================
@@ -438,6 +485,10 @@ anteriormente tomando en forma separada la información de ambos sexos?
        valor por *100*.
 
 .. [#] Porcentaje con respecto a cada género.
+
+
+.. [#] 19 varones terminaron sus estudios y 23 no lo hicieron. Ver tabla
+        *Tabla de frecuencia de variable Final (varones)*
 
 
 .. =============================================================================
