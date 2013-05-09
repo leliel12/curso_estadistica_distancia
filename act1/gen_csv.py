@@ -334,7 +334,7 @@ LEER_VARS = {1: u"Sí",
              2: u"No"}
 
 
-with open("tables/act_9.1_leer_freq.csv", "w") as fp:
+with open("tables/act_9.1_leer_varones_freq.csv", "w") as fp:
     writer = csv.writer(fp)
 
     writer.writerow([u"Sabe Leer",
@@ -344,7 +344,27 @@ with open("tables/act_9.1_leer_freq.csv", "w") as fp:
                      u"Frecuencia Relativa Acumulada (Hi)"])
     Ni, Hi = 0, 0
     for k, cat in sorted(LEER_VARS.items()):
-        rows = cool.filter(lambda r: int(r["LEER"]) == k)
+        rows = cool.filter(lambda r: int(r["LEER"]) == k and int(r["SEXO"]) == 1)
+        ni = len(rows)
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
+
+
+with open("tables/act_9.1_leer_mujeres_freq.csv", "w") as fp:
+    writer = csv.writer(fp)
+
+    writer.writerow([u"Sabe Leer",
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
+    for k, cat in sorted(LEER_VARS.items()):
+        rows = cool.filter(lambda r: int(r["LEER"]) == k and int(r["SEXO"]) == 2)
         ni = len(rows)
         hi = ni / float(len(cool))
         Ni += ni
@@ -369,7 +389,7 @@ ESTUD_VARS = {0: u"No sabe leer ni escribir",
               8: u"Universitaria"}
 
 
-with open("tables/act_9.1_estud_freq.csv", "w") as fp:
+with open("tables/act_9.1_estud_varones_freq.csv", "w") as fp:
     writer = csv.writer(fp)
 
     writer.writerow([u"Estudios",
@@ -379,7 +399,27 @@ with open("tables/act_9.1_estud_freq.csv", "w") as fp:
                      u"Frecuencia Relativa Acumulada (Hi)"])
     Ni, Hi = 0, 0
     for k, cat in sorted(ESTUD_VARS.items()):
-        rows = cool.filter(lambda r: int(r["ESTUD"]) == k)
+        rows = cool.filter(lambda r: int(r["ESTUD"]) == k and int(r["SEXO"]) == 1)
+        ni = len(rows)
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
+
+
+with open("tables/act_9.1_estud_mujeres_freq.csv", "w") as fp:
+    writer = csv.writer(fp)
+
+    writer.writerow([u"Estudios",
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
+    for k, cat in sorted(ESTUD_VARS.items()):
+        rows = cool.filter(lambda r: int(r["ESTUD"]) == k and int(r["SEXO"]) == 2)
         ni = len(rows)
         hi = ni / float(len(cool))
         Ni += ni
@@ -398,7 +438,7 @@ FINAL_VARS = {0: u"No sabe leer ni escribir",
               2: u"No"}
 
 
-with open("tables/act_9.1_final_freq.csv", "w") as fp:
+with open("tables/act_9.1_final_varones_freq.csv", "w") as fp:
     writer = csv.writer(fp)
 
     writer.writerow([u"Finalizó Estudios".encode("utf8"),
@@ -408,7 +448,7 @@ with open("tables/act_9.1_final_freq.csv", "w") as fp:
                      u"Frecuencia Relativa Acumulada (Hi)"])
     Ni, Hi = 0, 0
     for k, cat in sorted(FINAL_VARS.items()):
-        rows = cool.filter(lambda r: int(r["FINAL"]) == k)
+        rows = cool.filter(lambda r: int(r["FINAL"]) == k and int(r["SEXO"]) == 1)
         ni = len(rows)
         hi = ni / float(len(cool))
         Ni += ni
@@ -417,3 +457,22 @@ with open("tables/act_9.1_final_freq.csv", "w") as fp:
 
     writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])
 
+
+with open("tables/act_9.1_final_mujeres_freq.csv", "w") as fp:
+    writer = csv.writer(fp)
+
+    writer.writerow([u"Finalizó Estudios".encode("utf8"),
+                     u"Frecuencia Absoluta (ni)",
+                     u"Frecuencia Relativa (hi)",
+                     u"Frecuencia Absoluta Acumulada (Ni)",
+                     u"Frecuencia Relativa Acumulada (Hi)"])
+    Ni, Hi = 0, 0
+    for k, cat in sorted(FINAL_VARS.items()):
+        rows = cool.filter(lambda r: int(r["FINAL"]) == k and int(r["SEXO"]) == 2)
+        ni = len(rows)
+        hi = ni / float(len(cool))
+        Ni += ni
+        Hi += hi
+        writer.writerow([cat.encode("utf8"), ni, hi, Ni, "{0:.2f}".format(Hi)])
+
+    writer.writerow([u"Total", Ni, "{0:.2f}".format(Hi), Ni, "{0:.2f}".format(Hi)])

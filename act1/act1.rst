@@ -331,17 +331,42 @@ LEER (Sabe leer y escribir), ESTUD (estudios que cursa o cursó) y FINAL
 1) Construya las tablas de frecuencias para estas variables y represente cada
    tabla con un gráfico de barras.
 
-.. csv-table:: Tabla de frecuencia de variable Leer
-    :file: tables/act_9.1_leer_freq.csv
+.. csv-table:: Tabla de frecuencia de variable Leer (varones)
+    :file: tables/act_9.1_leer_varones_freq.csv
     :header-rows: 1
 
-.. csv-table:: Tabla de frecuencia de variable Estudios
-    :file: tables/act_9.1_estud_freq.csv
+.. csv-table:: Tabla de frecuencia de variable Leer (mujeres)
+    :file: tables/act_9.1_leer_mujeres_freq.csv
     :header-rows: 1
 
-.. csv-table:: Tabla de frecuencia de variable Final
-    :file: tables/act_9.1_final_freq.csv
+.. csv-table:: Tabla de frecuencia de variable Estudios (varones)
+    :file: tables/act_9.1_estud_varones_freq.csv
     :header-rows: 1
+
+.. csv-table:: Tabla de frecuencia de variable Estudios (mujeres)
+    :file: tables/act_9.1_estud_mujeres_freq.csv
+    :header-rows: 1
+
+.. csv-table:: Tabla de frecuencia de variable Final (varones)
+    :file: tables/act_9.1_final_varones_freq.csv
+    :header-rows: 1
+
+.. csv-table:: Tabla de frecuencia de variable Final (mujeres)
+    :file: tables/act_9.1_final_mujeres_freq.csv
+    :header-rows: 1
+
+
+Actividad nro. 10
+
+1) Probablemente sería interesante realizar una tabla de frecuencias
+   bidimensional relacionando el SEXO con el ESTUDIO QUE CURSA O CURSÓ. De
+   esta manera sabremos en una sola tabla cuantos varones y cuantas mujeres han
+   cursado cada tipo se carrera.
+
+
+   ¿Qué diferencia encuentra entre este tipo de análisis y el realizado
+   anteriormente tomando en forma separada la información de ambos sexos?
+   :underline:``
 
 .. =============================================================================
 .. FOOTNOTES
