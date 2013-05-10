@@ -23,6 +23,11 @@ ACTIVIDADES INTEGRADORAS - MODULOS I Y II
 | aula virtual del curso.                           |                        |
 +---------------------------------------------------+------------------------+
 
+:Autor: Juan B Cabral
+:DNI: 28818383
+:Email: jbc.develop@gmail.com
+
+
 
 **Actividades**
 
@@ -526,4 +531,5 @@ anteriormente tomando en forma separada la información de ambos sexos?
 
 .. footer::
 
-    ###Page###
+    Los fuentes y cálculo de tablas se encuentran en:
+    http://goo.gl/A1Tq4 - ###Page###
