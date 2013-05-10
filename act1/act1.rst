@@ -335,25 +335,50 @@ LEER (Sabe leer y escribir), ESTUD (estudios que cursa o cursó) y FINAL
     :file: tables/act_9.1_leer_varones_freq.csv
     :header-rows: 1
 
+.. figure:: graphs/act_9.1_leer_varones_freq.png
+    :align: center
+    :scale: 200 %
+
 .. csv-table:: Tabla de frecuencia de variable Leer (mujeres)
     :file: tables/act_9.1_leer_mujeres_freq.csv
     :header-rows: 1
+
+.. figure:: graphs/act_9.1_leer_mujeres_freq.png
+    :align: center
+    :scale: 200 %
 
 .. csv-table:: Tabla de frecuencia de variable Estudios (varones)
     :file: tables/act_9.1_estud_varones_freq.csv
     :header-rows: 1
 
+.. figure:: graphs/act_9.1_estud_varones_freq.png
+    :align: center
+    :scale: 60 %
+
 .. csv-table:: Tabla de frecuencia de variable Estudios (mujeres)
     :file: tables/act_9.1_estud_mujeres_freq.csv
     :header-rows: 1
+
+.. figure:: graphs/act_9.1_estud_mujeres_freq.png
+    :align: center
+    :scale: 200 %
 
 .. csv-table:: Tabla de frecuencia de variable Final (varones)
     :file: tables/act_9.1_final_varones_freq.csv
     :header-rows: 1
 
+.. figure:: graphs/act_9.1_final_varones_freq.png
+    :align: center
+    :scale: 200 %
+
 .. csv-table:: Tabla de frecuencia de variable Final (mujeres)
     :file: tables/act_9.1_final_mujeres_freq.csv
     :header-rows: 1
+
+.. figure:: graphs/act_9.1_final_mujeres_freq.png
+    :align: center
+    :scale: 200 %
+
 
 2) Responda las siguientes preguntas:
 
@@ -498,9 +523,6 @@ anteriormente tomando en forma separada la información de ambos sexos?
 .. header::
     .. image:: img/head.png
         :scale: 100 %
-
-    Falta grafico 9.1
-
 
 .. footer::
 
