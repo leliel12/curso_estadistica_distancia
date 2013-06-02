@@ -54,6 +54,26 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
     :file: tables/act1_edad.csv
     :header-rows: 1
 
+.. csv-table:: Tabla de medidas de posición y dispersión de la variable EDAD
+    :file: tables/act1_edad_meds.csv
+    :header-rows: 1
+
+2. Con los datos de la nueva variable que llamamos EDAD 1, responda las
+   siguientes preguntas:
+
+    a) El intervalo de edad más frecuente es el que abarca las edades de
+       :underline:`20` a :underline:`29` años.
+
+    b) El promedio de edad de los jefes de hogar es de :underline:`37.9` años.
+       ¿El promedio pertenece al intervalo que contiene la mediana?
+       :underline:`Sí`.
+
+    c) La desviación estándar de la edad de los jefes de hogar es de
+       :underline:`13.8` años y significa
+       :underline:`La variabilidad promedio de las edades de los jefes de hogar`
+       :underline:`es aproximadamente 14 años`.
+
+
 
 .. =============================================================================
 .. FOOTER

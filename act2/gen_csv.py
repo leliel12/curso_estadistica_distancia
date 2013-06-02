@@ -48,3 +48,18 @@ with open("tables/act1_edad.csv", "w") as fp:
         tops = map(unicode, tops)
         writer.writerow([idx + 1, "-".join(tops), ni, hi, "{0:.2f}".format(Hi)])
 
+with open("tables/act1_edad_meds.csv", "w") as fp:
+    writer = csv.writer(fp)
+    writer.writerow([u"Medida", "Valor"])
+    writer.writerow([u"Media",
+                     "{0:.2f}".format(numpy.average(cool.column("EDAD")))])
+    writer.writerow([u"Mediana",
+                     "{0:.2f}".format(numpy.median(cool.column("EDAD")))])
+    writer.writerow([u"Desviación Standar".encode("utf-8"),
+                     "{0:.2f}".format(numpy.std(cool.column("EDAD")))])
+
+
+
+
+
+
