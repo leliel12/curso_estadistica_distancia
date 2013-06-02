@@ -3,7 +3,9 @@
 
 import csv, os
 
-import numpy
+import numpy as np
+
+import matplotlib.pyplot as plt
 
 import csvcool
 
@@ -19,6 +21,10 @@ with open("EPH.csv") as fp:
 
 if not os.path.exists("tables"):
     os.mkdir("tables")
+
+if not os.path.exists("figs"):
+    os.mkdir("figs")
+
 
 #===============================================================================
 # EJE 1
@@ -52,14 +58,23 @@ with open("tables/act1_edad_meds.csv", "w") as fp:
     writer = csv.writer(fp)
     writer.writerow([u"Medida", "Valor"])
     writer.writerow([u"Media",
-                     "{0:.2f}".format(numpy.average(cool.column("EDAD")))])
+                     "{0:.2f}".format(np.average(cool.column("EDAD")))])
     writer.writerow([u"Mediana",
-                     "{0:.2f}".format(numpy.median(cool.column("EDAD")))])
+                     "{0:.2f}".format(np.median(cool.column("EDAD")))])
     writer.writerow([u"Desviación Standar".encode("utf-8"),
-                     "{0:.2f}".format(numpy.std(cool.column("EDAD")))])
+                     "{0:.2f}".format(np.std(cool.column("EDAD")))])
 
 
 
+#===============================================================================
+# EJE 2
+#===============================================================================
+
+fig_eje2 = plt.figure()
+ax_plot2 = fig_eje2.add_subplot(111)
+ax_plot2.boxplot(cool.column("EDAD"))
+plt.savefig("figs/act2_boxplot_edad.png")
+np.percentile(cool.column("EDAD"), [0, 25, 75, 100])
 
 
 

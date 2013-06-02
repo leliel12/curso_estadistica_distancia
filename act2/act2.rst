@@ -5,7 +5,7 @@
 .. role:: underline
 .. role:: strike
 
-.. |hamster| image:: img/hamster.png
+.. |hamster| image:: imgs/hamster.png
                 :scale: 15 %
 
 
@@ -14,7 +14,7 @@
 .. =============================================================================
 
 .. header::
-    .. image:: img/head.png
+    .. image:: imgs/head.png
         :scale: 100 %
 
 
@@ -28,12 +28,12 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
 
 .. class:: dedication
 
-+---------------------------------------------------+------------------------+
-| Para la realización de las siguientes actividades | .. image:: img/arr.png |
-| integradoras, se deberá utilizar el **archivo**   |     :align: right      |
-| **EPH.xls**. Puede acceder a la base EPH desde el |     :scale: 100 %      |
-| aula virtual del curso.                           |                        |
-+---------------------------------------------------+------------------------+
++---------------------------------------------------+-------------------------+
+| Para la realización de las siguientes actividades | .. image:: imgs/arr.png |
+| integradoras, se deberá utilizar el **archivo**   |     :align: right       |
+| **EPH.xls**. Puede acceder a la base EPH desde el |     :scale: 100 %       |
+| aula virtual del curso.                           |                         |
++---------------------------------------------------+-------------------------+
 
 :Autor: Juan B Cabral
 :DNI: 28818383
@@ -73,7 +73,29 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
        :underline:`La variabilidad promedio de las edades de los jefes de hogar`
        :underline:`es aproximadamente 14 años`.
 
+|hamster| Actividad nro. 2
+--------------------------
 
+1. Con los datos originales de la variable EDAD, realice el gráfico Box Plot o
+   diagrama de Caja y Brazo. Responda:
+
+.. figure:: figs/act2_boxplot_edad.png
+    :align: center
+    :scale: 100 %
+
+    Boxplot de la variable edad (Cuartiles: 18.0, 25.75, 46.25, 69.0).
+
+    a) ¿Existen valores de EDAD considerados extremos? :underline:`Sí`
+
+    b) Observe el gráfico Box-Plot. Vea cómo aparece representada esta misma
+       tendencia por la posición de la caja central. La caja está limitada por
+       el cuartil :underline:`25.75` en el extremo inferior y por el cuartil
+       :underline:`46.25` en el superior. La línea dentro de la caja representa
+       la :underline:`mediana` de EDAD. El largo de las patillas indica
+       :underline:`los valores adjacentes`. Se puede observar que la patilla
+       superior es (más/menos) :underline:`más` larga que la inferior, lo que
+       significa que :underline:`que hay una menor concentración de datos en la`
+       :underline:`parte izquierda de la distribución`.
 
 .. =============================================================================
 .. FOOTER
