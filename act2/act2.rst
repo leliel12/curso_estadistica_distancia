@@ -73,6 +73,7 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
        :underline:`La variabilidad promedio de las edades de los jefes de hogar`
        :underline:`es aproximadamente 14 años`.
 
+
 |hamster| Actividad nro. 2
 --------------------------
 
@@ -96,6 +97,39 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
        superior es (más/menos) :underline:`más` larga que la inferior, lo que
        significa que :underline:`que hay una menor concentración de datos en la`
        :underline:`parte izquierda de la distribución`.
+
+
+|hamster| Actividad nro. 3
+--------------------------
+
+1. Realice el grafico Box plot para la variable edad, por grupo de hombres y
+   mujeres (realice un solo grafico con ambos box plot). Observe las posibles
+   diferencias en la distribución de edades de ambos grupos.
+
+.. figure:: figs/act3_boxplot_edad.png
+    :align: center
+    :scale: 100 %
+
+    Boxplot de la variable edad por sexo.
+
+
+2. Responda las siguientes preguntas:
+
+a) ¿Son las gráficas de distribución de edades iguales para varones y mujeres?
+  (Sí/No). :underline:`No`.
+  La diferencia más destacada está en el ancho de la caja, lo que indica que la
+  distribución de edades de los varones es más (dispersa/homogénea)
+  :underline:`homogénea` que la de las mujeres.
+
+b) La línea central representada por la :underline:`la línea dentro de la caja`
+   indica que los varones tienen una edad mediana (mayor/menor)
+   :underline:`menor` que las mujeres encuestadas.
+
+c) El largo de la patilla superior indica que la edad máxima de los encuestados
+   fue (mayor/menor) :underline:`mayor` en las :underline:`mujeres` que en
+   los varones.
+
+
 
 .. =============================================================================
 .. FOOTER

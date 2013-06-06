@@ -65,7 +65,6 @@ with open("tables/act1_edad_meds.csv", "w") as fp:
                      "{0:.2f}".format(np.std(cool.column("EDAD")))])
 
 
-
 #===============================================================================
 # EJE 2
 #===============================================================================
@@ -75,6 +74,24 @@ ax_plot2 = fig_eje2.add_subplot(111)
 ax_plot2.boxplot(cool.column("EDAD"))
 plt.savefig("figs/act2_boxplot_edad.png")
 np.percentile(cool.column("EDAD"), [0, 25, 75, 100])
+plt.close()
 
+
+#===============================================================================
+# EJE 3
+#===============================================================================
+
+fig_eje3 = plt.figure()
+
+ax_plot3_varones = fig_eje3.add_subplot(121)
+ax_plot3_varones.boxplot(cool.filter(lambda r: r["SEXO"] == 1).column("EDAD"))
+ax_plot3_varones.set_xlabel("Hombres")
+
+ax_plot3_mujeres = fig_eje3.add_subplot(122)
+ax_plot3_mujeres.boxplot(cool.filter(lambda r: r["SEXO"] == 2).column("EDAD"))
+ax_plot3_mujeres.set_xlabel("Mujeres")
+
+plt.savefig("figs/act3_boxplot_edad.png")
+plt.close()
 
 
