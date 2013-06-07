@@ -130,6 +130,26 @@ c) El largo de la patilla superior indica que la edad máxima de los encuestados
    los varones.
 
 
+|hamster| Actividad nro. 4
+--------------------------
+
+1. Realice los gráficos Box-Plot de las variables ``HS. TRA`` y ``ANTIGUE``
+   también separando ambos sexos.
+
+.. figure:: figs/act4_boxplot_hstra.png
+    :align: center
+    :scale: 100 %
+
+    Boxplot de la variable horas trabajadas por sexo.
+
+.. figure:: figs/act4_boxplot_antigue.png
+    :align: center
+    :scale: 100 %
+
+    Boxplot de la variable antigüedad por sexo.
+
+
+2. Responda:
 
 .. =============================================================================
 .. FOOTER

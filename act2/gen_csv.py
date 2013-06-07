@@ -95,3 +95,29 @@ plt.savefig("figs/act3_boxplot_edad.png")
 plt.close()
 
 
+#===============================================================================
+# EJE 4
+#===============================================================================
+
+fig_eje4_hstra = plt.figure()
+ax_plot_varones_hstra = fig_eje4_hstra.add_subplot(121)
+ax_plot_varones_hstra.boxplot(cool.filter(lambda r: r["SEXO"] == 1).column("HS.TRA"))
+ax_plot_varones_hstra.set_xlabel("Hombres")
+
+ax_plot_mujeres_hstra = fig_eje4_hstra.add_subplot(122)
+ax_plot_mujeres_hstra.boxplot(cool.filter(lambda r: r["SEXO"] == 2).column("HS.TRA"))
+ax_plot_mujeres_hstra.set_xlabel("Mujeres")
+
+plt.savefig("figs/act4_boxplot_hstra.png")
+
+
+fig_eje4_antigue = plt.figure()
+ax_plot_varones_antigue = fig_eje4_antigue.add_subplot(121)
+ax_plot_varones_antigue.boxplot(cool.filter(lambda r: r["SEXO"] == 1).column("ANTIGUE"))
+ax_plot_varones_antigue.set_xlabel("Hombres")
+
+ax_plot_mujeres_antigue = fig_eje4_antigue.add_subplot(122)
+ax_plot_mujeres_antigue.boxplot(cool.filter(lambda r: r["SEXO"] == 2).column("ANTIGUE"))
+ax_plot_mujeres_antigue.set_xlabel("Mujeres")
+
+plt.savefig("figs/act4_boxplot_antigue.png")
