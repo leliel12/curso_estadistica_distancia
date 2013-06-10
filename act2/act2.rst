@@ -189,9 +189,6 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
 .. FOOTER
 .. =============================================================================
 
-.. [#] Este tipo de preguntas esta muy condicionada a la herramienta que se
-       utiliza en mi caso; utilizo matplotlib
-
 .. footer::
 
     Los fuentes y cálculo de tablas se encuentran en:
