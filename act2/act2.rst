@@ -84,14 +84,14 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
     :align: center
     :scale: 100 %
 
-    Boxplot de la variable edad (Cuartiles: 18.0, 25.75, 46.25, 69.0).
+    Boxplot de la variable edad (Cuartiles: [18.0, 25.75, 37.0, 46.25]).
 
     a) ¿Existen valores de EDAD considerados extremos? :underline:`Sí`
 
     b) Observe el gráfico Box-Plot. Vea cómo aparece representada esta misma
        tendencia por la posición de la caja central. La caja está limitada por
        el cuartil :underline:`25.75` en el extremo inferior y por el cuartil
-       :underline:`46.25` en el superior. La línea dentro de la caja representa
+       :underline:`37` en el superior. La línea dentro de la caja representa
        la :underline:`mediana` de EDAD. El largo de las patillas indica
        :underline:`los valores adjacentes`. Se puede observar que la patilla
        superior es (más/menos) :underline:`más` larga que la inferior, lo que
@@ -115,19 +115,20 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
 
 2. Responda las siguientes preguntas:
 
-a) ¿Son las gráficas de distribución de edades iguales para varones y mujeres?
-  (Sí/No). :underline:`No`.
-  La diferencia más destacada está en el ancho de la caja, lo que indica que la
-  distribución de edades de los varones es más (dispersa/homogénea)
-  :underline:`homogénea` que la de las mujeres.
+    a) ¿Son las gráficas de distribución de edades iguales para varones y
+       mujeres? (Sí/No). :underline:`No`.
+      La diferencia más destacada está en el ancho de la caja, lo que indica que
+      la distribución de edades de los varones es más (dispersa/homogénea)
+      :underline:`homogénea` que la de las mujeres.
 
-b) La línea central representada por la :underline:`la línea dentro de la caja`
-   indica que los varones tienen una edad mediana (mayor/menor)
-   :underline:`menor` que las mujeres encuestadas.
+    b) La línea central representada por la
+       :underline:`la línea dentro de la caja`
+       indica que los varones tienen una edad mediana (mayor/menor)
+       :underline:`menor` que las mujeres encuestadas.
 
-c) El largo de la patilla superior indica que la edad máxima de los encuestados
-   fue (mayor/menor) :underline:`mayor` en las :underline:`mujeres` que en
-   los varones.
+    c) El largo de la patilla superior indica que la edad máxima de los
+       encuestados fue (mayor/menor) :underline:`mayor` en las
+       :underline:`mujeres` que en los varones.
 
 
 |hamster| Actividad nro. 4
@@ -151,9 +152,45 @@ c) El largo de la patilla superior indica que la edad máxima de los encuestados
 
 2. Responda:
 
+    a) La cantidad de horas trabajadas por hombres y mujeres es
+       (diferente/ igual/parecida) :underline:`diferente`.
+       Esto se observa por (describir las semejanzas y/o diferencias)
+       :underline:`los límites superiores e inferiores de tiempo que trabajan`
+       :underline:`las mujeres es superior al de los hombres (reflejado en las`
+       :underline:`patillas). Por otro lado los los hombres presentan una`
+       :underline:`concentración mas homogénea de horas (caja mas chica) y con`
+       :underline:`una mediana también menor.`
+
+    b) Los varones trabajan entre aproximadamente 15 hs. semanales y
+       :underline:`25` hs. semanales.
+       Sin embargo hay varones que trabajan hasta :underline:`64` hs. lo que
+       hace una gran diferencia con las mujeres.
+       Éstas trabajan entre :underline:`10` hs. y 50 hs. semanales.
+
+    c) El 50% central de las horas trabajadas por los varones (caja) se
+       encuentra entre aproximadamente 25 hs. y :underline:`43` hs. semanales,
+       mientras que el 50% central de las hs. semanales trabajadas por
+       las mujeres se encuentra entre :underline:`20` hs. y :underline:`40` hs.
+
+    d) Respecto a la antigüedad en la ocupación, lo primero que podemos ver es
+       que las cajas de varones y mujeres (No/Sí) :underline:`no` son iguales.
+       Esto indica que los varones tienen (mayor/menor) :underline:`menor`
+       dispersión respecto a los años de antigüedad comparados con las mujeres.
+
+    e) Sobresale un circulo por encima de la patilla superior con el valor 40
+       al costado. Este valor, indica un punto "outlier" es decir un punto
+       :underline:`que esta fuera de los valores adyacentes`.
+
+    f) El número 40 que acompaña al valor outlier indica que el jefe de
+       hogar identificado con ese número en la base de datos tiene una
+       antigüedad de :underline:`36` años.
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
+
+.. [#] Este tipo de preguntas esta muy condicionada a la herramienta que se
+       utiliza en mi caso; utilizo matplotlib
 
 .. footer::
 

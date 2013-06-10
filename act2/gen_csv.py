@@ -73,7 +73,6 @@ fig_eje2 = plt.figure()
 ax_plot2 = fig_eje2.add_subplot(111)
 ax_plot2.boxplot(cool.column("EDAD"))
 plt.savefig("figs/act2_boxplot_edad.png")
-np.percentile(cool.column("EDAD"), [0, 25, 75, 100])
 plt.close()
 
 
@@ -102,11 +101,15 @@ plt.close()
 fig_eje4_hstra = plt.figure()
 ax_plot_varones_hstra = fig_eje4_hstra.add_subplot(121)
 ax_plot_varones_hstra.boxplot(cool.filter(lambda r: r["SEXO"] == 1).column("HS.TRA"))
-ax_plot_varones_hstra.set_xlabel("Hombres")
+quart = np.percentile(cool.filter(lambda r: r["SEXO"] == 1).column("HS.TRA"),
+                      [0, 25, 50, 75, 100])
+ax_plot_varones_hstra.set_xlabel("Hombres {}".format(quart))
 
 ax_plot_mujeres_hstra = fig_eje4_hstra.add_subplot(122)
 ax_plot_mujeres_hstra.boxplot(cool.filter(lambda r: r["SEXO"] == 2).column("HS.TRA"))
-ax_plot_mujeres_hstra.set_xlabel("Mujeres")
+quart = np.percentile(cool.filter(lambda r: r["SEXO"] == 2).column("HS.TRA"),
+                      [0, 25, 50, 75, 100])
+ax_plot_mujeres_hstra.set_xlabel("Mujeres {}".format(quart))
 
 plt.savefig("figs/act4_boxplot_hstra.png")
 
@@ -114,10 +117,14 @@ plt.savefig("figs/act4_boxplot_hstra.png")
 fig_eje4_antigue = plt.figure()
 ax_plot_varones_antigue = fig_eje4_antigue.add_subplot(121)
 ax_plot_varones_antigue.boxplot(cool.filter(lambda r: r["SEXO"] == 1).column("ANTIGUE"))
-ax_plot_varones_antigue.set_xlabel("Hombres")
+quart = np.percentile(cool.filter(lambda r: r["SEXO"] == 1).column("ANTIGUE"),
+                      [0, 25, 50, 75, 100])
+ax_plot_varones_antigue.set_xlabel("Hombres {}".format(quart))
 
 ax_plot_mujeres_antigue = fig_eje4_antigue.add_subplot(122)
 ax_plot_mujeres_antigue.boxplot(cool.filter(lambda r: r["SEXO"] == 2).column("ANTIGUE"))
-ax_plot_mujeres_antigue.set_xlabel("Mujeres")
+quart = np.percentile(cool.filter(lambda r: r["SEXO"] == 2).column("ANTIGUE"),
+                      [0, 25, 50, 75, 100])
+ax_plot_mujeres_antigue.set_xlabel("Mujeres {}".format(quart))
 
 plt.savefig("figs/act4_boxplot_antigue.png")
