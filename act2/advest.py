@@ -17,6 +17,45 @@
 
 import numpy as np
 
+
+#===============================================================================
+# KURTOSIS
+#===============================================================================
+
+def K1_kurtosis(a):
+    """Coeficiente robusto de kurtosis"""
+    C10, C25, C75, C90 = np.percentile(a, (10, 25, 75, 90))
+    return (C90 - C10) / (1.9 * (C75 - C25))
+
+
+#===============================================================================
+# SYMETRY
+#===============================================================================
+
+def Sp_pearson(a):
+    """Indice de simetria de pearson"""
+    return (3 * (np.average(a) - np.median(a))) / np.std(a)
+
+
+def H1_yule(a):
+    """Indice de simetria de yule"""
+    Me = np.median(a)
+    C25, C75 = np.percentile(a, (25, 75))
+    return (C25 + C75 - (2 * Me)) / (2 * Me)
+
+
+def H3_kelly(a):
+    """Indice de simetria de kelly"""
+    Me = np.median(a)
+    C10, C90 = np.percentile(a, (10, 90))
+    return (C10 + C90 - (2 * Me)) / 2
+
+
+
+#===============================================================================
+# POSITION FUNCTIONS
+#===============================================================================
+
 def Q(a):
     "Promedio de cuartiles"
     return np.average(np.percentile(a, (25, 75)))
@@ -25,14 +64,29 @@ def Q(a):
 def TRI(a):
     """Trimedian"""
     Me = np.median(a)
-    values = np.percentile(a, (25, 75))
-    values = np.append(values, [Me, Me])
+    C25, C75 = np.percentile(a, (25, 75))
+    values = np.array([C25, Me, Me, C75])
     return np.average(values)
 
 
 def MID(a):
     """Promedio inter cuartil. Calcula el promedio de los valores del 50% central
     del array"""
+    if not isinstance(a, np.ndarray):
+        a = np.array(a)
     l, u = np.percentile(a, (25, 75))
-    return np.average(a[(a >= l) & (a <= u)])
+    central = a[np.nonzero((a >= l) & (a <= u))]
+    return np.average(central)
+
+
+#===============================================================================
+# DISPERTION
+#===============================================================================
+
+def varQ(a):
+    """Coeficiente de variacion inter cuartílico
+
+    """
+    C25, C75 = np.percentile(a, (25, 75))
+    return (C75 - C25) / (C75 + C25)
 

@@ -219,14 +219,73 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
 
 2. Calcule los siguientes estadísticos:
 
-.. csv-table:: Estadísticos
+.. csv-table::
     :header-rows: 1
     :file: tables/act5_1.csv
 
-.. csv-table:: Estadísticos
+.. csv-table::
     :header-rows: 1
     :file: tables/act5_2.csv
 
+.. csv-table::
+    :header-rows: 1
+    :file: tables/act5_3.csv
+
+a) En base a los datos de la variable HS. TRABAJADAS, ¿Qué porcentaje de casos
+   de la muestra trabajan exactamente 40 hs. semanales?
+   :underline:`13` %
+   ¿Qué porcentaje trabaja menos de 40 hs. semanales?
+   :underline:`75` %.
+   Y 41 o más hs. semanales?
+   :underline:`25` %.
+
+b) Es sorprendente notar que hay
+   :underline:`9` personas (un :underline:`9` % del total de encuestados)
+   que declaran trabajar 54 hs. o más en la semana. La mayoría de
+   las personas encuestadas trabajan :underline:`35` hs. por semana y el número
+   mínimo de hs. trabajadas es de :underline:`10` hs. semanales.
+   El promedio de hs. trabajadas es de :underline:`33.47` hs. que es
+   (mayor/menor) :underline:`menor` a la mediana de hs. trabajadas.
+
+   Esto indica una distribución (simétrica, asimétrica derecha/izquierda)
+   :underline:`asimétrica izquierda` de los datos.
+   El rango indica que la diferencia entre la mayor cantidad de hs.
+   trabajadas :underline:`64` hs. y la menos cantidad de hs.
+   trabajadas :underline:`10` hs. es de :underline:`54` hs.
+
+c) Con respecto a la variable ANTIGÜEDAD EN LA OCUPACIÓN.
+   El :underline:`40` % de los encuestados llevan 5 o menos años en la empresa,
+   mientras que solamente un :underline:`4` % lleva 35 o más años de antigüedad.
+   El valor modal de antigüedad es de :underline:`1` años,
+   lo que indica que
+   :underline:`la mayoria de los encuestados estan hace 1 año en su puesto`.
+   En cambio el promedio de antigüedad es de :underline:`11.28` años que es
+   (mayor/menor) :underline:`mayor` a la mediana. El Q1 (cuartil 1 o 25%)
+   indica un valor para la antigüedad de :underline:`3`años y el Q3 (cuartil 3
+   o 75%) es de :underline:`18` años.
+
+d) Si analizarnos el sueldo de los encuestados podemos ver que el 25% cobra un
+   sueldo inferior a :underline:`320` pesos. Que el sueldo más alto es
+   de :underline:`2200` pesos lo que representa un :underline:`1` % del total.
+   El sueldo promedio es de :underline:`625` pesos con una desviación estándar
+   de :underline:`472.53` pesos, y un coeficiente de variación de
+   :underline:`75.56` %.
+   Esto indica que la distribución de los salarios es (muy
+   variable/poco variable) :underline:`muy variable`.
+
+e) Analizando el coeficiente de variación de las tres variables consideradas,
+   puede decirse que la variable :underline:`ANTIGÜEDAD` es la que presenta la
+   mayor variación y que la variable :underline:`HORAS TRABJADAS` es la más
+   homogénea o  de menor variación.
+
+f) El  coeficiente  de  variación  cuartílico  CVc  muestra  que  la
+   variable :underline:`ANTIGÜEDAD` es la que presenta la mayor variabilidad en
+   el 50% central de su distribución y que la variable
+   :underline:`HORAS TRABAJADAS` es la más homogénea.
+
+g) Los índices de simetría indican que la variable antigüedad es
+   (simétrica/ asimétrica derecha-izquierda) :underline:`asimétrica der.`,
+   mientras que la variable horas trabajadas es :underline:`asimétrica izq`.
 
 
 
@@ -235,6 +294,8 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
 .. =============================================================================
 
 .. footer::
+
+    **FALTA SK**
 
     Los fuentes y cálculo de tablas se encuentran en:
     http://goo.gl/A1Tq4 - ###Page###
