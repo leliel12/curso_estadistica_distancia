@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from collections import Counter
+
 import csv, os
 
 import numpy as np
@@ -8,6 +10,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import csvcool
+
+import advest
 
 
 #===============================================================================
@@ -128,3 +132,59 @@ quart = np.percentile(cool.filter(lambda r: r["SEXO"] == 2).column("ANTIGUE"),
 ax_plot_mujeres_antigue.set_xlabel("Mujeres {}".format(quart))
 
 plt.savefig("figs/act4_boxplot_antigue.png")
+
+
+#===============================================================================
+# EJE 4
+#===============================================================================
+
+
+with open("tables/act5_1.csv", "w") as fp:
+
+    def ests(coll):
+        return ["{0:.2f}".format(np.average(coll)),
+                Counter(coll).most_common(1)[0][0],
+                np.percentile(coll, 25),
+                np.percentile(coll, 50),
+                np.percentile(coll, 75),
+                np.max(coll) - np.min(coll)]
+
+    writer = csv.writer(fp)
+
+    writer.writerow(["Variables", "Media", "Modo",
+                     "Q1", "Mediana", "Q3", "Rango"])
+
+    writer.writerow(["Hs. Trabajo"] + ests(cool.column("HS.TRA")))
+    writer.writerow([u"Antigüedad".encode("utf8")] + ests(cool.column("ANTIGUE")))
+    writer.writerow(["Sueldo"] + ests(cool.column("SUELDO")))
+
+
+with open("tables/act5_2.csv", "w") as fp:
+
+    def ests(coll):
+        return [np.min(coll), np.max(coll),
+                "{0:.2f}".format(np.var(coll)),
+                "{0:.2f}".format(np.std(coll)),
+                advest.Q(coll),
+                advest.TRI(coll)]
+
+    writer = csv.writer(fp)
+
+    writer.writerow(["Variables", u"Mínimo".encode("utf8"),
+                     u"Máximo".encode("utf8"), "Varianza",
+                     u"Desv. Estándar".encode("utf8"), "Q Promedio", "TRI"])
+
+    writer.writerow(["Hs. Trabajo"] + ests(cool.column("HS.TRA")))
+    writer.writerow([u"Antigüedad".encode("utf8")] + ests(cool.column("ANTIGUE")))
+    writer.writerow(["Sueldo"] + ests(cool.column("SUELDO")))
+
+
+
+
+
+
+
+
+
+
+

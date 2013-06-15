@@ -185,6 +185,51 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
        hogar identificado con ese número en la base de datos tiene una
        antigüedad de :underline:`36` años.
 
+
+|hamster| Actividad nro. 5
+--------------------------
+
+1. Realice un análisis descriptivo de las variables; CANTIDAD DE HS.
+   TRABAJADAS EN LA SEMANA, ANTIGÜEDAD EN LA OCUPACIÓN y SUELDO.
+
+.. class:: underline
+
+    Las personas encuestadas trabajan semanalmente desde 10 hasta 64 horas
+    por semana siendo el promedio unas 34 horas aproximadamente.
+    El valor mas común así como la media es de 35 horas semanales.
+    Con esto vemos que los valores forman una distribución ligeramente
+    asimétrica ya que su media mediana y moda están bastante cerca.
+
+.. class:: underline
+
+    Por el lado de la antigüedad en la ocupación existen jefes de hogar
+    sin antigüedad así como personas que están hace 36 años en su trabajo.
+    La mitad de los jefes trabajan hace menos de 8 años en su actual puesto
+    y es lo mas común que estén hace 1 año en su ubicación.
+    El promedio es de 11.28 años. Por estos valores vemos una distribución
+    radicalmente asimétrica.
+
+.. class:: underline
+
+    Al hablar de Sueldos vemos que hay jefes de familia sin ingresos
+    mientras que el tope máximo es de $2200 pesos con un promedio de $625.
+    El sueldo mas común es de $320 y la mitad cobra mas de $450.
+    La distribución de valores es asimétrica.
+
+
+2. Calcule los siguientes estadísticos:
+
+.. csv-table:: Estadísticos
+    :header-rows: 1
+    :file: tables/act5_1.csv
+
+.. csv-table:: Estadísticos
+    :header-rows: 1
+    :file: tables/act5_2.csv
+
+
+
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
