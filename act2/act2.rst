@@ -288,6 +288,24 @@ g) Los índices de simetría indican que la variable antigüedad es
    mientras que la variable horas trabajadas es :underline:`asimétrica izq`.
 
 
+|hamster| Actividad nro. 6
+--------------------------
+
+1. Lleve a cabo un análisis descriptivo de las variables: CANTIDAD DE HS.
+   TRABAJADAS EN LA SEMANA, ANTIGÜEDAD EN LA OCUPACIÓN, EDAD y SUELDO, por SEXO.
+
+2. Calcule los siguientes estadísticos:
+
+.. csv-table:: Para varones
+    :header-rows: 1
+    :file: tables/act6_varones.csv
+
+.. csv-table:: Para mujeres
+    :header-rows: 1
+    :file: tables/act6_mujeres.csv
+
+
+
 
 .. =============================================================================
 .. FOOTER

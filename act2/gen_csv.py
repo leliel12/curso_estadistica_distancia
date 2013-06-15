@@ -7,6 +7,8 @@ import csv, os
 
 import numpy as np
 
+from scipy import stats
+
 import matplotlib.pyplot as plt
 
 import csvcool
@@ -135,9 +137,8 @@ plt.savefig("figs/act4_boxplot_antigue.png")
 
 
 #===============================================================================
-# EJE 4
+# EJE 5
 #===============================================================================
-
 
 with open("tables/act5_1.csv", "w") as fp:
 
@@ -197,6 +198,58 @@ with open("tables/act5_3.csv", "w") as fp:
     writer.writerow(["Hs. Trabajo"] + ests(cool.column("HS.TRA")))
     writer.writerow([u"Antigüedad".encode("utf8")] + ests(cool.column("ANTIGUE")))
     writer.writerow(["Sueldo"] + ests(cool.column("SUELDO")))
+
+
+#===============================================================================
+# EJE 6
+#===============================================================================
+
+with open("tables/act6_varones.csv", "w") as fp:
+
+    def ests(coll):
+        return ["{0:.2f}".format(np.average(coll)),
+                Counter(coll).most_common(1)[0][0],
+                np.percentile(coll, 25),
+                np.percentile(coll, 50),
+                np.percentile(coll, 75),
+                "{0:.2f}".format(stats.variation(coll)),
+                "{0:.2f}".format(advest.Sp_pearson(coll))]
+
+    writer = csv.writer(fp)
+
+    writer.writerow(["Variables", "Media", "Modo", "Q1", "Mediana", "Q3",
+                     u"Coef. de Variación".encode("utf8"),
+                     "Coef. Simet. Pearson"])
+
+    varones = cool.filter(lambda r: r["SEXO"] == 1)
+    writer.writerow(["Hs. Trabajo"] + ests(varones.column("HS.TRA")))
+    writer.writerow([u"Antigüedad".encode("utf8")] + ests(varones.column("ANTIGUE")))
+    writer.writerow(["Sueldo"] + ests(varones.column("SUELDO")))
+
+
+with open("tables/act6_mujeres.csv", "w") as fp:
+
+    def ests(coll):
+        return ["{0:.2f}".format(np.average(coll)),
+                Counter(coll).most_common(1)[0][0],
+                np.percentile(coll, 25),
+                np.percentile(coll, 50),
+                np.percentile(coll, 75),
+                "{0:.2f}".format(stats.variation(coll)),
+                "{0:.2f}".format(advest.Sp_pearson(coll))]
+
+    writer = csv.writer(fp)
+
+    writer.writerow(["Variables", "Media", "Modo", "Q1", "Mediana", "Q3",
+                     u"Coef. de Variación".encode("utf8"),
+                     "Coef. Simet. Pearson"])
+
+    mujeres = cool.filter(lambda r: r["SEXO"] == 2)
+    writer.writerow(["Hs. Trabajo"] + ests(mujeres.column("HS.TRA")))
+    writer.writerow([u"Antigüedad".encode("utf8")] + ests(mujeres.column("ANTIGUE")))
+    writer.writerow(["Sueldo"] + ests(mujeres.column("SUELDO")))
+
+
 
 
 
