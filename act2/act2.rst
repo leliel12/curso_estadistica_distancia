@@ -192,29 +192,29 @@ ACTIVIDADES INTEGRADORAS  - MODULOS  III Y IV
 1. Realice un análisis descriptivo de las variables; CANTIDAD DE HS.
    TRABAJADAS EN LA SEMANA, ANTIGÜEDAD EN LA OCUPACIÓN y SUELDO.
 
-.. class:: underline
+    .. class:: underline
 
-    Las personas encuestadas trabajan semanalmente desde 10 hasta 64 horas
-    por semana siendo el promedio unas 34 horas aproximadamente.
-    El valor mas común así como la media es de 35 horas semanales.
-    Con esto vemos que los valores forman una distribución ligeramente
-    asimétrica ya que su media mediana y moda están bastante cerca.
+        Las personas encuestadas trabajan semanalmente desde 10 hasta 64 horas
+        por semana siendo el promedio unas 34 horas aproximadamente.
+        El valor mas común así como la media es de 35 horas semanales.
+        Con esto vemos que los valores forman una distribución ligeramente
+        asimétrica ya que su media mediana y moda están bastante cerca.
 
-.. class:: underline
+    .. class:: underline
 
-    Por el lado de la antigüedad en la ocupación existen jefes de hogar
-    sin antigüedad así como personas que están hace 36 años en su trabajo.
-    La mitad de los jefes trabajan hace menos de 8 años en su actual puesto
-    y es lo mas común que estén hace 1 año en su ubicación.
-    El promedio es de 11.28 años. Por estos valores vemos una distribución
-    radicalmente asimétrica.
+        Por el lado de la antigüedad en la ocupación existen jefes de hogar
+        sin antigüedad así como personas que están hace 36 años en su trabajo.
+        La mitad de los jefes trabajan hace menos de 8 años en su actual puesto
+        y es lo mas común que estén hace 1 año en su ubicación.
+        El promedio es de 11.28 años. Por estos valores vemos una distribución
+        radicalmente asimétrica.
 
-.. class:: underline
+    .. class:: underline
 
-    Al hablar de Sueldos vemos que hay jefes de familia sin ingresos
-    mientras que el tope máximo es de $2200 pesos con un promedio de $625.
-    El sueldo mas común es de $320 y la mitad cobra mas de $450.
-    La distribución de valores es asimétrica.
+        Al hablar de Sueldos vemos que hay jefes de familia sin ingresos
+        mientras que el tope máximo es de $2200 pesos con un promedio de $625.
+        El sueldo mas común es de $320 y la mitad cobra mas de $450.
+        La distribución de valores es asimétrica.
 
 
 2. Calcule los siguientes estadísticos:
@@ -293,6 +293,33 @@ g) Los índices de simetría indican que la variable antigüedad es
 
 1. Lleve a cabo un análisis descriptivo de las variables: CANTIDAD DE HS.
    TRABAJADAS EN LA SEMANA, ANTIGÜEDAD EN LA OCUPACIÓN, EDAD y SUELDO, por SEXO.
+
+    .. class:: underline
+
+        Los varones trabajan entre 15 y 64 horas semanales con un promedio de
+        36.72 hs semanales, mediana de 35.5 y moda de 35. En el caso de las
+        mujeres, estas trabajan entre 10 y 50 horas semanales siendo su promedio
+        30, su mediana 32.5 y su valor mas común 35.
+
+        Por el lado de la antigüedad en la ocupación sucede que los hombres
+        tienen un promedio de 9.3 años, con una mediana de 7 y un valor mas común
+        de 1. También hay que mencionar que hay hombres que trabajan hasta
+        36 horas y así como algunos que no trabajan. Si analizamos la mujeres
+        están trabajan entre 1 y 35 horas semanales. Siendo sus medidas de
+        posición 12.96 la media, 10 la mediana y 3 la moda.
+
+        En el ámbito de las sueldo los en ambos sexos hay personas que
+        no cobran nada. los hombres cobran hasta 2200 pesos y las mujeres
+        hasta 2000 pesos. En los promedios los hombres cobran $678 mientras que
+        las mujeres $590. La mediana y la moda para las mujeres son de $455 y
+        $320 respectivamente; y en los hombres $440 y $320.
+
+        La edad promedio de los hombres es de 34.22 y de las mujeres es de 39.53
+        La mujer y el hombre mas joven tiene 18 años mientras que los mayores
+        tienen 64 años para las mujeres y 69 para los hombres. El
+        50% tiene menos de 33 años y medio en los varones y 41 en las mujeres.
+        El valor mas común de edad en los hombres es de 26 años y de las mujeres
+        de 21 años.
 
 2. Calcule los siguientes estadísticos:
 
