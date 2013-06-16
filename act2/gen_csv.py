@@ -222,7 +222,6 @@ with open("tables/act6_varones.csv", "w") as fp:
                      "Coef. Simet. Pearson"])
 
     varones = cool.filter(lambda r: r["SEXO"] == 1)
-    print "v", np.min(varones.column("SUELDO")), np.max(varones.column("SUELDO"))
     writer.writerow(["Hs. Trabajo"] + ests(varones.column("HS.TRA")))
     writer.writerow([u"Antigüedad".encode("utf8")] + ests(varones.column("ANTIGUE")))
     writer.writerow(["Sueldo"] + ests(varones.column("SUELDO")))
@@ -246,7 +245,6 @@ with open("tables/act6_mujeres.csv", "w") as fp:
                      "Coef. Simet. Pearson"])
 
     mujeres = cool.filter(lambda r: r["SEXO"] == 2)
-    print "m", np.min(mujeres.column("SUELDO")), np.max(mujeres.column("SUELDO"))
     writer.writerow(["Hs. Trabajo"] + ests(mujeres.column("HS.TRA")))
     writer.writerow([u"Antigüedad".encode("utf8")] + ests(mujeres.column("ANTIGUE")))
     writer.writerow(["Sueldo"] + ests(mujeres.column("SUELDO")))

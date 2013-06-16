@@ -331,6 +331,23 @@ g) Los índices de simetría indican que la variable antigüedad es
     :header-rows: 1
     :file: tables/act6_mujeres.csv
 
+a) Compare las distintas mediciones para ambos grupos y saque conclusiones
+   respecto a ambas distribuciones.
+
+    .. class:: underline
+
+        En las horas trabajadas por semana los varones presentan una asimetría
+        derecha mientras que las mujeres es izquierda. Esto se evidencia por los
+        cuartiles y el promedio. Ambos sexos son bastante homogéneos entre ellos
+
+        En el caso de la antigüedad los varones tienden a cambiar mas de trabajo
+        que las mujeres. Ambos grupos son bastante homogéneos y presentan
+        concentraciones en los valores superiores.
+
+        Por ultimo los sueldos en los varones tienden a cobrar mas que las
+        mujeres por el mayor numero en su coeficiente de asimetría.
+
+
 
 
 
