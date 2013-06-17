@@ -443,7 +443,5 @@ e) ¿Qué conclusión general podernos efectuar en base al análisis de estas tr
 
 .. footer::
 
-    **FALTA SK**
-
     Los fuentes y cálculo de tablas se encuentran en:
     http://goo.gl/A1Tq4 - ###Page###

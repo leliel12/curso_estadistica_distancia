@@ -188,12 +188,12 @@ with open("tables/act5_3.csv", "w") as fp:
                 "{0:.2f}".format(advest.H1_yule(coll)),
                 "{0:.2f}".format(advest.H3_kelly(coll)),
                 "{0:.2f}".format(advest.K1_kurtosis(coll)),
-                0]
+                "{0:.2f}".format(advest.Sp_pearson(coll)),]
 
     writer = csv.writer(fp)
 
     writer.writerow(["Variables", "MID", u"CVc Cuartílico".encode("utf8"),
-                     "H1 Yule", "H3 Kelly", "K1 Curtosis", "SK Pearson"])
+                     "H1 Yule", "H3 Kelly", "K1 Curtosis", "SP Pearson"])
 
     writer.writerow(["Hs. Trabajo"] + ests(cool.column("HS.TRA")))
     writer.writerow([u"Antigüedad".encode("utf8")] + ests(cool.column("ANTIGUE")))
@@ -248,14 +248,3 @@ with open("tables/act6_mujeres.csv", "w") as fp:
     writer.writerow(["Hs. Trabajo"] + ests(mujeres.column("HS.TRA")))
     writer.writerow([u"Antigüedad".encode("utf8")] + ests(mujeres.column("ANTIGUE")))
     writer.writerow(["Sueldo"] + ests(mujeres.column("SUELDO")))
-
-
-
-
-
-
-
-
-
-
-
