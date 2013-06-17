@@ -348,8 +348,48 @@ a) Compare las distintas mediciones para ambos grupos y saque conclusiones
         mujeres por el mayor numero en su coeficiente de asimetría.
 
 
+|hamster| Actividad nro. 7
+--------------------------
 
+Trabajaremos ahora con las variables referidas a las características
+habitacionales.
 
+A partir de las variables TIPO DE VIVIENDA, CUANTAS HABITACIONES TIENE LA
+VIVIENDA Y ES USTED.
+
+a) Del total de encuestados hay :underline:`22` que viven en departamento, lo
+   que representa un :underline:`22` % del total de la muestra.
+
+b) El tipo de vivienda modal o que se presenta con la mayor frecuencia es
+   :underline:`Casa` y representa un :underline:`65` % del total de encuestados.
+
+c) No hay ningún encuestado en la categoría 5. Esto indica que ninguno de los
+   jefes de hogar vive en :underline:`Hotel o pensión`.
+
+d) Hay :underline:`58` encuestados que son propietarios de la vivienda y del
+   terreno y que representan un :underline:`58` % del total de encuestados.
+   Sólo hay :underline:`3` encuestados que son propietarios de la vivienda
+   solamente, es decir un :underline:`3` % del total.
+
+e) La mayoría de las viviendas tienen entre :underline:`2` y :underline:`5`
+   habitaciones, representando un 87% del total de viviendas.
+
+f) Hay un 86% de viviendas que tienen menos de :underline:`5` habitaciones.
+
+g) El promedio de habitaciones por vivienda es de :underline:`3.09`
+   habitaciones, el valor modal es de :underline:`3` habitaciones y
+   la mediana es de :underline:`3` habitaciones. Estas medidas de posición
+   indican que la cantidad de habitaciones por vivienda sigue una
+   distribución (simétrica/asimétrica) :underline:`simétrica`.
+
+h) El número mínimo de habitaciones por vivienda es de :underline:`1`
+   habitaciones y el máximo es de :underline:`9` habitaciones, lo que determina
+   un rango de :underline:`8` habitaciones en la muestra.
+
+i) La varianza del número de habitaciones es de :underline:`1.84`, mientras que el
+   coeficiente de variación es de :underline:`43.2` %. Luego la cantidad de
+   habitaciones por vivienda es una variable (homogénea/dispersa)
+   :underline:`homogénea`
 
 .. =============================================================================
 .. FOOTER

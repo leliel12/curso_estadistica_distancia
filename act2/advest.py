@@ -15,6 +15,8 @@
 
 """
 
+import collections
+
 import numpy as np
 
 
@@ -55,6 +57,14 @@ def H3_kelly(a):
 #===============================================================================
 # POSITION FUNCTIONS
 #===============================================================================
+
+def mode(a):
+    """Moda o modas de una array like"""
+    cnt = collections.Counter(a)
+    value = np.max(cnt.values())
+    n = cnt.values().count(value)
+    return tuple(v[0] for v in cnt.most_common(n))
+
 
 def Q(a):
     "Promedio de cuartiles"
