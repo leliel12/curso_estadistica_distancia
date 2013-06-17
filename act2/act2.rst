@@ -391,9 +391,55 @@ i) La varianza del número de habitaciones es de :underline:`1.84`, mientras que
    habitaciones por vivienda es una variable (homogénea/dispersa)
    :underline:`homogénea`
 
+
+|hamster| Actividad nro. 8
+--------------------------
+
+Tomando las variables TOTAL DE PERSONAS EN LA VIVIENDA, TOTAL DE PERSONAS
+ECONÓMICAMENTE ACTIVAS y TOTAL DE PERSONAS NO ECONÓMICAMENTE ACTIVAS, responda
+las siguientes preguntas:
+
+a) La cantidad promedio de personas por hogar es de :underline:`3.68` personas.
+   El promedio de las económicamente activas es de :underline:`1.67`
+   personas por hogar y es (mayor/menor) :underline:`menor` al promedio de las
+   no  económicamente activas.
+
+b) En la mayoría de los hogares (moda) viven :underline:`4` personas,
+   conformando un total de :underline:`22` hogares con esta cantidad de
+   personas. La mayoría de los hogares (moda) tiene :underline:`1` personas
+   económicamente activas y :underline:`2` personas no económicamente activas.
+   Hay un 38% de hogares que tienen :underline:`XXX` [#]_ personas activas y un
+   :underline:`84` % de hogares con 3 o menos personas no económicamente
+   activas.
+
+c) La cantidad de personas económicamente activas es (más/menos)
+   :underline:`menos` variable que la cantidad de personas no económicamente
+   activas. Esto se observa con los coeficientes de variación que toman los
+   valores :underline:`41.99` % y :underline:`78.42` % respectivamente.
+
+d) El 67% (le los hogares tiene menos de :underline:`5` personas. Hay 14 hogares
+  con :underline:`3` personas económicamente activas y :underline:`21` hogares
+  sin personas no económicamente activas.
+
+e) ¿Qué conclusión general podernos efectuar en base al análisis de estas tres
+   variables?
+
+    .. class:: underline
+
+        Se puede observar en estos valores que la mayoría de los hogares (86%)
+        tienden a tener 2 personas que trabajan (Típica conformación familiar
+        donde el padre y madre trabajan). El resto de los hogares tiene 3
+        personas que trabajan. Por el lado de los no activos laboralmente
+        se presenta dos claro outlier de dos casas donde hay 6 y 8 desocupados.
+        También hay 21 viviendas donde no hay personas sin actividad laboral
+        (parejas o personas solas)
+
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
+
+.. [#] No hay manera de estimar este valor
 
 .. footer::
 
