@@ -15,6 +15,11 @@
 
 """
 
+
+#===============================================================================
+# IMPORTS
+#===============================================================================
+
 import collections
 
 import numpy as np
@@ -93,6 +98,31 @@ def MID(a):
 # DISPERTION
 #===============================================================================
 
+def MD(a):
+    """Desviacion media"""
+    if not isinstance(a, np.ndarray):
+        a = np.array(a)
+    x = np.average(a)
+    return np.average(np.abs(a * x))
+
+
+def MeD(a):
+    """Desviacion mediana"""
+    if not isinstance(a, np.ndarray):
+        a = np.array(a)
+    Me = np.median(a)
+    return np.average(np.abs(a * Me))
+
+
+def range(a):
+    """Rango"""
+    return np.amax(a) - np.amin(a)
+
+
+#===============================================================================
+# VARIATION
+#===============================================================================
+
 def varQ(a):
     """Coeficiente de variacion inter cuartílico
 
@@ -100,3 +130,10 @@ def varQ(a):
     C25, C75 = np.percentile(a, (25, 75))
     return (C75 - C25) / (C75 + C25)
 
+
+#===============================================================================
+# MAIN
+#===============================================================================
+
+if __name__ == "__main__":
+    print(__doc__)
