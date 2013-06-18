@@ -408,7 +408,7 @@ b) En la mayoría de los hogares (moda) viven :underline:`4` personas,
    conformando un total de :underline:`22` hogares con esta cantidad de
    personas. La mayoría de los hogares (moda) tiene :underline:`1` personas
    económicamente activas y :underline:`2` personas no económicamente activas.
-   Hay un 38% de hogares que tienen :underline:`XXX` [#]_ personas activas y un
+   Hay un 38% de hogares que tienen :underline:`2` [#]_ personas activas y un
    :underline:`84` % de hogares con 3 o menos personas no económicamente
    activas.
 
@@ -439,7 +439,9 @@ e) ¿Qué conclusión general podernos efectuar en base al análisis de estas tr
 .. FOOTER
 .. =============================================================================
 
-.. [#] No hay manera de estimar este valor
+.. [#] El 46% de los hogares tienen 1 persona activa, el 40% 2 y el 14% 3. En
+       ningún momento se menciona el 38% buscado con lo cual la respuesta mas
+       acertada es tomar el 40 %.
 
 .. footer::
 
