@@ -106,6 +106,43 @@ d) La probabilidad de que un jefe de hogar sea mayor a 70 años es
    :underline:`0 (el ultimo grupo termina en 69 años)`.
 
 
+|hamster| Actividad nro. 3
+--------------------------
+
+Realice tablas de frecuencia de las variables CANTIDAD DE HS.
+TRABAJADAS EN LA SEMANA, ANTIGÜEDAD EN LA OCUPACIÓN Y SUELDO, y determine:
+
+.. csv-table:: Cantidad de hs. trabajadas
+    :header-rows: 1
+    :file: tables/act2_cant_hs_tab.csv
+
+.. csv-table:: Antigüedad en la ocupación
+    :header-rows: 1
+    :file: tables/act2_antig.csv
+
+.. csv-table:: Sueldo
+    :header-rows: 1
+    :file: tables/act2_sueldo.csv
+
+
+a) La probabilidad de que un jefe de hogar trabaje 20 hs. diarias es de
+   :underline:`0.1`.
+b) Hay 15 jefes de hogares que trabajan 35 hs. semanales en la muestra.
+   Esto indica que la probabilidad de encontrar un jefe de hogar que trabaje
+   35 hs. semanales es de :underline:`0.65`.
+c) La probabilidad de encontrar un jefe de hogar que tenga más de 34 años de
+   antigüedad es de :underline:`0.04`.
+d) Observando la distribución de salarios de los jefes de hogar, es posible
+   determinar que hay una probabilidad de
+   :underline:`0.44` de encontrar un jefe que
+   gane entre 300 y 500 pesos mensuales (inclusive),
+   (es decir, que gane 300 ó 310 ó..... ó 500 pesos).
+e) Parece que no es muy probable encontrar jefes de hogar que ganen más de
+   2.000 pesos, dado que la probabilidad de que ello ocurra es de
+   :underline:`0.03`.
+
+
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
