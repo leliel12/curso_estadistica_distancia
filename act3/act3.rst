@@ -80,6 +80,19 @@ calculadas en el Ejercicio 2 de la actividad integradora Nro. 1, determine:
     :align: right
     :scale: 100 %
 
+a) La probabilidad de que un individuo seleccionado aleatoriamente de esta
+   población sea varón es :underline:`0.46`.
+b) La probabilidad de que un jefe de hogar seleccionado aleatoriamente sea
+   casado es :underline:`0.33`.
+c) La probabilidad de que un jefe de hogar tenga estudios técnicos
+   es :underline:`0.06`.
+d) Hay una probabilidad de :underline:`0.03` de que un encuestado seleccionado
+   aleatoriamente sea inquilino.
+
+
+|hamster| Actividad nro. 2
+--------------------------
+
 
 .. =============================================================================
 .. FOOTER
