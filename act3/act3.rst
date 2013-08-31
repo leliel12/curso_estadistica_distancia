@@ -93,6 +93,18 @@ d) Hay una probabilidad de :underline:`0.03` de que un encuestado seleccionado
 |hamster| Actividad nro. 2
 --------------------------
 
+A partir de la tabla de frecuencias de la variable EDAD1 obtenida en el
+ejercicio 5 de la actividad integradora Nro. 1, determine:
+
+a) La probabilidad de que un jefe de hogar tenga entre 30 y 39
+   años es :underline:`0.22`.
+b) La probabilidad de encontrar un jefe de hogar de menos de 10 años es
+   :underline:`0 (el primer grupo empieza con 10 años)`.
+c) La probabilidad de que un jefe de hogar no tenga entre 40 y 49 años es
+   :underline:`0.25`
+d) La probabilidad de que un jefe de hogar sea mayor a 70 años es
+   :underline:`0 (el ultimo grupo termina en 69 años)`.
+
 
 .. =============================================================================
 .. FOOTER
