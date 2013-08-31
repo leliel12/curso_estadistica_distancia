@@ -1,0 +1,4 @@
+tf=$(tempfile);
+python gen_csv.py;
+rst2pdf act3.rst -s act.style -o $tf;
+evince $tf;
