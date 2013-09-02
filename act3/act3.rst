@@ -114,15 +114,15 @@ TRABAJADAS EN LA SEMANA, ANTIGÜEDAD EN LA OCUPACIÓN Y SUELDO, y determine:
 
 .. csv-table:: Cantidad de hs. trabajadas
     :header-rows: 1
-    :file: tables/act2_cant_hs_tab.csv
+    :file: tables/act3_cant_hs_tab.csv
 
 .. csv-table:: Antigüedad en la ocupación
     :header-rows: 1
-    :file: tables/act2_antig.csv
+    :file: tables/act3_antig.csv
 
 .. csv-table:: Sueldo
     :header-rows: 1
-    :file: tables/act2_sueldo.csv
+    :file: tables/act3_sueldo.csv
 
 
 a) La probabilidad de que un jefe de hogar trabaje 20 hs. diarias es de
@@ -141,6 +141,40 @@ e) Parece que no es muy probable encontrar jefes de hogar que ganen más de
    2.000 pesos, dado que la probabilidad de que ello ocurra es de
    :underline:`0.03`.
 
+
+|hamster| Actividad nro. 4
+--------------------------
+
+Consideremos ahora una tabla bidimensional es decir, donde relacionamos dos
+variables y registramos la cantidad de individuos que responden a dos
+categorías de las variables seleccionadas. Estas tablas nos permiten encontrar
+probabilidades marginales y conjuntas. Consideremos la tabla bidimensional
+donde se relaciona a las variables SEXO y SUELDOS.
+
+En base a estos resultados complete:
+
+
+.. csv-table:: Sexo X Sueldo
+    :header-rows: 1
+    :file: tables/act4_sexoXsueldo.csv
+
+
+a) La probabilidad de que un jefe gane entre 600 y 999 pesos es de
+   :underline:`0.21`. Este valor nos define una probabilidad (marginal/conjunta)
+   :underline:`marginal`.
+b) La probabilidad de que un jefe de hogar sea varón o gane entre 1.000 y 1.999
+   pesos es de :underline:`0.51`.
+c) Hay una probabilidad de :underline:`0.25` de encontrar un jefe de hogar que
+   sea mujer y gane entre 300 y 599 pesos. Este valor nos define una
+   probabilidad (marginal/conjunta) :underline:`conjunta`.
+d) Hay una probabilidad de :underline:`0.07` de que un encuestado gane más de
+   1.000 pesos y sea varón.
+e) Hay una probabilidad de :underline:`0.84` de que un encuestado sea mujer o
+   gane menos de 599 pesos.
+f) ¿Cuál es la probabilidad de que habiendo seleccionado una mujer, ésta gane
+   entre 1.000 y 1.999 pesos? :underline:`0.0925`.
+g) ¿Cuál es la probabilidad de que habiendo seleccionado un jefe de hogar que
+   gane más de 2.000 pesos, sea varón? :underline:`1`.
 
 
 .. =============================================================================

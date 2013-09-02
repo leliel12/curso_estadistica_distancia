@@ -1,4 +1,2 @@
 tf=$(tempfile);
-python gen_csv.py;
-rst2pdf act1.rst -s act.style -o $tf;
-evince $tf;
+python gen_csv.py && rst2pdf act1.rst -s act.style -o $tf && evince $tf;
