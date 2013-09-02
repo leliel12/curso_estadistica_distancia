@@ -208,6 +208,25 @@ g) Son independientes los eventos SEXO y ESTUDIOS QUE CURSA O CURSÓ (SÍ/NO)
    :underline:`secundaria es igual a la multiplicación de la probabilidad que`
    :underline:`sea varón por la probabilidad de que tenga estudios universitarios`
 
+|hamster| Actividad nro. 6
+--------------------------
+
+Un comercio que vende artículos electrónicos ofrece a cada cliente que compra
+un televisor de 29 pulgadas un servicio de post venta de reparación gratuita.
+Su experiencia sobre reparaciones de aparatos de este tipo indica que el tiempo
+desde la compra hasta la primera reparación está normalmente distribuido con
+media de 36 meses y una varianza de 144 meses cuadrados o N(36,144).
+
+Responda:
+
+a) ¿Cuál es la probabilidad de que un televisor seleccionado al azar no necesite
+   una reparación hasta dentro de 4 años?
+   :underline:`P(X >= 48) = P(Z >= 0.84) = 1 - P(Z <= 0.84) = 1 - 0.7995 = 0.2005`
+b) ¿Cuál es la probabilidad de que se necesite una reparación dentro de los primeros 2 años?
+   :underline:`P(X <= 24) = P(Z <= -0.08) = P(Z >= 0.08) = 1 - P(Z <= 0.08) = 1 - 0.5319 = 0.4680`
+c) Establecer un tiempo a tal que la probabilidad es 0,95 de que el consumidor
+   necesitará una reparación antes de este tiempo, o sea: P(x ≤ a) = 0,95.
+   :underline:`P(Z <= 1.645) = 0.95 ... 36 + (1.645 · 144) = 272.88 meses`
 
 
 .. =============================================================================
