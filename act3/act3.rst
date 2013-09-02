@@ -187,6 +187,28 @@ ESTUDIO QUE CURSA O CURSÓ.
     :header-rows: 1
     :file: tables/act5_stud_sexo.csv
 
+En base a estos resultados complete el siguiente cuestionario:
+
+a) La probabilidad de que un jefe de hogar tenga estudios universitarios es de
+   :underline:`0.16`. Este valor nos define una probabilidad (marginal/conjunta)
+   :underline:`marginal`
+b) La probabilidad de que un jefe de hogar sea varón o tenga estudio comercial
+   es de :underline:`0.54`.
+c) Hay una probabilidad de :underline:`0.07` de encontrar un jefe de hogar
+   que sea mujer y que tenga sólo estudio primario.
+d) Hay una probabilidad de :underline:`0.01` de que un encuestado tenga otra
+   enseñanza media y sea varón.
+e) Hay una probabilidad de :underline:`0.49` de que un encuestado sea mujer o no
+   sepa leer ni escribir.
+f) ¿Cuál es la probabilidad de que habiendo seleccionado una mujer ésta tenga estudio superior?
+   :underline:`0.0925`.
+g) Son independientes los eventos SEXO y ESTUDIOS QUE CURSA O CURSÓ (SÍ/NO)
+   :underline:`si`. ¿Cómo lo comprueba?
+   :underline:`Verifique que la probabilidad de que sea varón y tenga educación`
+   :underline:`secundaria es igual a la multiplicación de la probabilidad que`
+   :underline:`sea varón por la probabilidad de que tenga estudios universitarios`
+
+
 
 .. =============================================================================
 .. FOOTER

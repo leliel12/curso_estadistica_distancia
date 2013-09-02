@@ -94,10 +94,6 @@ with open("tables/act4_sexoXsueldo.csv", "w") as fp:
         "Sueldo", "V(ni)", "V(Ni)", "M(ni)", "M(Ni)", "Tot(ni)", "Tot(Ni)"
     ])
 
-                     #~ "V(ni)", "V(hi)", "V(Ni)", "V(Hi)",
-                     #~ "M(ni)", "M(hi)", "M(Ni)", "M(Hi)",
-                     #~ , "Tot(Hi)"])
-
     Ni_v = 0
     Ni_m = 0
     Ni_tot = 0
@@ -133,31 +129,29 @@ ESTUD_VARS = {0: u"No sabe leer ni escribir",
 SEXO_VARS = {1: u"Varón",
              2: u"Mujer"}
 
-bi_2_table = {}
-
-for evar, elabel in sorted(ESTUD_VARS.items()):
-    sexs = []
-    for svar, slabel in sorted(SEXO_VARS.items()):
-        def sex_estud_filter(r):
-            estud = int(r["ESTUD"])
-            sexo = int(r["SEXO"])
-            return sexo == svar and estud == evar
-
-        rows = cool.filter(sex_estud_filter)
-        sexs.append(len(rows))
-    bi_2_table[elabel] = sexs
-
-
 with open("tables/act5_stud_sexo.csv", "w") as fp:
     writer = csv.writer(fp)
-    writer.writerow(["Estudio/Sexo"] +
-                    [l.encode("utf8") for _, l in sorted(SEXO_VARS.items())] +
-                    ["Total"])
-    totcols = [0] * len(SEXO_VARS)
-    totot = 0
-    for evar, elabel in sorted(ESTUD_VARS.items()):
-        values = bi_2_table[elabel]
-        totcols = map(lambda v: sum(v), zip(totcols, values))
-        totot += sum(values)
-        writer.writerow([elabel.encode("utf8")] + values + [sum(values)])
-    writer.writerow(["Totales"] + totcols +  [totot])
+
+    writer.writerow([
+        "Estudios", "V(ni)", "V(Ni)", "M(ni)", "M(Ni)", "Tot(ni)", "Tot(Ni)"
+    ])
+
+    Ni_v = 0
+    Ni_m = 0
+    Ni_tot = 0
+    for estud in sorted(set(cool.column("ESTUD"))):
+
+        ni_v = len(cool.filter(lambda r: r["ESTUD"] == estud and r["SEXO"] == 1))
+        ni_m = len(cool.filter(lambda r: r["ESTUD"] == estud and r["SEXO"] == 2))
+
+        Ni_v += ni_v
+        Ni_m += ni_m
+        Ni_tot += ni_v + ni_m
+
+        writer.writerow([ESTUD_VARS[estud].encode("utf8"),
+                         ni_v, Ni_v, ni_m, Ni_m, ni_v + ni_m, Ni_tot])
+
+
+    writer.writerow(["Total", "", Ni_v, "", Ni_m, "", Ni_tot])
+
+
