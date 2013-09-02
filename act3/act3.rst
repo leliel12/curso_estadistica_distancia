@@ -208,6 +208,7 @@ g) Son independientes los eventos SEXO y ESTUDIOS QUE CURSA O CURSÓ (SÍ/NO)
    :underline:`secundaria es igual a la multiplicación de la probabilidad que`
    :underline:`sea varón por la probabilidad de que tenga estudios universitarios`
 
+
 |hamster| Actividad nro. 6
 --------------------------
 
@@ -227,6 +228,16 @@ b) ¿Cuál es la probabilidad de que se necesite una reparación dentro de los p
 c) Establecer un tiempo a tal que la probabilidad es 0,95 de que el consumidor
    necesitará una reparación antes de este tiempo, o sea: P(x ≤ a) = 0,95.
    :underline:`P(Z <= 1.645) = 0.95 ... 36 + (1.645 · 144) = 272.88 meses`
+
+|hamster| Actividad nro. 7
+--------------------------
+
+La distribución de frecuencias resultante de una encuesta a familias donde una
+de las preguntas se refería a la cantidad de hijos por familia fue la siguiente:
+
+.. csv-table:: Cantidad de hijos por familia
+    :header-rows: 1
+    :file: static/act7.csv
 
 
 .. =============================================================================
