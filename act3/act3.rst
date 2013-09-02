@@ -177,6 +177,17 @@ g) ¿Cuál es la probabilidad de que habiendo seleccionado un jefe de hogar que
    gane más de 2.000 pesos, sea varón? :underline:`1`.
 
 
+|hamster| Actividad nro. 5
+--------------------------
+
+Consideremos ahora la tabla que relaciona las variables SEXO y
+ESTUDIO QUE CURSA O CURSÓ.
+
+.. csv-table:: Estudio que cursa or cursó X Sexo
+    :header-rows: 1
+    :file: tables/act5_stud_sexo.csv
+
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================

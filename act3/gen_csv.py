@@ -114,3 +114,50 @@ with open("tables/act4_sexoXsueldo.csv", "w") as fp:
 
 
     writer.writerow(["Total", "", Ni_v, "", Ni_m, "", Ni_tot])
+
+
+#===============================================================================
+# ACT 5
+#===============================================================================
+
+ESTUD_VARS = {0: u"No sabe leer ni escribir",
+              1: u"Primario",
+              2: u"Nacional",
+              3: u"Comercial",
+              4: u"Normal",
+              5: u"Técnica",
+              6: u"Otra enseñanza media",
+              7: u"Superior",
+              8: u"Universitaria"}
+
+SEXO_VARS = {1: u"Varón",
+             2: u"Mujer"}
+
+bi_2_table = {}
+
+for evar, elabel in sorted(ESTUD_VARS.items()):
+    sexs = []
+    for svar, slabel in sorted(SEXO_VARS.items()):
+        def sex_estud_filter(r):
+            estud = int(r["ESTUD"])
+            sexo = int(r["SEXO"])
+            return sexo == svar and estud == evar
+
+        rows = cool.filter(sex_estud_filter)
+        sexs.append(len(rows))
+    bi_2_table[elabel] = sexs
+
+
+with open("tables/act5_stud_sexo.csv", "w") as fp:
+    writer = csv.writer(fp)
+    writer.writerow(["Estudio/Sexo"] +
+                    [l.encode("utf8") for _, l in sorted(SEXO_VARS.items())] +
+                    ["Total"])
+    totcols = [0] * len(SEXO_VARS)
+    totot = 0
+    for evar, elabel in sorted(ESTUD_VARS.items()):
+        values = bi_2_table[elabel]
+        totcols = map(lambda v: sum(v), zip(totcols, values))
+        totot += sum(values)
+        writer.writerow([elabel.encode("utf8")] + values + [sum(values)])
+    writer.writerow(["Totales"] + totcols +  [totot])
