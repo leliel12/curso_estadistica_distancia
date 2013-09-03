@@ -248,6 +248,23 @@ a) Suponiendo que la variable cantidad de hijos por familia sigue una
    :underline:`P(x=5, m=1.6) = 0.0176`
 
 
+|hamster| Actividad nro. 8
+--------------------------
+
+Se dice que un paciente tiene bajo nivel de potasio en sangre si el nivel del
+mismo es de 3,5 o menos. El nivel de potasio de un individuo no es constante
+sino que varía día a día. Además, el procedimiento de medición por si mismo
+introduce alguna variación. Supongamos que la variación total sigue una
+distribución normal.
+
+Un paciente tiene un nivel medio de potasio de 3,8 con una desviación estándar
+de 0,2. Si se miden los niveles de potasio de este paciente durante varios días:
+
+a) ¿Cuál es la proporción de días donde la medición indicará hipocalemia
+   (bajo nivel de potasio)?
+
+   :underline:`P(X <= 3.5) = P(Z <= -1.5) = P(Z >= 1.5) = 1 - P(Z <= 1.5) = 1 - 0.9332 = 0.0667`
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
