@@ -239,6 +239,14 @@ de las preguntas se refería a la cantidad de hijos por familia fue la siguiente
     :header-rows: 1
     :file: static/act7.csv
 
+a) Suponiendo que la variable cantidad de hijos por familia sigue una
+   distribución de Poissón, calcule la probabilidad de que una familia
+   seleccionada al azar tenga 5 hijos.
+
+   :underline:`m = 1.5739 ~ 1.6`
+
+   :underline:`P(x=5, m=1.6) = 0.0176`
+
 
 .. =============================================================================
 .. FOOTER
