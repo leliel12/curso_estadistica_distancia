@@ -287,7 +287,7 @@ a) Verifique que es realmente una distribución de probabilidad de una
 
 b) Represente gráficamente.
 
-    .. image:: imgs/act9_chart.png
+    .. image:: static/act9_chart.png
         :align: center
         :scale: 100 %
 
