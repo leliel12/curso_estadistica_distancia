@@ -266,6 +266,41 @@ a) ¿Cuál es la proporción de días donde la medición indicará hipocalemia
    :underline:`P(X <= 3.5) = P(Z <= -1.5) = P(Z >= 1.5) = 1 - P(Z <= 1.5) = 1 - 0.9332 = 0.0667`
 
 
+|hamster| Actividad nro. 9
+--------------------------
+
+Considere la variable aleatoria X = cantidad de personas que viven en una
+vivienda. La distribución de probabilidad de esta variable aleatoria se da en
+la siguiente tabla:
+
+.. csv-table:: Cantidad de personas que viven en una vivienda
+    :header-rows: 1
+    :file: static/act9.csv
+
+a) Verifique que es realmente una distribución de probabilidad de una
+   variable discreta.
+
+   :underline:`La variables corresponde a una distribución discreta del tipo`
+   :underline:`**Poisson** ya que se define como la cantidad de eventos`
+   :underline:`(cantidad de personas) que ocurren dentro de una unidad de`
+   :underline:`espacio (vivienda).`
+
+b) Represente gráficamente.
+
+    .. image:: imgs/act9_chart.png
+        :align: center
+        :scale: 100 %
+
+c) ¿Cuál es la probabilidad de que X ≥ 5? :underline:`P(X >= 5) = 0.126`
+d) ¿Cuál es la probabilidad de que X > 5? :underline:`P(X > 5) = 0.059`
+e) ¿Cuál es P(2 < X ≤ 4)? :underline:`P(2 < X ≤ 4) = 0.3320`
+f) ¿Cuál es la P(X ≠ 1)? :underline:`P(X != 1) = 0.76`
+g) Calcule la esperanza y la varianza de X (suponga que + de 7 equivale a 9
+   personas que viven en una vivienda).
+
+    :underline:`E(x) = 2.756`
+    :underline:`V(x) = 6.4898`
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
