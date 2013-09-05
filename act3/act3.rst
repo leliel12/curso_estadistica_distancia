@@ -362,6 +362,44 @@ d) Se sabe que un alumno aprobó la teoría. ¿Cuál es la probabilidad de que a
     P(P/T) = 0.625
 
 
+|hamster| Actividad nro. 11
+---------------------------
+
+Una compañía de seguros hace una investigación sobre la cantidad de reclamos
+de siniestros fraudulentos presentados por los asegurados.
+
+Clasificando los seguros en tres clases, incendio, automóvil y "otros", se
+obtiene la siguiente relación de datos:
+
+    - El 6% son reclamos por incendios fraudulentos;
+    - El 1% son reclamos de automóviles fraudulentos;
+    - El 3% son "otros" reclamos fraudulentos;
+    - El 14% son reclamos por incendio no fraudulentos;
+    - El 29% son reclamos por automóvil no fraudulentos, y
+    - El 47% son "otros" reclamos no fraudulentos.
+
+a) Construya una tabla ordenando los datos anteriores y halle la probabilidad
+   de que se realice un reclamo fraudulento y la probabilidad de que llegue un
+   reclamo no fraudulento.
+
+    .. csv-table:: Tabla de probabilidad con los datos ordenados
+        :header-rows: 1
+        :file: static/act11.csv
+
+
+    .. class:: underline
+
+        La probabilidad de que se realice un reclamo fraudulento es de 0.1, y
+        la probabilidad de que sea no fraudulento es de 0.9
+
+b) Calcule la probabilidad de que llegue un reclamo por incendio, un reclamo
+   por automóvil y un reclamo por otros siniestros.
+
+    .. class:: underline
+
+        La probabilidad de que se realice un reclamo por incendio es de 0.2,
+        por automóvil es de 0.3 y por otros siniestros de 0.5.
+
 
 .. =============================================================================
 .. FOOTER
