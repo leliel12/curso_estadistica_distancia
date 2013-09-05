@@ -301,6 +301,68 @@ g) Calcule la esperanza y la varianza de X (suponga que + de 7 equivale a 9
     :underline:`E(x) = 2.756`
     :underline:`V(x) = 6.4898`
 
+
+|hamster| Actividad nro. 10
+---------------------------
+
+Los alumnos de Estadística tienen que realizar dos pruebas, una teórica y
+otra práctica. La probabilidad de que un estudiante apruebe la parte teórica
+es de 0,6; la probabilidad de que apruebe la parte práctica es de 0,8 y
+la probabilidad de que apruebe ambas pruebas es 0,5.
+
+
+Responda:
+
+a) ¿Son independientes los sucesos aprobar la parte teórica y la parte práctica?
+
+   .. class:: underline
+
+    **T** = aprueba la parte teórica.
+
+    **P** = aprueba la parte práctica
+
+    **A** = aprueba ambas.
+
+    P(T ∩ P) = P(A) = 0.5
+
+    P(T) · P(P) = 0.6 * 0.8 = 0.48
+
+    P(T ∩ P) != P(T) · P(P) = Son dependientes
+
+
+b) ¿Cuál es la probabilidad de que un alumno no apruebe ninguno de los dos exámenes?
+
+   .. class:: underline
+
+    Siendo:
+
+    P(T ∪ P) = La probabilidad de que apruebe almenos uno de los examenes
+
+    1 - P(T ∪ P) = La probabilidad de que no apruebe ni un examen.
+
+    1 - P(T ∪ P) = 1 - [P(T) + P(P) - P(T ∩ P)] = 1 - [P(T) + P(P) - P(A)] = 1 - [0.6 + 0.8 - 0.5]
+
+    1 - P(T ∪) = 0.1
+
+
+c) ¿Cuál es la probabilidad de que un alumno apruebe al menos uno de los dos exámenes?
+
+   .. class:: underline
+
+    P(T ∪ P) = P(T) + P(P) - P(T ∩ P) = P(T) + P(P) - P(A) = 0.6 + 0.8 - 0.5
+
+    P(T ∪ P) = 0.9
+
+d) Se sabe que un alumno aprobó la teoría. ¿Cuál es la probabilidad de que apruebe también la práctica?
+
+   .. class:: underline
+
+    P(P/T) = P(T ∩ P) / P(P) = P(A) / P(P) = 0.5 / 0.8
+
+    P(P/T) = 0.625
+
+
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
