@@ -401,6 +401,39 @@ b) Calcule la probabilidad de que llegue un reclamo por incendio, un reclamo
         por automóvil es de 0.3 y por otros siniestros de 0.5.
 
 
+|hamster| Actividad nro. 12
+---------------------------
+
+Un artefacto doméstico tiene una duración (en horas) cuya función de densidad
+de probabilidad es :math:`f(x) = 0,005 e^{-0,005x}` para x > 0.
+
+a) Calcule la probabilidad de que el artefacto no supere las 100 horas de
+   duración.
+
+    .. class:: underline
+
+        P(x < 100) = :math:`0,005 e^{-0,005 100)}` = 0.003
+
+
+
+|hamster| Actividad nro. 13
+---------------------------
+
+La siguiente tabla muestra la función de distribución de la variable
+aleatoria X.
+
+.. csv-table:: Función de distribución de la variable aleatoria X
+    :header-rows: 1
+    :file: static/act13.csv
+
+a) Determine:
+    1) La función de probabilidad
+    2) P(1 ≤ X ≤ 3)
+    3) P(X ≤ 3)
+    4) P(X < 3)
+    5) P(X > 1)
+
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
