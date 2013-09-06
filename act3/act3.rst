@@ -441,6 +441,33 @@ a) Determine:
 
 b) Calcule en primer lugar la función de cuantía correspondiente.
 
+
+|hamster| Actividad nro. 14
+---------------------------
+
+Si la probabilidad de que un individuo sufra una reacción por una inyección de
+un determinado suero, es 0,001:
+
+a) Determine la probabilidad de que de un total de 2000 individuos sufran una reacción:
+
+    1) Exactamente 3
+
+        .. class:: underline
+
+            m = np = 2000 · 0.001 = 2
+
+            Por tabla ahora:
+
+            P(x = 3) = 0.1804
+
+    2) Más de 2 individuos tengan reacción.
+
+        .. class:: underline
+
+            P(X > 2) = P(X >=3) = 1 - P(X <= 2) = 0.6767
+
+
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
