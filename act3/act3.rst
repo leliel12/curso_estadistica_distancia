@@ -441,6 +441,7 @@ a) Determine:
 
 b) Calcule en primer lugar la función de cuantía correspondiente.
 
+    :underline:`Resuelto en a1`
 
 |hamster| Actividad nro. 14
 ---------------------------
