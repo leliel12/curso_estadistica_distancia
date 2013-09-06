@@ -415,7 +415,6 @@ a) Calcule la probabilidad de que el artefacto no supere las 100 horas de
         P(x < 100) = :math:`0,005 e^{-0,005 100)}` = 0.003
 
 
-
 |hamster| Actividad nro. 13
 ---------------------------
 
@@ -427,11 +426,18 @@ aleatoria X.
     :file: static/act13.csv
 
 a) Determine:
-    1) La función de probabilidad
-    2) P(1 ≤ X ≤ 3)
-    3) P(X ≤ 3)
-    4) P(X < 3)
-    5) P(X > 1)
+
+1) La función de probabilidad
+
+.. csv-table:: Función de probabilidad la variable aleatoria X
+    :header-rows: 1
+    :widths: 10, 10, 10, 10, 10, 10
+    :file: static/act13c.csv
+
+2) P(1 ≤ X ≤ 3) :underline:`3/4`
+3) P(X ≤ 3) :underline:`3/4`
+4) P(X < 3) :underline:`3/8`
+5) P(X > 1) :underline:`1-1/8 = 7/8`
 
 
 .. =============================================================================
