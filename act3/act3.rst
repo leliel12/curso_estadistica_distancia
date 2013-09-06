@@ -222,12 +222,12 @@ Responda:
 
 a) ¿Cuál es la probabilidad de que un televisor seleccionado al azar no necesite
    una reparación hasta dentro de 4 años?
-   :underline:`P(X >= 48) = P(Z >= 0.84) = 1 - P(Z <= 0.84) = 1 - 0.7995 = 0.2005`
+   :underline:`P(X >= 48) = P(Z >= 1) = 1 - P(Z <= 1) = 1 - 0.8413 = 0.1587`
 b) ¿Cuál es la probabilidad de que se necesite una reparación dentro de los primeros 2 años?
-   :underline:`P(X <= 24) = P(Z <= -0.08) = P(Z >= 0.08) = 1 - P(Z <= 0.08) = 1 - 0.5319 = 0.4680`
+   :underline:`P(X <= 24) = P(Z <= -1) = P(Z >= 1) = 1 - P(Z <= 1) = 1 - 0.8413 = 0.1587`
 c) Establecer un tiempo a tal que la probabilidad es 0,95 de que el consumidor
    necesitará una reparación antes de este tiempo, o sea: P(x ≤ a) = 0,95.
-   :underline:`P(Z <= 1.645) = 0.95 ... 36 + (1.645 · 144) = 272.88 meses`
+   :underline:`P(Z <= 1.645) = 0.95 entonces 36 + (1.645 · 12) = 55.74 meses (4 años y medio aprox)`
 
 |hamster| Actividad nro. 7
 --------------------------
@@ -439,6 +439,7 @@ a) Determine:
 4) P(X < 3) :underline:`3/8`
 5) P(X > 1) :underline:`1-1/8 = 7/8`
 
+b) Calcule en primer lugar la función de cuantía correspondiente.
 
 .. =============================================================================
 .. FOOTER
