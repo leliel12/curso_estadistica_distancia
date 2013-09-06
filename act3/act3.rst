@@ -448,7 +448,8 @@ b) Calcule en primer lugar la función de cuantía correspondiente.
 Si la probabilidad de que un individuo sufra una reacción por una inyección de
 un determinado suero, es 0,001:
 
-a) Determine la probabilidad de que de un total de 2000 individuos sufran una reacción:
+a) Determine la probabilidad de que de un total de 2000 individuos sufran una
+   reacción:
 
     1) Exactamente 3
 
@@ -466,6 +467,24 @@ a) Determine la probabilidad de que de un total de 2000 individuos sufran una re
 
             P(X > 2) = P(X >=3) = 1 - P(X <= 2) = 0.6767
 
+
+|hamster| Actividad nro. 15
+---------------------------
+
+Una centralita de teléfonos recibe un promedio de 600 llamadas durante 1 minuto
+de congestión de las líneas. La centralita puede hacer un máximo de 20
+conexiones por segundo.
+
+a) ¿Cuál es la probabilidad de que la centralita quede rebasada durante un
+   segundo dado?
+
+    .. class:: underline
+
+        m = 600/60 = 10
+
+        por tabla
+
+        P(X > 20) = P(X >= 21) = 1 - P(X <= 20) = 1 - 0.9984 = 0.0016
 
 
 .. =============================================================================
