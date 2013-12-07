@@ -107,6 +107,79 @@ a) ¿Es correcto decir que 95 veces de cada 100 la media de la población,
         6,24 gs.
 
 
+|hamster| Actividad nro. 3
+--------------------------
+
+Se supone que ciertos tubos de acero tienen un promedio de diámetro externo de
+10 pulgadas con una desviación estándar de 0,018 pulgadas.
+
+Se desea probar:
+    - H0) :math:`\mu` = 10
+    - H0) :math:`\mu` :math:`\neq` 10.
+
+Una muestra aleatoria de 36 tubos determinó: :math:`\overline{x}` = 9,94 pulgadas.
+
+a) Construya un intervalo de confianza del 99% para p.
+b) ¿Indica este intervalo el rechazo o no rechazo de H0 con :math:`\alpha` = 0,01?
+
+
+|hamster| Actividad nro. 4
+--------------------------
+
+El Director de Alumbrado Público de cierta ciudad debe efectuar una gran compra
+de lámparas. Además del requerimiento de que posean larga vida, el Director
+quiere asegurarse de que las lámparas tengan un alto grado de uniformidad.
+En principio, basándose en su experiencia, establece que la varianza no debiera
+exceder de 250 horas.
+
+Una muestra de 20 lámparas de cierta marca mostró un promedio de vida de
+1.000 horas, que se considera satisfactorio, pero una varianza de 300 (horas).
+
+a) ¿Indica este resultado que el Director debe desechar la compra a esa empresa con :math:`\alpha` = 0,05?
+
+    :math:`\sigma^2 = 250`
+
+    :math:`n = 20 \to n-1 = 19`
+
+    :math:`\alpha = 0.05 \to 1-\alpha = 0.95`
+
+    :math:`\overline{x} = 1000`
+
+    :math:`s^2 = 300`
+
+    :math:`\chi^2_{(n-1);(1-\alpha)} = \chi^2_{19;0.95} = 30.1`
+
+    :math:`(n-1) \times \frac{s^2}{\sigma^2} = 19 * \frac{300}{250} = 22.8`
+
+    :underline:`Debería aceptar ya que el resultado del test es inferior al limite impuesto`
+
+
+b) ¿Obtendría la misma conclusión con :math:`\alpha` = 0,10?  Comente los resultados.
+
+    :math:`\chi^2_{(n-1);(1-\alpha)} = \chi^2_{19;0.90} = 27.2`
+
+    :underline:`Sí, debería aceptar ya que el resultado del test es inferior al limite impuesto`
+    :underline:`Al disminuir la confianza, el limite tambien disminuyó`
+
+c) Construya  un intervalo  de confianza  para la varianza poblacional con :math:`\alpha` = 0,05.
+
+    .. math::
+
+        P( \frac{(n-1) \times s^2)}{\chi^2_{(n-1);(1-\alpha/2)}}
+           \leq \sigma^2 \leq
+           \frac{(n-1) \times s^2)}{\chi^2_{(n-1);(\alpha/2)}} ) = 1 - \alpha
+
+    .. math::
+
+        P( \frac{5700}{32.9} \leq \sigma^2 \leq \frac{5700}{8.9} ) = 1 - 0.5
+
+
+    .. math::
+
+        P(173.25 \leq \sigma^2 \leq 640.45) = 0.95
+
+
+
 
 .. =============================================================================
 .. FOOTER
