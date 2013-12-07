@@ -180,7 +180,7 @@ c) Construya  un intervalo  de confianza  para la varianza poblacional con :math
 
 
 |hamster| Actividad nro. 5
-==========================
+--------------------------
 
 Dado que es posible realizar hipótesis estadísticas con muestras de cualquier
 tamaño, ¿por qué cree usted que se prefieren las muestras grandes?
@@ -194,7 +194,7 @@ tamaño, ¿por qué cree usted que se prefieren las muestras grandes?
 
 
 |hamster| Actividad nro. 6
-==========================
+--------------------------
 
 Se desea estimar la fracción de automóviles que tienen frenos defectuosos en
 cierta comunidad. Se selecciona una muestra aleatoria simple de n = 100
@@ -238,7 +238,6 @@ a) Construya un intervalo de confianza del 95% para la fracción de automóviles
 
         P(0.12 \leq P \leq 0.28) = 0.95
 
-
 b) Supongamos que se desea una estimación más precisa que la obtenida en a),
    ¿Qué tamaño de muestra será necesario para lograr una precisión en la
    estimación de 0,04?
@@ -254,6 +253,17 @@ b) Supongamos que se desea una estimación más precisa que la obtenida en a),
     .. math::
 
         n = \frac{1.96^2 \times 0.16}{0.0016} = 195.9  \approx 196
+
+
+|hamster| Actividad nro. 7
+--------------------------
+
+a) Establezca la diferencia entre los siguientes conceptos:
+
+    - Errores Tipo I y II.
+    - Hipótesis nula e hipótesis alternativa.
+    - Región de rechazo y región de no rechazo.
+    - Nivel de confianza y nivel de significación.
 
 
 
