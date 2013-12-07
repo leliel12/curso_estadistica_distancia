@@ -299,6 +299,17 @@ b) Represente gráficamente cada uno de estos conceptos para una prueba bilatera
     :scale: 100 %
 
 
+|hamster| Actividad nro. 8
+--------------------------
+
+Para un nivel de significación dado, ¿cómo se afecta la potencia de un test aumentando el tamaño de la muestra?
+
+.. class:: underline
+
+    Dado que la potencia de un test se define como la función que establece la
+    probabilidad de rechazar la hipótesis nula cuando es falsa :math:`1 - \beta`.
+    La potenciá de un test es proporcional al tamaño de la muestra
+
 
 .. =============================================================================
 .. FOOTER
