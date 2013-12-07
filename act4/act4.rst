@@ -48,14 +48,42 @@ Algunos conceptos y relaciones sobre estimación de parámetros:
 a) ¿En qué difieren la estimación puntual de un parámetro de la estimación por
    intervalo?
 
+.. class:: underline
+
+    La estimación puntual es un proceso mediante el cual se estima el parámetro
+    en un punto, dando un valor específico como estimación; mientras que
+    la estimación por intervalos afirma, con una determinada probabilidad, que
+    el intervalo (a, b) encierra el verdadero valor de¡ parámetro.
+    (pag 29, mod 8)
+
 b) ¿Cómo está relacionado el nivel de confianza con la precisión de la
    estimación?
+
+.. class:: underline
+
+    Es la probabilidad de que un intervalo contenga el parámetro estimado.
+    Por lo cual si aumentamos el nivel de confianza el intervalo crecerá y
+    disminuirá su precisión. En otras palabras **b-a** será mas grande.
 
 c) ¿Cómo afecta el tamaño de la muestra a la precisión de la estimación para un
    nivel de confianza dado?
 
+.. class:: underline
+
+    Al aumentar el tamaño de la muestra, disminuye la amplitud del intervalo de
+    confianza, logrando así una mayor precisión en la estimación.
+    (pag 36, mod 8)
+
 d) ¿Cree usted que es posible obtener una estimación que sea idéntica al
    parámetro que se estima? ¿Cómo lo puede verificar?
+
+.. class:: underline
+
+    Desde el punto de vista práctico si es posible, en el punto de vista teórico
+    siempre existirá la probabilidad de que no sea exactamente igual. La única
+    forma de garantizar el parámetro es a través de un censo.
+
+
 
 
 .. =============================================================================
