@@ -178,7 +178,18 @@ c) Construya  un intervalo  de confianza  para la varianza poblacional con :math
 
         P(173.25 \leq \sigma^2 \leq 640.45) = 0.95
 
+|hamster| Actividad nro. 5
+==========================
 
+Dado que es posible realizar hipótesis estadísticas con muestras de cualquier
+tamaño, ¿por qué cree usted que se prefieren las muestras grandes?
+
+    .. class:: underline
+
+        Ya que es la única manera que tiene el investigador de disminuir tipo 1
+        y tipo 2 a la vez consiste en aumentar el tamaño de la muestra.
+
+        (pag 61, mod 8)
 
 
 .. =============================================================================
