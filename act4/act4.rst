@@ -260,10 +260,43 @@ b) Supongamos que se desea una estimación más precisa que la obtenida en a),
 
 a) Establezca la diferencia entre los siguientes conceptos:
 
-    - Errores Tipo I y II.
-    - Hipótesis nula e hipótesis alternativa.
-    - Región de rechazo y región de no rechazo.
-    - Nivel de confianza y nivel de significación.
+- Errores Tipo I y II.
+- Hipótesis nula e hipótesis alternativa.
+- Región de rechazo y región de no rechazo.
+- Nivel de confianza y nivel de significación.
+
+.. class:: underline
+
+    La hipótesis nula (:math:`H_0`) es un supuesto acerca de uno o más parámetros de la
+    población que debe ser rechazado o no en base a la evidencia muestral.
+    Se denomina nula en el sentido que supone que no existe diferencia real entre el verdadero
+    valor del parámetro de la población de la que hemos obtenido la muestra y el valor hipotetizado.
+    Si la hipótesis nula es falsa, deberá existir otra hipótesis que sea verdadera. Esta hipótesis
+    recibe el nombre de hipótesis alternativa (:math:`H_1`).
+
+    El error de Tipo I es aquel que se comete al rechazar una
+    hipótesis nula cuando ella es verdadera y la probabilidad de cometerlo
+    se simboliza con :math:`\alpha`, mientras que el error de Tipo II es aquel
+    que se comete al no rechazar una hipótesis nula cuando en realidad es falsa.
+    Su probabilidad de suceder se simboliza con :math:`\beta`.
+
+    Se entiende por region de rechazo a todos los valores que esten fuera de los
+    intervalos determinados por los valores criticos para aceptar la :math:`H_0`.
+    Su sumplemento es conocido como region de no rechazo.
+
+    El nivel de significacion de un test es la probabilidad de cometer el error
+    tipo uno :math:`\alpha`; y el nivel de confianza es el complemento de la
+    la significación :math:`1 - \alpha`, es una medida de la confianza con la que contamos para
+    efectuar la estimación.
+
+b) Represente gráficamente cada uno de estos conceptos para una prueba bilateral con
+
+    H0) :math:`\mu = \mu_0` y
+    H1) :math:`\mu \neq \mu_0`
+
+.. image:: static/7b.png
+    :align: center
+    :scale: 100 %
 
 
 
