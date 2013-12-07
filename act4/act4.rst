@@ -178,6 +178,7 @@ c) Construya  un intervalo  de confianza  para la varianza poblacional con :math
 
         P(173.25 \leq \sigma^2 \leq 640.45) = 0.95
 
+
 |hamster| Actividad nro. 5
 ==========================
 
@@ -190,6 +191,70 @@ tamaño, ¿por qué cree usted que se prefieren las muestras grandes?
         y tipo 2 a la vez consiste en aumentar el tamaño de la muestra.
 
         (pag 61, mod 8)
+
+
+|hamster| Actividad nro. 6
+==========================
+
+Se desea estimar la fracción de automóviles que tienen frenos defectuosos en
+cierta comunidad. Se selecciona una muestra aleatoria simple de n = 100
+automóviles para someterlos a inspección. De éstos, se encuentra que 20
+tienen los frenos defectuosos.
+
+a) Construya un intervalo de confianza del 95% para la fracción de automóviles
+   en esa comunidad que tienen los frenos defectuosos.
+
+    .. math::
+        p = \frac{20}{100} = 0.2
+
+    .. math::
+
+        n = 100
+
+    .. math::
+
+        1 - \alpha = 0.95 \to alpha = 0.05
+
+    .. math::
+
+        \frac{\alpha}{2} = 0.025 \to Z_{\frac{\alpha}{2}} = -1.96
+
+    .. math::
+
+        1 - \frac{\alpha}{2} = 0.025 \to Z_{1 - \frac{\alpha}{2}} = 1.96
+
+    .. math::
+
+        P( p - Z_{1 - \frac{\alpha}{2}} \sqrt{\frac{p \times (1 - p)}{n}}
+        \leq P \leq
+        P( p - Z_{\frac{\alpha}{2}} \sqrt{\frac{p \times (1 - p)}{n}}
+        = 1 - \alpha
+
+    .. math::
+
+        P(0.2 - 0.078 \leq P \leq 0.2 + 0.078) = 0.95
+
+    .. math::
+
+        P(0.12 \leq P \leq 0.28) = 0.95
+
+
+b) Supongamos que se desea una estimación más precisa que la obtenida en a),
+   ¿Qué tamaño de muestra será necesario para lograr una precisión en la
+   estimación de 0,04?
+
+    .. math::
+
+        b - a = 0.04
+
+    .. math::
+
+        n = \frac{Z^2 \times p \times q}{e^2}
+
+    .. math::
+
+        n = \frac{1.96^2 \times 0.16}{0.0016} = 195.9  \approx 196
+
 
 
 .. =============================================================================
