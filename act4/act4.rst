@@ -311,6 +311,31 @@ Para un nivel de significación dado, ¿cómo se afecta la potencia de un test a
     La potenciá de un test es proporcional al tamaño de la muestra
 
 
+|hamster| Actividad nro. 9
+--------------------------
+
+Se adopta la siguiente regla de decisión para probar la hipótesis de que una
+moneda es perfecta (igual posibilidad de cara o cruz).
+
+No rechazar la hipótesis si el número de caras en 100 tiradas se encuentra
+entre 40 y 60 inclusive. En caso contrario, rechazar la hipótesis.
+
+Plantee:
+
+a) La hipótesis nula y la alternativa.
+
+    - H0) :math:`40 \leq P \leq 60`
+    - H1) :math:`P < 40  o P > 60`
+
+
+b) ¿Cuáles son los valores críticos para esta regla de decisión en términos de
+   una distribución normal estandarizada?
+
+    .. class:: underline
+
+
+
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
