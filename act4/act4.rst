@@ -137,7 +137,7 @@ a) Construya un intervalo de confianza del 99% para p. (**NOTA:** Estimé :math:
 
     :math:`P(9.94 - 0.0077 \leq \mu \leq 9.94 + 0.0077) = 0.99`
 
-    :math:`P(9.9323 \leq \mu \leq 9.9477) = 0.99 `
+    :math:`P(9.9323 \leq \mu \leq 9.9477) = 0.99`
 
 b) ¿Indica este intervalo el rechazo o no rechazo de H0 con :math:`\alpha` = 0,01?
 
@@ -388,12 +388,38 @@ observan en la siguiente tabla:
     :file: static/table10.csv
 
 a) Estime las ventas promedio del mes y establezca la precisión de la estimación.
+
+    - :math:`\overline{x} = \frac{\sum N_{h} \times \overline{x}_{h}}{\sum N_{h}}`
+    - :math:`\overline{x_{1}} = 99`
+    - :math:`\overline{x_{2}} = 101.5`
+    - :math:`\overline{x_{3}} = 98`
+    - :math:`\overline{x_{4}} = 100`
+    - :math:`\overline{x} = 99.75`
+    - :math:`S_{\overline{x}}^2 = \frac{1}{N^2} \times \sum N_{h}^2 \times (1-f_{h}) \times \frac{s^2}{n_{h}}`
+
+    - .. math::
+        S_{\overline{x}}^2 = \frac{1}{120^2} \times [24^2 \times 0.96 \times \frac{78.66}{4}
+                                + 36^2 \times 0.95 \times \frac{72.7}{6}
+                                + 30^2 \times 0.96 \times \frac{39.5}{5}
+                                + 30^2 \times 0.96 \times \frac{112.5}{5}]
+
+    - :math:`S_{\overline{x}}^2 = 3.615 \to S_{\overline{x}} = 1.901`
+
+
 b) ¿Cree usted que el procedimiento de muestreo utilizado por este distribuidor
    ha dado una estimación más precisa que si hubiese empleado un muestreo
    aleatorio simple?
+
+   :underline:`Si dado que el muestro aleatorio simple tiene menos presición cuando`
+   :underline:`los estratos son mas homogeneos  y heterogeneos entre ellos. Al cada estrato`
+   :underline:`tener medias diferentes esto garantiza una mayor presicion.`
+
 c) Analice la variable de estratificación utilizada por el distribuidor y
    sugiera una más apropiada.
 
+    :underline:`No creo que la variable de estratificación represente correctamente`
+    :underline:`la capacidad de venta de cada zonaMe parecería mas apropiado`
+    :underline:`divir los estratos según el nivel socioeconomico de la ciudad`
 
 .. =============================================================================
 .. FOOTER
