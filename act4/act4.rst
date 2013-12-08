@@ -141,7 +141,9 @@ a) Construya un intervalo de confianza del 99% para p. (**NOTA:** Estimé :math:
 
 b) ¿Indica este intervalo el rechazo o no rechazo de H0 con :math:`\alpha` = 0,01?
 
-    :underline:`Si deberia rechazarse ya que H0 esta en la zona de rechazo`
+    .. class:: underline
+
+        Si deberia rechazarse ya que H0 esta en la zona de rechazo
 
 
 |hamster| Actividad nro. 4
@@ -172,15 +174,19 @@ a) ¿Indica este resultado que el Director debe desechar la compra a esa empresa
 
     :math:`(n-1) \times \frac{s^2}{\sigma^2} = 19 * \frac{300}{250} = 22.8`
 
-    :underline:`Debería aceptar ya que el resultado del test es inferior al limite impuesto`
+    .. class:: underline
+
+        Debería aceptar ya que el resultado del test es inferior al limite impuesto
 
 
 b) ¿Obtendría la misma conclusión con :math:`\alpha` = 0,10?  Comente los resultados.
 
     :math:`\chi^2_{(n-1);(1-\alpha)} = \chi^2_{19;0.90} = 27.2`
 
-    :underline:`Sí, debería aceptar ya que el resultado del test es inferior al limite impuesto`
-    :underline:`Al disminuir la confianza, el limite tambien disminuyó`
+    .. class:: underline
+
+        Sí, debería aceptar ya que el resultado del test es inferior al limite impuesto
+        Al disminuir la confianza, el limite tambien disminuyó
 
 c) Construya  un intervalo  de confianza  para la varianza poblacional con :math:`\alpha` = 0,05.
 
@@ -462,7 +468,7 @@ una carretera principal y se detiene a un automovilista de cada siete.
 Use los datos de la siguiente tabla para estimar la proporción de conductores
 que llevan su registro.
 
-.... csv-table::
+.. csv-table::
     :header-rows: 1
     :file: static/table12.csv
 
@@ -470,7 +476,9 @@ El valor 1 indica que el conductor llevaba el registro y el valor 0 que no lo te
 
 a) ¿Qué tipo de muestreo se ha utilizado?
 
-    :underline:`Sistemático`
+    .. class:: underline
+
+        Sistemático
 
 b) ¿Cree usted que se hubiese obtenido una estimación más precisa empleando el
    muestreo aleatorio simple?
@@ -498,22 +506,51 @@ muestreo que usted recomendaría. En cada caso justifique su respuesta.
 
 a) Las cuentas están ordenadas cronológicamente, teniendo las cuentas más antiguas una tendencia a tomar valores más chicos.
 
-    :underline:`Muestreo sistemático, ya que regularmente se tomará en cuenta los diferentes valores en todo su espectro`
+    .. class:: underline
+
+        Muestreo sistemático, ya que regularmente se tomará en cuenta los diferentes valores en todo su espectro
 
 b) Las cuentas están ordenadas aleatoriamente.
 
-    :underline:`Muestreo aleatorio simple, dado que no estan ordenadas damos la`
-    :underline:`misma probabilidad de ser evaluadas a cada cuenta`
+    .. class:: underline
+
+        Muestreo aleatorio simple, dado que no estan ordenadas damos la
+        misma probabilidad de ser evaluadas a cada cuenta
 
 c) Las cuentas están agrupadas por departamentos y dentro de éstos están
    listadas en orden cronológico, tendiendo las cuentas más antiguas
    a registrar valores más pequeños.
 
-   :underline:`Muestreo estratidficado por conveniencia organizativa (Pag 24, mod9)`
+    .. class:: underline
+
+        Muestreo estratidficado por conveniencia organizativa (Pag 24, mod9)`
 
 
+|hamster| Actividad nro. 14
+---------------------------
 
+Una muestra de 15 aves tomadas al azar en un establecimiento que cuenta con
+5.000 aves y que elabora alimentos balanceados, permitió establecer un aumento
+de peso promedio de 90 gs. por semana y por ave, y una desviación estándar de
+10 gs. Se busca estimar el incremento de peso promedio para las 5.000 aves del
+establecimiento con un intervalo de confianza del 95%.
 
+- :math:`n=15`
+- :math:`N=5000`
+- :math:`1-\alpha = 0.95`
+- :math:`\overline{x} = 90`
+- :math:`s = 10`
+- .. math::
+
+        P(\overline{x} - t_{(n-1);(1- \frac{\alpha}{2})} \times \sqrt{s/n}
+          \leq \mu \leq
+          \overline{x} - t_{(n-1);(\frac{\alpha}{2})} \times \sqrt{s/n}) = 1 - \alpha
+- .. math::
+
+        P(90 - 1.75 \leq \mu \leq 90 + 1.75) = 0.95
+- .. math::
+
+        P(88.25 \leq \mu \leq 91.75) = 0.95
 
 .. =============================================================================
 .. FOOTER
