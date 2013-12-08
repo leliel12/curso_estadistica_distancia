@@ -119,9 +119,29 @@ Se desea probar:
 
 Una muestra aleatoria de 36 tubos determinó: :math:`\overline{x}` = 9,94 pulgadas.
 
-a) Construya un intervalo de confianza del 99% para p.
+a) Construya un intervalo de confianza del 99% para p. (**NOTA:** Estimé :math:`\overline{x}` por que es lo unico que se puede)
+
+    :math:`n=36`
+
+    :math:`\overline{x} = 9.94`
+
+    :math:`\sigma = 0.018`
+
+    :math:`1- \alpha = 0.99 \to alpha = 0.01`
+
+    :math:`\alpha / 2 = 0.005 \ to z_{\alpha/2} = -2.576`
+
+    :math:`1 - \alpha / 2 = 0.995 \ to z_{1 - \alpha/2} = 2.576`
+
+    :math:`P(\overline{x} - z_{1 - \alpha/2} \times \frac{\sigma}{\sqrt{n}} \leq \mu \leq \overline{x} + z_{\alpha/2} \times \frac{\sigma}{\sqrt{n}} = 1 - \alpha`
+
+    :math:`P(9.94 - 0.0077 \leq \mu \leq 9.94 + 0.0077) = 0.99`
+
+    :math:`P(9.9323 \leq \mu \leq 9.9477) = 0.99 `
+
 b) ¿Indica este intervalo el rechazo o no rechazo de H0 con :math:`\alpha` = 0,01?
 
+    :underline:`Si deberia rechazarse ya que H0 esta en la zona de rechazo`
 
 |hamster| Actividad nro. 4
 --------------------------
@@ -331,7 +351,14 @@ a) La hipótesis nula y la alternativa.
 b) ¿Cuáles son los valores críticos para esta regla de decisión en términos de
    una distribución normal estandarizada?
 
-    .. class:: underline
+    .. math::
+
+        p_1^* = p - Z_{1 - \frac{\alpha}{2}} \sqrt{\frac{p \times (1 - p)}{n}}
+        =
+
+    .. math::
+        p_2^* = p - Z_{\frac{\alpha}{2}} \sqrt{\frac{p \times (1 - p)}{n}}
+
 
 
 
