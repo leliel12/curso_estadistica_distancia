@@ -143,6 +143,7 @@ b) ¿Indica este intervalo el rechazo o no rechazo de H0 con :math:`\alpha` = 0,
 
     :underline:`Si deberia rechazarse ya que H0 esta en la zona de rechazo`
 
+
 |hamster| Actividad nro. 4
 --------------------------
 
@@ -351,16 +352,47 @@ a) La hipótesis nula y la alternativa.
 b) ¿Cuáles son los valores críticos para esta regla de decisión en términos de
    una distribución normal estandarizada?
 
-    .. math::
 
-        p_1^* = p - Z_{1 - \frac{\alpha}{2}} \sqrt{\frac{p \times (1 - p)}{n}}
-        =
+|hamster| Actividad nro. 10
+---------------------------
 
-    .. math::
-        p_2^* = p - Z_{\frac{\alpha}{2}} \sqrt{\frac{p \times (1 - p)}{n}}
+Un distribuidor de comestibles desea saber si la demanda es bastante grande
+como para justificar la incorporación de un nuevo producto a sus existencias.
+Para tomar la decisión, planifica incorporar este producto a una muestra de los
+almacenes que abastece y estimar luego el promedio de ventas mensuales. Como el
+distribuidor tiene dividida la ciudad en cuatro zonas, por conveniencia
+administrativa decide utilizar el muestreo aleatorio estratificado considerando
+cada zona como un estrato. La cantidad de almacenes en cada estrato (zona) es:
 
+    N1 = 24; N2 = 36; N3 = 30; N4 = 30 es decir N = 120
 
+El distribuidor decide tomar datos de ventas mensuales en n = 20 almacenes.
+Debido a que no tiene información previa respecto a las varianzas de los
+estratos y dado que el costo de muestreo es el mismo en cada estrato, decide
+aplicar la asignación proporcional, obteniendo los siguientes tamaños de
+muestra en cada estrato:
 
+- n1 = 20 (24/120) = 4
+- n2 = 20 (36/120) = 6
+- n3 = 20 (30/120) = 5
+- n4 = 20 (30/120) = 5
+
+Es decir, el nuevo producto es introducido en cuatro almacenes elegidas al azar
+en la zona 1, en 6 almacenes de la zona 2, etc.
+
+Después de un mes, el distribuidor registra las ventas cuyos resultados se
+observan en la siguiente tabla:
+
+.. csv-table::
+    :header-rows: 1
+    :file: static/table10.csv
+
+a) Estime las ventas promedio del mes y establezca la precisión de la estimación.
+b) ¿Cree usted que el procedimiento de muestreo utilizado por este distribuidor
+   ha dado una estimación más precisa que si hubiese empleado un muestreo
+   aleatorio simple?
+c) Analice la variable de estratificación utilizada por el distribuidor y
+   sugiera una más apropiada.
 
 
 .. =============================================================================
