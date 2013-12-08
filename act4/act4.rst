@@ -484,6 +484,34 @@ b) ¿Cree usted que se hubiese obtenido una estimación más precisa empleando e
         simple. (Pag 71, Mod 9)
 
 
+|hamster| Actividad nro. 13
+---------------------------
+
+Un auditor se enfrenta con una larga lista de cuentas por cobrar de una
+empresa. El auditor debe verificar las cantidades en base a una muestra del
+10% de esas cuentas y estimar la diferencia promedio entre los valores
+revisados y los asentados en el libro.
+
+Para cada una de las siguientes situaciones establezca el procedimiento de
+muestreo que usted recomendaría. En cada caso justifique su respuesta.
+
+
+a) Las cuentas están ordenadas cronológicamente, teniendo las cuentas más antiguas una tendencia a tomar valores más chicos.
+
+    :underline:`Muestreo sistemático, ya que regularmente se tomará en cuenta los diferentes valores en todo su espectro`
+
+b) Las cuentas están ordenadas aleatoriamente.
+
+    :underline:`Muestreo aleatorio simple, dado que no estan ordenadas damos la`
+    :underline:`misma probabilidad de ser evaluadas a cada cuenta`
+
+c) Las cuentas están agrupadas por departamentos y dentro de éstos están
+   listadas en orden cronológico, tendiendo las cuentas más antiguas
+   a registrar valores más pequeños.
+
+   :underline:`Muestreo estratidficado por conveniencia organizativa (Pag 24, mod9)`
+
+
 
 
 
