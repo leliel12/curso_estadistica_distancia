@@ -421,6 +421,72 @@ c) Analice la variable de estratificación utilizada por el distribuidor y
     :underline:`la capacidad de venta de cada zonaMe parecería mas apropiado`
     :underline:`divir los estratos según el nivel socioeconomico de la ciudad`
 
+
+|hamster| Actividad nro. 11
+---------------------------
+
+Un investigador desea estimar el ingreso promedio de los empleados de una
+gran empresa. Se cuenta con registros de empleados listados por antigüedad y
+se conoce que, en general, la empresa otorga mayores salarios a mayor antigüedad.
+
+a) Analice la conveniencia del muestreo aleatorio simple y del muestreo estratificado para este caso.
+
+    .. class:: underline
+
+        Si se desea saber el ingreso con respecto a otras empresas seria mas
+        conveniente utilizar el MAS, si por otro lado las diferencias de salario
+        por antigüedad son muy altas, convendria estratificarlo.
+
+b) ¿Cuál recomendaría usted y como organizada el esquema de muestreo?
+
+    .. class:: underline
+
+        Dado que se menciona el tema salarial en el enunciado, hago el supuesto
+        que es la diferencia entre antiguedades es alta; con lo cual supongo
+        el muestro estratificado.
+
+        - **Población:** Empleados de la empresa
+        - **Marco del Muestreo:** Se cuenta con registros de empleados listados por antigüedad y
+          se conoce que, en general, la empresa otorga mayores salarios a mayor antigüedad.
+        - Determinamos los estratos agrupando salarios similares
+
+
+|hamster| Actividad nro. 12
+---------------------------
+
+La Dirección de Tránsito de cierta ciudad está interesada en establecer la
+proporción de personas que circulan sin su registro de conductor. Para
+verificarlo se instala un grupo de inspectores en un puesto de control de
+una carretera principal y se detiene a un automovilista de cada siete.
+
+Use los datos de la siguiente tabla para estimar la proporción de conductores
+que llevan su registro.
+
+.... csv-table::
+    :header-rows: 1
+    :file: static/table12.csv
+
+El valor 1 indica que el conductor llevaba el registro y el valor 0 que no lo tenía.
+
+a) ¿Qué tipo de muestreo se ha utilizado?
+
+    :underline:`Sistemático`
+
+b) ¿Cree usted que se hubiese obtenido una estimación más precisa empleando el
+   muestreo aleatorio simple?
+
+    .. class:: underline
+
+        Si comparamos esta técnica de selección de muestras con el muestreo aleatorio
+        simple veremos que presenta algunas ventajas importantes. En primer lugar es más fá-
+        cil sacar una muestra sistemática que una aleatorio simple y generalmente se cometen
+        menos errores. Además, el muestreo sistemático parece ser más preciso que el aleatorio
+        simple. (Pag 71, Mod 9)
+
+
+
+
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
