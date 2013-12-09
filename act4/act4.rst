@@ -358,8 +358,10 @@ a) La hipótesis nula y la alternativa.
 b) ¿Cuáles son los valores críticos para esta regla de decisión en términos de
    una distribución normal estandarizada?
 
-    - :math:`p_{1}^* = 0.4 - Z \times \frac{\sqrt{0.4 \times 0.6}}{\sqrt{100}}`
-    - :math:`p_{1}^* = 0.6 + Z \times \frac{\sqrt{0.4 \times 0.6}}{\sqrt{100}}`
+.. math::
+
+    p_{1}^* = 0.4 - Z \times \frac{\sqrt{0.4 \times 0.6}}{\sqrt{100}}
+    p_{2}^* = 0.6 + Z \times \frac{\sqrt{0.4 \times 0.6}}{\sqrt{100}}
 
 
 |hamster| Actividad nro. 10
@@ -811,12 +813,12 @@ a) Se toma el mismo número de libros de cada sección.
 
 b) Se toma un número de libros proporcional al tamaño de la sección.
 
-- :math:`n_{i} = n \times \frac{N_{i}}{N}`
-- :math:`n_{1} = 25`
-- :math:`n_{2} = 43`
-- :math:`n_{3} = 60`
-- :math:`n_{4} = 35`
-- :math:`n_{5} = 37`
+    - :math:`n_{i} = n \times \frac{N_{i}}{N}`
+    - :math:`n_{1} = 25`
+    - :math:`n_{2} = 43`
+    - :math:`n_{3} = 60`
+    - :math:`n_{4} = 35`
+    - :math:`n_{5} = 37`
 
 .. =============================================================================
 .. FOOTER
