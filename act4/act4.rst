@@ -552,6 +552,32 @@ establecimiento con un intervalo de confianza del 95%.
 
         P(88.25 \leq \mu \leq 91.75) = 0.95
 
+
+|hamster| Actividad nro. 15
+---------------------------
+
+Un productor de fertilizantes desea controlar el buen embolsado de sus
+productos. Para ello toma una muestra aleatoria de 15 bolsas obteniendo una
+desviación estándar de 0,50 kg.
+
+¿Qué varianza se estima que tendrá la producción total con un 98% de confianza?
+
+    .. math::
+
+        P( \frac{(n-1) \times s^2)}{\chi^2_{(n-1);(1-\alpha/2)}}
+           \leq \sigma^2 \leq
+           \frac{(n-1) \times s^2)}{\chi^2_{(n-1);(\alpha/2)}} ) = 1 - \alpha
+
+    .. math::
+
+        P( \frac{14 \times 0.25}{29.1} \leq \sigma^2 \leq \frac{14 \times 0.25}{4.7} ) = 0.98
+
+    .. math::
+
+        P(0.12 \leq \sigma^2 \leq 0.74) = 0.98
+
+
+
 .. =============================================================================
 .. FOOTER
 .. =============================================================================
