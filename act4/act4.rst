@@ -698,6 +698,32 @@ Hipotesis:
     Con una confianza del 95% se debe despedir al repartidor
 
 
+|hamster| Actividad nro. 18
+---------------------------
+
+Un experto, basado en anteriores comicios, sostiene que si se celebran
+elecciones generales en este momento, tan solo acudiría a votar el 48% de
+la población. No obstante, en un sondeo electoral realizado recientemente
+entre 1.500 personas, 800 tienen intención de votar. ¿Supone esto, con un
+nivel de confianza del 99%, que el experto se equivoca y la intención de
+voto es mayor?
+
+- H0) P = 48
+- H1) P :math:`\neq` 48
+
+- :math:`P_{0} = 0.48`
+- :math:`p=\frac{800}{1500}=0.54`
+- :math:`n=1500`
+- :math:`1-\alpha = 0.99`
+- :math:`p_{1}^* = 0.48 + 1.645 \times 0.013 = 0.45`
+- :math:`p_{2}^* = 0.48 - 1.645 \times 0.013 = 0.5`
+- :math:`< p_{2}* < p < p_{2}*`
+
+.. class:: underline
+
+    El experto no se equivoca.
+
+
 
 
 .. =============================================================================
