@@ -577,6 +577,77 @@ desviación estándar de 0,50 kg.
         P(0.12 \leq \sigma^2 \leq 0.74) = 0.98
 
 
+|hamster| Actividad nro. 16
+---------------------------
+
+
+Se desea estudiar la proporción de votantes que están a favor de realizar un
+convenio con una empresa internacional para la provisión de energía eléctrica.
+
+a) En una muestra de 200 participantes en la votación se encuentra que
+  114 están a favor de la firma del convenio. Estime, con un nivel de
+  confianza del 95%, la verdadera proporción en toda la ciudad que está a favor
+  de dicho convenio.  Interprete el resultado.
+
+    .. math::
+
+        p = \frac{114}{200} = 0.57
+
+    .. math::
+
+        n = 200
+
+    .. math::
+
+        1 - \alpha = 0.95 \to alpha = 0.05
+
+    .. math::
+
+        \frac{\alpha}{2} = 0.025 \to Z_{\frac{\alpha}{2}} = -1.96
+
+    .. math::
+
+        1 - \frac{\alpha}{2} = 0.025 \to Z_{1 - \frac{\alpha}{2}} = 1.96
+
+    .. math::
+
+        P( p - Z_{1 - \frac{\alpha}{2}} \sqrt{\frac{p \times (1 - p)}{n}}
+        \leq P \leq
+        P( p - Z_{\frac{\alpha}{2}} \sqrt{\frac{p \times (1 - p)}{n}}
+        = 1 - \alpha
+
+    .. math::
+
+        P(0.57 - 0.07 \leq P \leq 0.57 + 0.07) = 0.95
+
+    .. math::
+
+        P(0.5 \leq P \leq 0.64) = 0.95
+
+
+b) Calcule la magnitud del error de estimación.
+
+    .. math::
+
+        e = b - a = 0.64 - 0.5 = 0.1372
+
+
+c) Si se desea que el porcentaje de votantes a favor en la muestra difiera del
+   verdadero valor del parámetro poblacional en no más del 5%.
+   ¿Qué tamaño debería tener la muestra?
+
+
+    .. math::
+
+        b - a = 0.05
+
+    .. math::
+
+        n = \frac{Z^2 \times p \times q}{e^2}
+
+    .. math::
+
+        n = \frac{1.96^2 \times 0.57}{0.0025} = 875.88  \approx 876
 
 .. =============================================================================
 .. FOOTER
