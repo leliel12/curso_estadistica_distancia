@@ -757,9 +757,36 @@ c) El establecimiento ha encargado el estudio a un especialista y en su
    frase. ¿Significa que el establecimiento debe concluir que sus ventas
    disminuyeron, o es lo contrario?
 
-    .. class::
+    .. class:: underline
 
         Significa que no hay que rechazar H0
+
+
+|hamster| Actividad nro. 20
+---------------------------
+
+Según la ley electoral de cierto país, para obtener representación
+parlamentaria un partido político ha de conseguir, en las elecciones
+correspondientes, al menos el 5% de los votos. Antes de efectivizarse tales
+elecciones, una encuesta realizada sobre 1.000 ciudadanos elegidos al azar
+revela que 36 de ellos votaran al partido P.
+
+¿Puede estimarse, con un nivel de significación del 5%, que P obtendrá
+representación parlamentaria?
+
+- H0) :math:`P \geq 0.05`
+- H1) :math:`P < 0.05`
+
+- :math:`P_{0} = 0.05`
+- :math:`n=1000`
+- :math:`p=0.036`
+- :math:`\alpha = 0.05`
+- :math:`p^* = 0.05 - 1.645 \times \frac{\sqrt{0.05 \times (1-0.05)}}{\sqrt{1000}} = 0.038`
+- :math:`p < p^*`
+
+.. class:: underline
+
+    P no obtendra representación parlamentaria
 
 
 
