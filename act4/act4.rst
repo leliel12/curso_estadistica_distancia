@@ -351,12 +351,15 @@ Plantee:
 
 a) La hipótesis nula y la alternativa.
 
-    - H0) :math:`40 \leq P \leq 60`
-    - H1) :math:`P < 40  o P > 60`
+    - H0) :math:`0.40 \leq P \leq 0.60`
+    - H1) :math:`P < 0.40  o P > 0.60`
 
 
 b) ¿Cuáles son los valores críticos para esta regla de decisión en términos de
    una distribución normal estandarizada?
+
+    - :math:`p_{1}^* = 0.4 - Z \times \frac{\sqrt{0.4 \times 0.6}}{\sqrt{100}}`
+    - :math:`p_{1}^* = 0.6 + Z \times \frac{\sqrt{0.4 \times 0.6}}{\sqrt{100}}`
 
 
 |hamster| Actividad nro. 10
