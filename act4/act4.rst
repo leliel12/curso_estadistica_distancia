@@ -789,6 +789,31 @@ representación parlamentaria?
     P no obtendra representación parlamentaria
 
 
+|hamster| Actividad nro. 21
+---------------------------
+
+Una biblioteca pública está organizada en 5 secciones, y el número de libros
+de cada sección viene dado por la tabla:
+
+.. csv-table::
+    :header-rows: 1
+    :file: static/table21.csv
+
+
+a) Se toma el mismo número de libros de cada sección.
+
+- :math:`N = 4000`
+- :math:`n=N \times 0.05 = 200`
+- :math:`n_{i} = \frac{200}{5} = 40`
+
+b) Se toma un número de libros proporcional al tamaño de la sección.
+
+- :math:`n_{i} = n \times \frac{N_{i}}{N}`
+- :math:`n_{1} = 25`
+- :math:`n_{2} = 43`
+- :math:`n_{3} = 60`
+- :math:`n_{4} = 35`
+- :math:`n_{5} = 37`
 
 .. =============================================================================
 .. FOOTER
