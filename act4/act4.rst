@@ -717,12 +717,49 @@ voto es mayor?
 - :math:`1-\alpha = 0.99`
 - :math:`p_{1}^* = 0.48 + 1.645 \times 0.013 = 0.45`
 - :math:`p_{2}^* = 0.48 - 1.645 \times 0.013 = 0.5`
-- :math:`< p_{2}* < p < p_{2}*`
+- :math:`< p_{1}^* < p < p_{2}^*`
 
 .. class:: underline
 
     El experto no se equivoca.
 
+
+|hamster| Actividad nro. 19
+---------------------------
+
+En los últimos tiempos,  las ventas medias  en  un comercio  rondaban los
+$1.200 diarios. Sin embargo, hace unos meses se abrió un centro comercial
+cerca del mismo. El establecimiento defiende que las ventas medias se mantienen,
+o incluso, han aumentado, pero que no han disminuido. Para contrastar
+estadísticamente este supuesto se ha seleccionado una muestra de las ventas
+diarias realizadas después de la apertura del centro comercial.
+
+a) Establecer la hipótesis nula y alternativa.
+
+.. class:: underline
+
+    - H0) :math:`mu >= 1200`
+    - H1) :math:`mu < 1200`
+
+a) ¿Qué nombre recibe la probabilidad de que el establecimiento concluya
+   erróneamente que las ventas medias han disminuido? Explique cómo se
+   denomina y en que consiste el otro error posible.
+
+    .. class:: underline
+
+        Es el herror tipo 1, se representa con :math:`\alpha` o nivel de
+        significación del test. El otro error consiste en no concluir que la
+        media disminuyó cuando si lo hizo (:math:`\beta`)
+
+c) El establecimiento ha encargado el estudio a un especialista y en su
+   informe afirma textualmente que "el valor obtenido al realizar el contraste
+   es significativo", pero el establecimiento no entiende el significado de la
+   frase. ¿Significa que el establecimiento debe concluir que sus ventas
+   disminuyeron, o es lo contrario?
+
+    .. class::
+
+        Significa que no hay que rechazar H0
 
 
 
