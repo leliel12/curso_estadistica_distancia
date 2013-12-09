@@ -580,7 +580,6 @@ desviación estándar de 0,50 kg.
 |hamster| Actividad nro. 16
 ---------------------------
 
-
 Se desea estudiar la proporción de votantes que están a favor de realizar un
 convenio con una empresa internacional para la provisión de energía eléctrica.
 
@@ -648,6 +647,58 @@ c) Si se desea que el porcentaje de votantes a favor en la muestra difiera del
     .. math::
 
         n = \frac{1.96^2 \times 0.57}{0.0025} = 875.88  \approx 876
+
+
+|hamster| Actividad nro. 17
+---------------------------
+
+El propietario de una pizzería sospecha que su repartidor esta utilizando la
+moto del reparto para uso propio. Sabe, por experiencias anteriores, que el
+recorrido diario de la moto sigue una distribución normal de media 14 km. y
+desviación estándar 2 km.
+
+Decide comprobar sus sospechas y para ello contabiliza los kilómetros
+recorridos por la moto durante 10 días y obtiene: 14,5, 17, 16, 15, 12,5, 19, 14, 16,5, 15,5, 17 (km.).
+
+¿Debe despedir al repartidor?
+
+.. math::
+
+    \overline{x} = 15.7
+
+.. math::
+
+    n = 10 \to n-1 = 9
+
+.. math::
+
+    \sigma = 2
+
+Fijo nivel de confianza en 95%  :math:`1 - \alpha = 0.95`
+
+Hipotesis:
+
+    - H0) :math:`\mu > 14` (se despide al repartidor)
+    - H1) :math:`\mu <= 14` (no se despide al repartidor)
+
+    .. math::
+
+        \overline{x}^* = \mu_{0} + t_{(n-1);(1-\alpha)} \times \frac{\sigma}{\sqrt{n}}
+
+    .. math::
+
+        \overline{x}^* = 14 + 1.833 \times \frac{2}{\sqrt{10}} = 15.16
+
+    .. math::
+
+        15.7 > 15.16
+
+.. class:: underline
+
+    Con una confianza del 95% se debe despedir al repartidor
+
+
+
 
 .. =============================================================================
 .. FOOTER
