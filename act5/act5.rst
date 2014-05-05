@@ -37,18 +37,87 @@ ACTIVIDADES INTEGRADORAS  - MÓDULOS  X, XI y XII
 
 a. Describa situaciones donde es conveniente utilizar la metodología conocida
    como test de comparación de medias en dos muestras apareadas.
+
+    .. class:: underline
+
+        El objetivo del apareamiento consiste en hacer más precisa la
+        comparación entre los tratamientos, teniendo en cuenta que los miembros
+        del par sean lo más parecido posible y que la única diferencia que se
+        encuentre en las mediciones efectuadas sobre ellos se deba
+        exclusivamente al tratamiento en estudio.
+
 b. ¿Cuáles son los supuestos que se deben establecer para aplicar un test t
    de comparación de medias en el caso de muestras independientes y muestras
    dependientes?
+
+    .. class:: underline
+
+        **Muestras independientes**
+
+        1. Los errores :math:`e_{i}` se distribuyen normalmente con media 0
+           y varianza :math:`{\sigma^2}_{e}`
+        2. Las variables :math:`t_{j}` y :math:`e_{i}` deben ser variables
+           no correlacionadas.
+        3. Igualdad de varianzas para los dos grupos en estudio.
+
+        **Muestras dependientes o apareadas**
+
+        1. Los errores ei se distribuyen normalmente con media 0 y varianza
+           :math:`{\sigma^2}_{\theta}`
+        2. Las variables :math:`t_{j}` y :math:`e_{i}` deben ser variables
+           no correlacionadas.
+
 c. ¿Cuándo se deben comparar más de dos medias?, ¿por qué es conveniente
    utilizar la metodología conocida como análisis de la varianza y no
    realizar comparaciones de a pares de medias por medio de tests t?
+
+   .. class:: underline
+
+        Cuando el investigador desea comparar varias poblaciones,
+        la primera idea que puede surgir es la de efectuar todas las
+        comparaciones  posibles considerando las medias de a pares.
+        Es decir, si compara, por ejemplo, 5 marcas de herbicida, digamos A,
+        B, C,  D y E, podría efectuar las comparaciones de la siguiente manera:
+
+        :math:`\mu_{A} - \mu_{B}, \mu_{A} - \mu_{C} , \mu_{A} - \mu_{D} , \mu_{B} - \mu_{C} , \mu_{B} - \mu_{D}` , etc.
+
+        Luego, si el investigador cuenta con 5 muestras, deberá realizar 10
+        test o tantos como :math:`{C^2}_{5} = 10`.
+
+        Pero, aunque el investigador se tome el trabajo de realizar 10 test de
+        hipótesis no podría generalizar simultáneamente sus resultados a las
+        5 poblaciones de las cuales se extrajeron las muestras.
+
+        Puede demostrarse que este tedioso procedimiento conduce a conclusiones
+        erróneas.
+
 d. ¿Por qué en el análisis de la varianza se utiliza un test F de comparación
    de varianzas cuando la hipótesis a probar está referida a la igualdad de
    medias poblacionales?
+
+   .. class:: underline
+
+        Devido a que la característica, tal vez más importante, del
+        análisis de la varianza es que mediante este procedimiento
+        "inferimos" la igualdad de medias a través de la igualdad de varianzas
+
+
 e. ¿Qué diferencias presentan los Modelos I y II del análisis de la varianza?
+
+   .. class:: underline
+
+        Cuando el ANOVA considera fectos fijados por el investigador, el
+        análisis se denomina ANOVA Modelo I.
+
+        Por otro lado el ANOVA Modelo II en el que los efectos añadidos
+        para cada grupo no son tratamientos fijados deliberadamente por el
+        investigador sino efectos aleatorios.
+
 f. En un modelo de análisis de la varianza, ¿cuál es la variable dependiente y
    cuál la variable independiente?
+
+
+
 g. ¿Cuáles son los supuestos a considerar en un Modelo I de análisis de la
    varianza y en un Modelo II?
 
