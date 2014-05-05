@@ -113,13 +113,39 @@ e. ¿Qué diferencias presentan los Modelos I y II del análisis de la varianza?
         para cada grupo no son tratamientos fijados deliberadamente por el
         investigador sino efectos aleatorios.
 
+
 f. En un modelo de análisis de la varianza, ¿cuál es la variable dependiente y
    cuál la variable independiente?
 
+   .. class:: underline
+
+        - :math:`t_{j}` es la variable dependiente.
+        - :math:`e_{ij}` es la variable independiente.
 
 
 g. ¿Cuáles son los supuestos a considerar en un Modelo I de análisis de la
    varianza y en un Modelo II?
+
+    .. class:: underline
+
+        **Modelo I**
+
+        1. :math:`\mu` es constante para todos los tratamientos y todas las
+           mediciones. La componente :math:`\mu` en el Modelo I es una
+           componente desconocida.
+        2. :math:`t_{j}` es constante para todas las mediciones dentro de un
+           nivel de tratamiento pero puede diferir para otros niveles de
+           tratamiento.
+        3. :math:`e_{ij}` es una variable aleatoria distribuida normal e
+           independientemente con media 0 y varianza constante
+           :math:`\sigma^2` para todo j.
+
+        **Modelo II**
+
+        Los supuestos del modelo estadístico son los mismos que se han
+        explicado en el caso de Modelo I. La única distinción es que se ha
+        agregado ahora el supuesto de que la variable aleatoria se
+        distribuye normalmente con media 0 y varianza :math:`{\sigma^2}_{a}`
 
 
 .. =============================================================================
