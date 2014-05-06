@@ -6,7 +6,7 @@
 .. role:: strike
 
 .. |hamster| image:: imgs/hamster.png
-                :scale: 15 %
+    :scale: 15 %
 
 
 .. =============================================================================
@@ -30,6 +30,10 @@ ACTIVIDADES INTEGRADORAS  - MÓDULOS  X, XI y XII
 :DNI: 28818383
 :Email: jbc.develop@gmail.com
 
+**NOTA:** Todos los calculos estan realizados con PSPP
+(https://www.gnu.org/software/pspp/) la alternativa libre SPSS. El proyecto
+esta apadrinado por la FSF (http://www.fsf.org/) los mismos que transformaron
+el desconocido Lenguaje S en el famoso Lenguaje R.
 
 
 |hamster| Actividad nro. 1
@@ -38,7 +42,7 @@ ACTIVIDADES INTEGRADORAS  - MÓDULOS  X, XI y XII
 a. Describa situaciones donde es conveniente utilizar la metodología conocida
    como test de comparación de medias en dos muestras apareadas.
 
-    .. class:: underline
+   .. class:: underline
 
         El objetivo del apareamiento consiste en hacer más precisa la
         comparación entre los tratamientos, teniendo en cuenta que los miembros
@@ -50,7 +54,7 @@ b. ¿Cuáles son los supuestos que se deben establecer para aplicar un test t
    de comparación de medias en el caso de muestras independientes y muestras
    dependientes?
 
-    .. class:: underline
+   .. class:: underline
 
         **Muestras independientes**
 
@@ -126,7 +130,7 @@ f. En un modelo de análisis de la varianza, ¿cuál es la variable dependiente 
 g. ¿Cuáles son los supuestos a considerar en un Modelo I de análisis de la
    varianza y en un Modelo II?
 
-    .. class:: underline
+   .. class:: underline
 
         **Modelo I**
 
@@ -146,6 +150,45 @@ g. ¿Cuáles son los supuestos a considerar en un Modelo I de análisis de la
         explicado en el caso de Modelo I. La única distinción es que se ha
         agregado ahora el supuesto de que la variable aleatoria se
         distribuye normalmente con media 0 y varianza :math:`{\sigma^2}_{a}`
+
+
+|hamster| Actividad nro. 2
+--------------------------
+
+Un grupo de 4 pares de hermanos gemelos se los dividió en dos grupos. A uno
+de los hermanos se les enseñó una técnica nueva para resolver ciertos
+problemas matemáticos y al otro grupo se les aplicó la técnica estándar que
+se venía utilizando. Los resultados en un examen realizado después de cierto
+tiempo de aprendizaje fueron los siguientes:
+
+ .. csv-table::
+     :header-rows: 1
+
+         Técnica estándar, Técnica nueva
+         63, 62
+         75, 80
+         60,71
+         85, 92
+
+¿Qué puede decir acerca de los resultados obtenidos en cada uno de los grupos
+considerados?
+
+.. figure:: figs/act2.png
+    :align: center
+    :scale: 100 %
+
+    Salida de PSPP
+
+.. class:: underline
+
+    Calculando T'=14 y T''=22 se rechaza la hipotesis nula  con lo cual
+    concluimos que la técnica nueva genera una diferencia en el rendimiento
+    a la técnica estandar.
+
+
+
+
+
 
 
 .. =============================================================================
