@@ -231,7 +231,7 @@ comprensión se asignaron al azar 22 niños.
 
 Los puntajes obtenidos fueron los siguientes:
 
-.. csv-table:: <TITLE>
+.. csv-table:: Datos
     :header-rows: 1
 
     Basal,DRTA,Estrategias
@@ -278,6 +278,124 @@ aprendidos en el estudio del análisis de la varianza.
 
     El último gráfico demuestra que se cumple el supuesto de independencia de
     errores. Ya que los valores no presentan un patrón en distribución.
+
+
+|hamster| Actividad nro. 5
+--------------------------
+
+Los siguientes datos se refieren a una información ampliada del estudio de
+métodos de lectura considerado en la actividad anterior. A los alumnos de cada
+grupo se les tomaron 5 pretest cuyos puntajes se dan a continuación.
+
+- B: Basal
+- D: DRTA
+- E: Estrategias
+
+.. csv-table:: Datos
+    :header-rows: 1
+
+    Grupo,Pretest 1,Pretest 2,Pretest 3,Pretest 4,Pretest 5
+    B,4,3,5,4,1
+    B,6,5,9,5,1
+    B,9,4,5,3,3
+    B,12,6,8,5,6
+    B,16,5,10,9,6
+    B,15,13,9,8,5
+    B,14,8,12,5,5
+    B,12,7,5,5,2
+    B,12,3,8,7,3
+    B,8,8,7,7,9
+    B,13,7,12,4,2
+    B,9,2,4,4,5
+    B,12,5,4,6,9
+    B,12,2,8,8,4
+    B,12,2,6,4,6
+    B,10,10,9,10,9
+    B,8,5,3,3,10
+    B,12,5,5,5,5
+    B,11,3,4,5,6
+    B,8,4,2,3,10
+    B,7,3,5,4,4
+    B,9,6,7,8,2
+    D,7,2,7,6,1
+    D,7,6,5,6,10
+    D,12,4,13,3,8
+    D,10,1,5,7,10
+    D,16,8,14,7,2
+    D,15,7,14,6,8
+    D,9,6,10,9,9
+    D,8,7,13,5,3
+    D,13,7,12,7,8
+    D,12,8,11,6,3
+    D,7,6,8,5,5
+    D,6,2,7,0,5
+    D,8,4,10,6,7
+    D,9,6,8,6,3
+    D,9,4,8,7,7
+    D,8,4,10,11,10
+    D,9,5,12,6,4
+    D,13,6,10,6,1
+    D,10,2,11,6,9
+    D,8,6,7,8,7
+    D,8,5,8,8,9
+    D,10,6,12,6,9
+    E,11,7,11,12,3
+    E,7,6,4,8,7
+    E,4,6,4,10,1
+    E,7,2,4,4,9
+    E,7,6,3,9,3
+    E,6,5,8,5,5
+    E,11,5,12,8,10
+    E,14,6,14,12,8
+    E,13,6,12,11,9
+    E,9,5,7,11,2
+    E,12,3,5,10,8
+    E,13,9,9,9,2
+    E,4,6,1,10,4
+    E,13,8,13,1,8
+    E,6,4,7,9,1
+    E,12,3,5,13,3
+    E,6,6,7,9,4
+    E,11,4,11,7,8
+
+a) Compare los puntajes promedios del pretest 1 y del pretest 2 para los
+   alumnos considerados en el grupo basal.
+
+   .. figure:: figs/act5a.png
+       :align: center
+       :scale: 100 %
+
+       PSPP Output
+
+
+
+b) Compare los puntajes promedios del pretest 2 y del pretest 3 para los
+   alumnos considerados en el grupo DRTA.
+
+   .. figure:: figs/act5b.png
+       :align: center
+       :scale: 100 %
+
+       PSPP Output
+
+c) Compare los puntajes promedios del pretest 3 y del pretest 5 para el grupo
+   estrategias.
+
+   .. figure:: figs/act5c.png
+       :align: center
+       :scale: 100 %
+
+       PSPP Output
+
+
+d) Compare los puntajes promedios del pretest 2 y del pretest 4 para el grupo
+   basal.
+
+   .. figure:: figs/act5d.png
+       :align: center
+       :scale: 100 %
+
+       PSPP Output
 
 .. ============================================================================
 .. ANEXOS
