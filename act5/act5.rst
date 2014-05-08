@@ -358,6 +358,7 @@ grupo se les tomaron 5 pretest cuyos puntajes se dan a continuación.
     E,6,6,7,9,4
     E,11,4,11,7,8
 
+
 a) Compare los puntajes promedios del pretest 1 y del pretest 2 para los
    alumnos considerados en el grupo basal.
 
@@ -378,6 +379,7 @@ b) Compare los puntajes promedios del pretest 2 y del pretest 3 para los
 
        PSPP Output
 
+
 c) Compare los puntajes promedios del pretest 3 y del pretest 5 para el grupo
    estrategias.
 
@@ -396,6 +398,75 @@ d) Compare los puntajes promedios del pretest 2 y del pretest 4 para el grupo
        :scale: 100 %
 
        PSPP Output
+
+
+|hamster| Actividad nro. 6 (OPTATIVA)
+-------------------------------------
+
+Un organismo dedicado a la actividad forestal desea determinar el efecto que
+producen tres métodos de preparación del terreno sobre el crecimiento de pinos
+en el primer año.
+
+Para llevar a cabo la experiencia se seleccionaron 4 localidades y en cada una
+de ellas se tomó un terreno al que se dividió en tres parcelas. Como se
+esperaba que la fertilidad del suelo fuese más homogénea dentro de cada
+localidad que entre las localidades, se utilizó un diseño en bloques
+aleatorizados tomando las distintas localidades como bloques.
+
+Los métodos de preparación del terreno fueron:
+
+- **Método A:** ninguna preparación
+- **Método B:** preparación ligera
+- **Método C:** preparación fuerte
+
+Las preparaciones del terreno fueron aplicadas al azar a las parcelas dentro
+de cada localidad. En cada parcela se sembró la misma cantidad de árboles y
+se observó su crecimiento promedio durante el primer año.
+
+Los resultados obtenidos fueron:
+
+.. csv-table:: Datos
+    :header-rows: 1
+
+    Preparación del terreno,Localidad 1,Localidad 2,Localidad 3,Localidad 4
+    A,11,13,16,10
+    B,15,17,20,12
+    C,10,15,13,10
+
+
+a) Proporcionan los datos suficiente evidencia que indique que hay diferencias
+   entre los crecimientos medios correspondientes a las tres preparaciones del
+   terreno?
+b) Obtenga todas las conclusiones posibles del estudio.
+
+
+|hamster| Actividad nro. 7 (OPTATIVA)
+-------------------------------------
+
+El Departamento de Control de Calidad de una fábrica dedicada a la confección
+de camisas de hombres desea estudiar el efecto de dos factores sobre el teñido
+de camisas de fibra sintética.
+
+Los factores en estudio fueron:
+
+- **Temperatura**: 300 "C y 350 "C
+- **Tiempo del ciclo**: 40, 50 y 60 minutos
+
+En cada combinación de los factores se analizaron 9 muestras de tejido y se
+evaluó la calidad del teñido, asignando un índice de acuerdo a la comparación
+con una calidad de teñido estándar.
+
+Los resultados obtenidos fueron:
+
+.. image:: figs/datos_act8.png
+    :align: center
+    :scale: 100 %
+
+Efectúe un análisis conveniente de los datos y obtenga todas las conclusiones
+posibles.
+
+
+
 
 .. ============================================================================
 .. ANEXOS
