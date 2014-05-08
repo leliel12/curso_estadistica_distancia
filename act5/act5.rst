@@ -214,8 +214,25 @@ almacenamiento. Los datos registrados durante 10 días fueron los siguientes:
     10,30,43,37,29,21
 
 a) ¿Qué conclusiones puede obtener de estos registros?
+
+.. figure:: figs/act3.png
+    :align: center
+    :scale: 100 %
+
+    Salida de PSPP
+
+.. class:: underline
+
+    No ve ninguna diferencia significativa entre las diferentes horas que
+    fueron tomadas las demoras.
+
 b) Explique detalladamente la metodología que utiliza y
    justifique su utilización.
+
+   Se decidio utilizar el modelo I de ANOVA. Ya que los días solamente se
+   usaron para enumerar las mediciones, y por lo que se describe ni siquiera
+   se menciona si esos diías fueron consecutivos o pertenecen a algun ciclo
+   importante.
 
 
 |hamster| Actividad nro. 4
