@@ -466,6 +466,35 @@ Efectúe un análisis conveniente de los datos y obtenga todas las conclusiones
 posibles.
 
 
+|hamster| Actividad nro. 8
+--------------------------
+
+Un investigador en biología está estudiando la evolución de la altura de
+plantas sometidas a una fertilización en particular. Efectuando un experimento
+en invernadero, siembra semillas de la planta en estudio en 9 macetas
+previamente acondicionadas. El investigador efectúa mediciones de la altura de
+cada planta (en cm.) a los 10, 15 y 20 días después de la germinación.
+
+Los resultados obtenidos fueron:
+
+.. csv-table:: DATOS
+    :header-rows: 1
+
+    Planta Nro.,10 días,15 días,20 días
+    1,"3,2","3,7","4,2"
+    2,"3,4","3,9","4,4"
+    3,3,"3,3","3,6"
+    4,"3,1","3,5",4
+    5,"3,5","3,9","4,3"
+    6,"3,3","3,7","4,1"
+    7,"3,2","3,3","3,6"
+    8,3,"3,1","3,5"
+    9,"3,6",4,"4,4"
+
+Aplique una metodología de análisis de la varianza conveniente para determinar
+si existen diferencias significativas entre los promedios de altura de plantas
+en los diferentes días considerados por el investigador.
+
 
 
 .. ============================================================================
