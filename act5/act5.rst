@@ -35,6 +35,21 @@ ACTIVIDADES INTEGRADORAS  - MÓDULOS  X, XI y XII
 por defecto tanto de SPSS como de PSPP.
 
 
+|hamster| Actividad nro. 1
+--------------------------
+
+a. Describa situaciones donde es conveniente utilizar la metodología conocida
+   como test de comparación de medias en dos muestras apareadas.
+
+   .. class:: underline
+
+        El objetivo del apareamiento consiste en hacer más precisa la
+        comparación entre los tratamientos, teniendo en cuenta que los miembros
+        del par sean lo más parecido posible y que la única diferencia que se
+        encuentre en las mediciones efectuadas sobre ellos se deba
+        exclusivamente al tratamiento en estudio.
+
+
 |hamster| Actividad nro. 2
 --------------------------
 
