@@ -30,11 +30,6 @@ ACTIVIDADES INTEGRADORAS  - MÓDULOS  X, XI y XII
 :DNI: 28818383
 :Email: jbc.develop@gmail.com
 
-**NOTA:** Todos los calculos estan realizados con PSPP
-(https://www.gnu.org/software/pspp/) la alternativa libre SPSS. El proyecto
-esta apadrinado por la FSF (http://www.fsf.org/) los mismos que transformaron
-el desconocido Lenguaje S en el famoso Lenguaje R.
-
 
 |hamster| Actividad nro. 1
 --------------------------
@@ -512,6 +507,14 @@ Aplique una metodología de análisis de la varianza conveniente para determinar
 si existen diferencias significativas entre los promedios de altura de plantas
 en los diferentes días considerados por el investigador.
 
+.. class:: underline
+
+    Se aplico ANOVA con dos factores con medias repetidas sobre la misma unidad
+    experimental. La salida de SPSS se adjunta como *Apéndice - Actividad 8*
+
+    Se obserba un crecimiento en las medias de los diferentes dias asi como
+    su desviación estándar. Por otro lado se observa que los individuos no
+    estan creciendo igual ya que el residuo es mucho menor que los efectos.
 
 
 .. ============================================================================
