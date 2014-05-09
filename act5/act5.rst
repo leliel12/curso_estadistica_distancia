@@ -31,6 +31,10 @@ ACTIVIDADES INTEGRADORAS  - MÓDULOS  X, XI y XII
 :Email: jbc.develop@gmail.com
 
 
+**Nota** Todos los test se ejecutaron con una cofianza de 0.95, que es el valor
+por defecto tanto de SPSS como de PSPP.
+
+
 |hamster| Actividad nro. 1
 --------------------------
 
@@ -595,6 +599,31 @@ Prueba efectividad de cada una de las dietas.
     variacion al momento del decenso del peso (la disminucion de peso fue mas
     uniforme en la dieta B en proporcion que la dieta A). Tambien la dieta
     B mostro un error mayor en sus estimaciones por ser de menor tamaño
+
+|hamster| Actividad nro. 10
+---------------------------
+
+En el módulo 1 del curso aparece una publicación titulada “Riesgo
+cardiovascular global de una población en un programa de prevención primaria”.
+En la página 4, aparece una tabla cuyo título es: Media y desviación estándar
+de parámetros evaluados en el total de la población según sexo. Pruebe si
+existen diferencias significativas en los parámetros promedios según sexo.
+
+En la página 7, aparece una tabla cuyo título es: Tabaquismo con respecto a
+riesgo cardiaco global. Pruebe si la proporción de pacientes con riesgo
+cardiaco medio es la misma en fumadores y no fumadores.
+
+.. class:: underline
+
+    **Primera Parte**
+
+    Se adjunta la salida de SPSS como apéndice 10A.
+
+    Con un enfoque de muestras apareadas en un anova de multiples factores
+    se verifa que no existe diferencias significativas, ni en cada factor
+    por separado (medidas y sexo) ni en la interaccion de los mismos. Todos
+    los valores de sig dan > a 0.05.
+
 
 
 
