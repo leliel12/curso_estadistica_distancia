@@ -470,7 +470,7 @@ con una calidad de teñido estándar.
 
 Los resultados obtenidos fueron:
 
-.. image:: figs/datos_act8.png
+.. image:: figs/datos_act7.png
     :align: center
     :scale: 100 %
 
@@ -515,6 +515,89 @@ en los diferentes días considerados por el investigador.
     Se obserba un crecimiento en las medias de los diferentes dias asi como
     su desviación estándar. Por otro lado se observa que los individuos no
     estan creciendo igual ya que el residuo es mucho menor que los efectos.
+
+
+|hamster| Actividad nro. 9
+--------------------------
+
+Los siguientes datos se obtuvieron en un estudio de nutrición donde se
+asignaron pacientes aleatoriamente a dos dietas alimenticias.
+
+.. csv-table:: DATOS
+    :header-rows: 1
+
+    Dieta,Peso inicial,Peso final,Dieta,Peso inicial,Peso final
+    A,"94,07","86,59",B,"88,02","84,12"
+    A,"96,79","93,08",B,"88,22","86,13"
+    A,"92,15","87,85",B,"103,45","101,21"
+    A,"92,3","86,83",B,"82,94","79,08"
+    A,"96,5","92,7",B,"89,71","86,19"
+    A,"83,11","76,8",B,"94,83","91,93"
+    A,"91,16","83,4",B,"81,93","78,97"
+    A,"90,81","86,74",B,"83,41","78,89"
+    A,"81,37","77,67",B,"73,59","69,76"
+    A,"89,81","85,7",B,"108,47","104,2"
+    A,"84,92","79,96",B,"72,67","70,01"
+    A,"84,43","79,8",B,"96,84","93,66"
+    A,"86,33","81,15",B,"88,48",87
+    A,"87,6","81,92",B,"89,57","87,24"
+    A,"81,08","76,32",B,"85,22","82,09"
+    A,"92,07","90,2",B,"103,76","102,24"
+    A,"81,14","73,34",B,"87,84","84,66"
+    A,"96,87","93,58",B,"91,5","88,95"
+    A,"99,59","92,36",B,"93,04","88,73"
+    A,"83,9","77,23",B,"92,14","88,07"
+    A,"89,41","85,45",B,"85,26","81,36"
+    A,"85,31","84,59",B,"89,42","86,64"
+    A,"89,25","84,89",B,"92,42","88,99"
+    A,"93,2","93,1",B,"93,13","89,73"
+    A,"89,17","86,87",B,"80,86","77,81"
+    A,"93,51","86,36",B,"88,75","85,93"
+    A,"88,85","83,24",B,"95,02","91,9"
+    A,"88,4","81,2",B,"92,29","91,28"
+    A,"82,45","77,18",B,"89,43","87,22"
+    A,"96,47","88,61",B,"93,32","89,77"
+    A,"99,48","94,67",B,"92,88","89,38"
+    A,"99,95","93,87",B,"89,88",88
+    A,"100,05","94,15",B,"82,25","80,81"
+    A,"87,33","82,17",B,"88,99","86,87"
+    A,"87,61","86,01",B,"82,07","79,74"
+    A,"89,28","83,78",,,
+    A,"89,72","83,56",,,
+    A,"95,57","89,58",,,
+    A,"97,71","91,35",,,
+    A,"98,78","97,82",,,
+
+Prueba efectividad de cada una de las dietas.
+
+.. class:: underline
+
+    Se procede con dos analisis de cada muestra por separado considerandolas
+    apareadas para verificar la efectividad de cada dieta.
+
+.. figure:: figs/act9a.png
+    :align: center
+    :scale: 100 %
+
+    Salida PSPP Dieta A
+
+
+.. figure:: figs/act9b.png
+    :align: center
+    :scale: 100 %
+
+    Salida PSPP Dieta B
+
+.. class:: underline
+
+    Se observa que ambas dietas muestran una diferencia significativa en el
+    cambio de peso de las personas. Sin embargo la dieta 8 mantiene menos
+    variacion al momento del decenso del peso (la disminucion de peso fue mas
+    uniforme en la dieta B en proporcion que la dieta A). Tambien la dieta
+    B mostro un error mayor en sus estimaciones por ser de menor tamaño
+
+
+
 
 
 .. ============================================================================
