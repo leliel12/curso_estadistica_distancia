@@ -31,8 +31,124 @@ ACTIVIDADES INTEGRADORAS  - MÓDULOS  X, XI y XII
 :Email: jbc.develop@gmail.com
 
 
-**Nota** Todos los test se ejecutaron con una confianza de 0.95, que es el valor
+**Nota** Todos los test se ejecutaron con una cofianza de 0.95, que es el valor
 por defecto tanto de SPSS como de PSPP.
+
+
+|hamster| Actividad nro. 1
+--------------------------
+
+a. Describa situaciones donde es conveniente utilizar la metodología conocida
+   como test de comparación de medias en dos muestras apareadas.
+
+   .. class:: underline
+
+        El objetivo del apareamiento consiste en hacer más precisa la
+        comparación entre los tratamientos, teniendo en cuenta que los miembros
+        del par sean lo más parecido posible y que la única diferencia que se
+        encuentre en las mediciones efectuadas sobre ellos se deba
+        exclusivamente al tratamiento en estudio.
+
+b. ¿Cuáles son los supuestos que se deben establecer para aplicar un test t
+   de comparación de medias en el caso de muestras independientes y muestras
+   dependientes?
+
+   .. class:: underline
+
+        **Muestras independientes**
+
+        1. Los errores :math:`e_{i}` se distribuyen normalmente con media 0
+           y varianza :math:`{\sigma^2}_{e}`
+        2. Las variables :math:`t_{j}` y :math:`e_{i}` deben ser variables
+           no correlacionadas.
+        3. Igualdad de varianzas para los dos grupos en estudio.
+
+        **Muestras dependientes o apareadas**
+
+        1. Los errores ei se distribuyen normalmente con media 0 y varianza
+           :math:`{\sigma^2}_{\theta}`
+        2. Las variables :math:`t_{j}` y :math:`e_{i}` deben ser variables
+           no correlacionadas.
+
+c. ¿Cuándo se deben comparar más de dos medias?, ¿por qué es conveniente
+   utilizar la metodología conocida como análisis de la varianza y no
+   realizar comparaciones de a pares de medias por medio de tests t?
+
+   .. class:: underline
+
+        Cuando el investigador desea comparar varias poblaciones,
+        la primera idea que puede surgir es la de efectuar todas las
+        comparaciones  posibles considerando las medias de a pares.
+        Es decir, si compara, por ejemplo, 5 marcas de herbicida, digamos A,
+        B, C,  D y E, podría efectuar las comparaciones de la siguiente manera:
+
+        :math:`\mu_{A} - \mu_{B}, \mu_{A} - \mu_{C} , \mu_{A} - \mu_{D} , \mu_{B} - \mu_{C} , \mu_{B} - \mu_{D}` , etc.
+
+        Luego, si el investigador cuenta con 5 muestras, deberá realizar 10
+        test o tantos como :math:`{C^2}_{5} = 10`.
+
+        Pero, aunque el investigador se tome el trabajo de realizar 10 test de
+        hipótesis no podría generalizar simultáneamente sus resultados a las
+        5 poblaciones de las cuales se extrajeron las muestras.
+
+        Puede demostrarse que este tedioso procedimiento conduce a conclusiones
+        erróneas.
+
+d. ¿Por qué en el análisis de la varianza se utiliza un test F de comparación
+   de varianzas cuando la hipótesis a probar está referida a la igualdad de
+   medias poblacionales?
+
+   .. class:: underline
+
+        Devido a que la característica, tal vez más importante, del
+        análisis de la varianza es que mediante este procedimiento
+        "inferimos" la igualdad de medias a través de la igualdad de varianzas
+
+
+e. ¿Qué diferencias presentan los Modelos I y II del análisis de la varianza?
+
+   .. class:: underline
+
+        Cuando el ANOVA considera fectos fijados por el investigador, el
+        análisis se denomina ANOVA Modelo I.
+
+        Por otro lado el ANOVA Modelo II en el que los efectos añadidos
+        para cada grupo no son tratamientos fijados deliberadamente por el
+        investigador sino efectos aleatorios.
+
+
+f. En un modelo de análisis de la varianza, ¿cuál es la variable dependiente y
+   cuál la variable independiente?
+
+   .. class:: underline
+
+        - :math:`t_{j}` es la variable dependiente.
+        - :math:`e_{ij}` es la variable independiente.
+
+
+g. ¿Cuáles son los supuestos a considerar en un Modelo I de análisis de la
+   varianza y en un Modelo II?
+
+   .. class:: underline
+
+        **Modelo I**
+
+        1. :math:`\mu` es constante para todos los tratamientos y todas las
+           mediciones. La componente :math:`\mu` en el Modelo I es una
+           componente desconocida.
+        2. :math:`t_{j}` es constante para todas las mediciones dentro de un
+           nivel de tratamiento pero puede diferir para otros niveles de
+           tratamiento.
+        3. :math:`e_{ij}` es una variable aleatoria distribuida normal e
+           independientemente con media 0 y varianza constante
+           :math:`\sigma^2` para todo j.
+
+        **Modelo II**
+
+        Los supuestos del modelo estadístico son los mismos que se han
+        explicado en el caso de Modelo I. La única distinción es que se ha
+        agregado ahora el supuesto de que la variable aleatoria se
+        distribuye normalmente con media 0 y varianza :math:`{\sigma^2}_{a}`
 
 
 |hamster| Actividad nro. 2
@@ -45,7 +161,7 @@ se venía utilizando. Los resultados en un examen realizado después de cierto
 tiempo de aprendizaje fueron los siguientes:
 
  .. csv-table::
-    :header-rows: 1
+     :header-rows: 1
 
     Técnica estándar, Técnica nueva
     63, 62
@@ -59,15 +175,15 @@ considerados?
 
 .. figure:: figs/act2.png
     :align: center
-    :scale: 50 %
+    :scale: 100 %
 
     Salida de PSPP
 
 .. class:: underline
 
-    Calculando T'=14 y T''=22 se rechaza la hipótesis nula  con lo cual
+    Calculando T'=14 y T''=22 se rechaza la hipotesis nula  con lo cual
     concluimos que la técnica nueva genera una diferencia en el rendimiento
-    a la técnica est'andar.
+    a la técnica estandar.
 
 
 |hamster| Actividad nro. 3
@@ -100,7 +216,7 @@ a) ¿Qué conclusiones puede obtener de estos registros?
 
 .. figure:: figs/act3.png
     :align: center
-    :scale: 150 %
+    :scale: 100 %
 
     Salida de PSPP
 
@@ -112,12 +228,10 @@ a) ¿Qué conclusiones puede obtener de estos registros?
 b) Explique detalladamente la metodología que utiliza y
    justifique su utilización.
 
-.. class:: underline
-
-    Se decidió utilizar el modelo I de ANOVA. Ya que los días solamente se
-    usaron para enumerar las mediciones, y por lo que se describe ni siquiera
-    se menciona si esos días fueron consecutivos o pertenecen a algún ciclo
-    importante.
+   Se decidio utilizar el modelo I de ANOVA. Ya que los días solamente se
+   usaron para enumerar las mediciones, y por lo que se describe ni siquiera
+   se menciona si esos diías fueron consecutivos o pertenecen a algun ciclo
+   importante.
 
 
 |hamster| Actividad nro. 4
@@ -171,9 +285,9 @@ aprendidos en el estudio del análisis de la varianza.
     Se observa poca variación entre los grupos concentrándose entre los
     valores ~9.2 y ~10.5
 
-    El segundo gráfico muestra la variabilidad en cada grupo. Siendo la
+    El segundo gráfico muestra la variabilid en cada grupo. Siendo la
     distribución más variable la de estrategias. Tanto Basal como DRTA tienen
-    una variación parecida pero DRTA es marcadamente asimétrica positiva.
+    una variación parecida pero DRTA es marcadamente asimétrica postiva.
 
     El tercer gráfico demuestra que se cumple el supuesto de normalidad de
     errores. Ya que los residuales se ubican aprox a 45°.
@@ -266,14 +380,10 @@ a) Compare los puntajes promedios del pretest 1 y del pretest 2 para los
 
    .. figure:: figs/act5a.png
        :align: center
-       :scale: 150 %
+       :scale: 100 %
 
        PSPP Output
 
-
-.. class:: underline
-
-    El promedio es superior en el ptest 1 es muy superior al 2.
 
 
 b) Compare los puntajes promedios del pretest 2 y del pretest 3 para los
@@ -281,14 +391,9 @@ b) Compare los puntajes promedios del pretest 2 y del pretest 3 para los
 
    .. figure:: figs/act5b.png
        :align: center
-       :scale: 150 %
+       :scale: 100 %
 
        PSPP Output
-
-
-.. class:: underline
-
-    El promedio es superior en el ptest 3 es muy superior al 2.
 
 
 c) Compare los puntajes promedios del pretest 3 y del pretest 5 para el grupo
@@ -296,14 +401,9 @@ c) Compare los puntajes promedios del pretest 3 y del pretest 5 para el grupo
 
    .. figure:: figs/act5c.png
        :align: center
-       :scale: 150 %
+       :scale: 100 %
 
        PSPP Output
-
-
-.. class:: underline
-
-    El promedio es superior en el ptest 3 es muy superior al 5.
 
 
 d) Compare los puntajes promedios del pretest 2 y del pretest 4 para el grupo
@@ -311,13 +411,9 @@ d) Compare los puntajes promedios del pretest 2 y del pretest 4 para el grupo
 
    .. figure:: figs/act5d.png
        :align: center
-       :scale: 150 %
+       :scale: 100 %
 
        PSPP Output
-
-.. class:: underline
-
-    No parece haber una diferencia significativa en los dos tests.
 
 
 |hamster| Actividad nro. 6 (OPTATIVA)
@@ -380,7 +476,7 @@ Los resultados obtenidos fueron:
 
 .. image:: figs/datos_act7.png
     :align: center
-    :scale: 200 %
+    :scale: 100 %
 
 Efectúe un análisis conveniente de los datos y obtenga todas las conclusiones
 posibles.
@@ -420,9 +516,9 @@ en los diferentes días considerados por el investigador.
     Se aplico ANOVA con dos factores con medias repetidas sobre la misma unidad
     experimental. La salida de SPSS se adjunta como *Apéndice - Actividad 8*
 
-    Se observa un crecimiento en las medias y el desvio estandat de los
-    Por otro lado se observa que los individuos no
-    están creciendo igual ya que el residuo es mucho menor que los efectos.
+    Se obserba un crecimiento en las medias de los diferentes dias asi como
+    su desviación estándar. Por otro lado se observa que los individuos no
+    estan creciendo igual ya que el residuo es mucho menor que los efectos.
 
 
 |hamster| Actividad nro. 9
@@ -480,19 +576,19 @@ Prueba efectividad de cada una de las dietas.
 
 .. class:: underline
 
-    Se procede con dos análisis de cada muestra por separado considerándolas
+    Se procede con dos analisis de cada muestra por separado considerandolas
     apareadas para verificar la efectividad de cada dieta.
 
 .. figure:: figs/act9a.png
     :align: center
-    :scale: 150 %
+    :scale: 100 %
 
     Salida PSPP Dieta A
 
 
 .. figure:: figs/act9b.png
     :align: center
-    :scale: 150 %
+    :scale: 100 %
 
     Salida PSPP Dieta B
 
@@ -500,9 +596,9 @@ Prueba efectividad de cada una de las dietas.
 
     Se observa que ambas dietas muestran una diferencia significativa en el
     cambio de peso de las personas. Sin embargo la dieta 8 mantiene menos
-    variación al momento del descenso del peso (la disminución de peso fue mas
-    uniforme en la dieta B en proporción que la dieta A). También la dieta
-    B mostró un error mayor en sus estimaciones por ser de menor tamaño
+    variacion al momento del decenso del peso (la disminucion de peso fue mas
+    uniforme en la dieta B en proporcion que la dieta A). Tambien la dieta
+    B mostro un error mayor en sus estimaciones por ser de menor tamaño
 
 |hamster| Actividad nro. 10
 ---------------------------
@@ -523,15 +619,15 @@ cardiaco medio es la misma en fumadores y no fumadores.
 
     Se adjunta la salida de SPSS como apéndice 10A.
 
-    Con un enfoque de muestras apareadas en un anova de múltiples factores
-    se verifica que no existe diferencias significativas, ni en cada factor
-    por separado (medidas y sexo) ni en la interacción de los mismos. Todos
+    Con un enfoque de muestras apareadas en un anova de multiples factores
+    se verifa que no existe diferencias significativas, ni en cada factor
+    por separado (medidas y sexo) ni en la interaccion de los mismos. Todos
     los valores de sig dan > a 0.05.
 
 
 .. figure:: figs/act10b.png
     :align: center
-    :scale: 160 %
+    :scale: 100 %
 
     Salida de PSPP para analisis de Wilcoxon y Mann-Withney
 
@@ -544,6 +640,35 @@ cardiaco medio es la misma en fumadores y no fumadores.
     no fumadores.
 
 
+
+
+.. ============================================================================
+.. ANEXOS
+.. ============================================================================
+
+Anexo 1
+-------
+
+.. image:: figs/anex11.png
+    :align: center
+    :scale: 100 %
+
+.. image:: figs/anex12.png
+    :align: center
+    :scale: 100 %
+
+.. image:: figs/anex13.png
+    :align: center
+    :scale: 100 %
+
+.. image:: figs/anex14.png
+    :align: center
+    :scale: 100 %
+
+
+
+
+
 .. ============================================================================
 .. FOOTER
 .. ============================================================================
@@ -552,4 +677,3 @@ cardiaco medio es la misma en fumadores y no fumadores.
 
     Los fuentes y cálculo de tablas se encuentran en:
     http://goo.gl/A1Tq4 - ###Page###
-
