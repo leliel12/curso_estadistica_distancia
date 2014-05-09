@@ -625,6 +625,19 @@ cardiaco medio es la misma en fumadores y no fumadores.
     los valores de sig dan > a 0.05.
 
 
+.. figure:: figs/act10b.png
+    :align: center
+    :scale: 100 %
+
+    Salida de PSPP para analisis de Wilcoxon y Mann-Withney
+
+
+.. class:: underline
+
+    **Segunda Parte**
+
+    Al parecer el riesgo medio es el mismo tanto en fumadores como
+    no fumadores.
 
 
 
