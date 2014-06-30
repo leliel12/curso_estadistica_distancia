@@ -95,6 +95,45 @@ d) Interprete el resultado.
     variables están muy correlacionadas.
 
 
+|hamster| Actividad nro. 2
+--------------------------
+
+En un estudio de hombres de 25 años y más a los cuales se les preguntó el
+último nivel educativo alcanzado, se obtuvieron los siguientes porcentajes:
+
+.. csv-table:: Datos
+    :header-rows: 1
+
+    Nivel educativo,%
+    Primario incompleto,18
+    Primario completo,17
+    Secundario incompleto,32
+    Secundario completo,13
+    Universitario incompleto,17
+    Universitario completo,3
+
+Después de 10 años de haber realizado este estudio, se seleccionó una muestra
+de 200 hombres de 25 años y más a los cuales se les pregunto lo mismo,
+obteniéndose los siguientes resultados:
+
+.. csv-table:: Datos
+    :header-rows: 1
+
+    Nivel educativo,Frecuencia
+    Primario incompleto,35
+    Primario completo,40
+    Secundario incompleto,83
+    Secundario completo,16
+    Universitario incompleto,26
+    Universitario completo,0
+
+El investigador desea saber si la distribución de hombres de 25 años o más
+por nivel de educación alcanzado, es la misma que la de hace 10 años atrás.
+
+¿Qué puede decir al respecto?
+
+
+
 .. ============================================================================
 .. FOOTER
 .. ============================================================================
