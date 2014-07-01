@@ -268,6 +268,24 @@ edad y el ingreso que percibe una persona de ese barrio.
     del intervalo de confianza
 
 
+|hamster| Actividad nro. 5
+--------------------------
+
+Los siguientes resultados corresponden a resultados de biopsias hepáticas
+según sexo del paciente:
+
+.. csv-table:: Sexo x Biopsia Epática
+    :header-rows: 1
+
+    Sexo,Esteatosis,Fibrosis,Hepatitis,Cirrosis,Total
+    Varón ,30,30,23,15,98
+    Mujer,45,24,47,24,140
+    Total,75,54,70,39,238
+
+¿Existe relación entre resultado de la biopsia hepática y el sexo? ¿Por qué?
+
+
+
 
 .. ============================================================================
 .. FOOTER
