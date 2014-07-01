@@ -183,6 +183,92 @@ partido político en particular? ¿Por qué?
     que ambas muestras son independientes (0.16 > 0.05).
 
 
+
+
+|hamster| Actividad nro. 4
+--------------------------
+
+Los siguientes datos reflejan la edad y el ingreso mensual (en $) de 33
+personas seleccionadas de un barrio de una ciudad:
+
+.. csv-table:: Datos
+    :header-rows: 1
+
+    Edad,Ingreso,Edad,Ingreso,Edad,Ingreso
+    20,1500,42,1900,61,1300
+    22,1300,47,1700,62,1400
+    23,1700,53,1300,65,900
+    28,1900,55,1800,67,700
+    35,1500,41,2100,72,700
+    24,2100,53,3900,65,2200
+    26,2600,57,2800,65,2400
+    29,2700,58,2200,69,2700
+    39,3100,58,2900,71,2200
+    31,1600,46,2700,69,900
+    37,1900,44,3500,62,2100
+
+A continuación se dan distintas salidas del programa SPSS:
+
+.. image:: figs/act41.png
+    :align: center
+    :scale: 50 %
+
+.. image:: figs/act42.png
+    :align: center
+    :scale: 50 %
+
+.. image:: figs/act43.png
+    :align: center
+    :scale: 50 %
+
+.. image:: figs/act44.png
+    :align: center
+    :scale: 50 %
+
+.. image:: figs/act45.png
+    :align: center
+    :scale: 50 %
+
+.. image:: figs/act46.png
+    :align: center
+    :scale: 50 %
+
+.. image:: figs/act47.png
+    :align: center
+    :scale: 50 %
+
+.. image:: figs/act48.png
+    :align: center
+    :scale: 50 %
+
+Analice convenientemente y realice un informe acerca de la relación entre la
+edad y el ingreso que percibe una persona de ese barrio.
+
+
+.. class:: underline
+
+    La varianza parece ser constante por que los puntos parecen distribuirse
+    aleatoriamiente en el diagrama de dispercion.
+
+    El coef de determinación cuadrado del segundo gráfico (0.016) determina
+    que un ajuste cuadrático de estos datos no representa muy bien los
+    los puntos establecidos.
+
+    El test de anova nos indica que debemos aceptar la hipotesis de que
+    la pendiente de la recta de regresión es 0.
+
+    Se rechaza  la hipotesis que ``alpha = 0`` y **no** se rechaza la
+    hipotesis que ``beta = 0``
+
+    Al parecer la distribucion de variables (por el análisis de residuales)
+    es normal, y se ovserva una mayor dispersión de las variables en valores
+    grandes.
+
+    En los ultimos dos casos se ve que los valores predichos cen siempre dentro
+    del intervalo de confianza
+
+
+
 .. ============================================================================
 .. FOOTER
 .. ============================================================================
