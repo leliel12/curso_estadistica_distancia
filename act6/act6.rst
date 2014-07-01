@@ -320,6 +320,26 @@ resultados obtenidos fueron:
 Calcule puntualmente y por medio de un intervalo del 95% el odds ratio
 correspondiente.
 
+.. math::
+
+    \psi = \frac{15 \times 450}{185 \times 24} = 1.52
+
+.. math::
+
+    ES(\ln{\psi}) = \sqrt{\frac{1}{15} + \frac{1}{185} + \frac{1}{24} + \frac{1}{450}} = 0.3405
+
+.. math::
+
+    Límite inferior = \ln{\psi} - 1.96 \times ES(\ln{\psi}) = 0.4189 - 1.96 \times 0.3405 = -0.25
+
+.. math::
+
+    Límite superior = \ln{\psi} + 1.96 \times ES(\ln{\psi}) = 0.4189 + 1.96 \times 0.3405 = -1.086
+
+
+
+
+
 
 .. ============================================================================
 .. FOOTER
