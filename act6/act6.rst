@@ -297,6 +297,28 @@ según sexo del paciente:
     no existe relación alguna.
 
 
+|hamster| Actividad nro. 6
+--------------------------
+
+En un estudio de casos y controles, se analizó la incidencia del cáncer de
+hígado en trabajadores de una fábrica de cloruro de vinilo, un gas que se
+utiliza para producir PVC.
+
+Se incluyeron 200 trabajadores que tuvieron exposición al cloruro de vinilo.
+El grupo control fue seleccionado de la misma fábrica, con historiales
+similares de tabaquismo pero sin exposición al cloruro de vinilo. Los
+resultados obtenidos fueron:
+
+.. csv-table:: Datos
+    :header-rows: 1
+
+    Exposición al cloruro,Con enfermedad,Sin enfermedad,Total
+    Expuesto,15,185,200
+    No expuesto,24,450,474
+    Total,39,635,674
+
+Calcule puntualmente y por medio de un intervalo del 95% el odds ratio
+correspondiente.
 
 
 .. ============================================================================
