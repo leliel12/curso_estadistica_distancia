@@ -132,11 +132,62 @@ por nivel de educación alcanzado, es la misma que la de hace 10 años atrás.
 
 ¿Qué puede decir al respecto?
 
+.. class:: underline
+
+    Primero pasamos la segunda tabla a porcentajes
+
+.. csv-table:: Datos 20 años después
+    :header-rows: 1
+
+    Nivel educativo,%
+    Primario incompleto,17.5
+    Primario completo,20
+    Secundario incompleto,41.5
+    Secundario completo,8.0
+    Universitario incompleto,13
+    Universitario completo,0.0
+
+.. class:: underline
+
+    Ingresamos esos valores a PSPP y adjuntamos la salida
+
+
+
+|hamster| Actividad nro. 3
+--------------------------
+
+Una encuesta de opinión política realizada a 980 personas en condición de
+votar, preguntó acerca de su preferencia por un partido político. Las
+respuestas por sexo de las personas fueron las siguientes:
+
+.. csv-table:: Sexo y Política
+    :header-rows: 1
+
+    Sexo,Radical,Justicialista,Otros
+    Mujer,279,225,73
+    Varón,165,191,47
+
+¿Existe asociación entre el sexo del votante y su preferencia por un
+partido político en particular? ¿Por qué?
+
+
+.. figure:: figs/act3.png
+    :align: center
+    :scale: 200 %
+
+    Salida PSPP
+
+.. class:: underline
+
+    Al parecer el test de Chi-cuadrado de Pearson devuelve un valor que indica
+    que ambas muestras son independientes (0.16 > 0.05).
 
 
 .. ============================================================================
 .. FOOTER
 .. ============================================================================
+
+.. #
 
 .. footer::
 
