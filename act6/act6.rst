@@ -284,6 +284,18 @@ según sexo del paciente:
 
 ¿Existe relación entre resultado de la biopsia hepática y el sexo? ¿Por qué?
 
+.. figure:: figs/act5.png
+    :align: center
+    :scale: 200 %
+
+    Salida de PSPP
+
+.. class:: underline
+
+    Al parecer dada la significancia del test que es superior a 0.05 concluimos
+    que el sexo y la biopsia hepática son independientes y por lo tanto
+    no existe relación alguna.
+
 
 
 
