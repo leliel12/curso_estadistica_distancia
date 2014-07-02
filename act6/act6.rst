@@ -337,7 +337,21 @@ correspondiente.
     Límite superior = \ln{\psi} + 1.96 \times ES(\ln{\psi}) = 0.4189 + 1.96 \times 0.3405 = -1.086
 
 
+|hamster| Actividad nro. 8
+--------------------------
 
+Establezca en qué situaciones de investigación es más apropiado trabajar con
+un modelo de análisis de la varianza y en cuál o cuáles, con un modelo de
+regresión. Fundamente su respuesta.
+
+.. class:: underline
+
+    Son dos tecnicas que sirven para dos cosas totalmente diferentes:
+    El analisis de varianza analiza una o mas variables de dos muestras
+    disintas buscando inferir si las mismas poseen caracteristicas similares;
+    por otro lado el análisis de regresión estudia la relacion que liga
+    dos variables para efectuar inferencias acerca de los cambios que se
+    producen en una de ellas cuando cambia la otra.
 
 
 
