@@ -354,6 +354,66 @@ regresión. Fundamente su respuesta.
     producen en una de ellas cuando cambia la otra.
 
 
+|hamster| Actividad nro. 9
+--------------------------
+
+Se desea estudiar la relación entre la dureza (y), el porcentaje de conténdo
+de cobre (x1) y la temperatura de templado (x2) en hojas de acero trabajadas
+en frío.
+
+Para ello se seleccionaron 12 hojas de acero, obteniéndose los siguientes
+resultados:
+
+.. csv-table:: Data
+    :header-rows: 1
+
+    "Dureza (Rockwell 30 – T)","Contenido de cobre (%)","Temp. de templado (º C)"
+    "78,9","0,02",1000
+    "65,1","0,02",1100
+    "55,2","0,02",1200
+    "56,4","0,02",1300
+    "80,9","0,1",1000
+    "69,7","0,1",1100
+    "57,4","0,1",1200
+    "55,4","0,1",1300
+    "85,3","0,18",1000
+    "71,8","0,18",1200
+    "60,7","0,18",1200
+    "58,9","0,18",1300
+
+A continuación se da la salida después de haber utilizado el programa SPSS.
+Interprete las conclusiones obtenidas en la experiencia.
+
+.. image:: figs/act81.png
+    :align: center
+    :scale: 50 %
+
+.. image:: figs/act82.png
+    :align: center
+    :scale: 50 %
+
+.. image:: figs/act83.png
+    :align: center
+    :scale: 50 %
+
+.. image:: figs/act84.png
+    :align: center
+    :scale: 50 %
+
+
+.. class:: underline
+
+    La primer tabla parece indicar que la regresion ajusta bien a los valores.
+
+    Se rechaza la hipotesis de que la pendiente de la recta es 0.
+
+    Tanto la dureza como el cobre y la temperatura parece ser que no estar
+    bien ajustados
+
+    La distribucion no es perfectamente normal y parece tener dos maximos (bimodal)
+
+
+
 
 .. ============================================================================
 .. FOOTER
