@@ -413,8 +413,6 @@ Interprete las conclusiones obtenidas en la experiencia.
     La distribucion no es perfectamente normal y parece tener dos maximos (bimodal)
 
 
-
-
 .. ============================================================================
 .. FOOTER
 .. ============================================================================
