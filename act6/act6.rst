@@ -470,6 +470,58 @@ c) Pruebe la significación del coeficiente.
     Se rechaza la hipotesis nula por que 6.35 > 2.161, el coeficiente no
     repreenta el ajuste
 
+|hamster| Actividad nro. 11
+---------------------------
+
+Un médico desea estudiar la relación entre el número de años que un paciente
+ha fumado (x) y la evaluación subjetiva efectuada por él, acerca del daño
+sufrido por los pulmones (y) en pacientes con enfisema pulmonar. La evaluación
+subjetiva se mide en una escala del 1 al 100.
+
+Los datos obtenidos de las correspondientes historias clínicas fueron:
+
+.. csv-table:: Datos
+    :header-rows: 1
+
+    Paciente,Años que ha fumado,Evaluación del daño pulmonar
+    1,25,55
+    2,36,60
+    3,22,50
+    4,15,30
+    5,48,75
+    6,39,70
+    7,42,70
+    8,31,70
+    9,28,30
+    10,33,35
+
+
+a) Grafique los datos en un diagrama de dispersión.
+
+.. figure:: figs/act1.png
+    :align: center
+    :scale: 100 %
+
+b) Estime la ecuación lineal de regresión.
+
+.. class:: underline
+
+    b = cov(x,y) / V(x) = 1,1643859049
+
+    a = avg(y) - b * avg(x) =
+
+
+
+
+c) Pruebe la significación de β.
+
+d) Estime el daño pulmonar para un paciente que ha fumado 20 años.
+   Efectúe la estimación puntualmente y por intervalos.
+
+e) Calcule el coeficiente de determinación R2 e interprete su resultado.
+
+
+
 
 .. ============================================================================
 .. FOOTER
