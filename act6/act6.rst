@@ -413,6 +413,64 @@ Interprete las conclusiones obtenidas en la experiencia.
     La distribucion no es perfectamente normal y parece tener dos maximos (bimodal)
 
 
+|hamster| Actividad nro. 10
+---------------------------
+
+Un Departamento de Control Policial desea efectuar un estudio para probar si
+dos métodos de medición de aliento de conductores sospechados de encontrarse
+alcoholizados producen resultados similares. Los métodos son especificados
+como A y B. Para llevar a cabo la prueba se seleccionaron al azar 15
+conductores a los que se les midió la concentración de alcohol en el aliento,
+utilizando los dos métodos en cuestión.
+
+Los resultados obtenidos fueron:
+
+.. csv-table:: Datos
+    :header-rows: 1
+
+    Método A,Método B
+    "0,15","0,15"
+    "0,1","0,08"
+    "0,09","0,08"
+    "0,14","0,14"
+    "0,08","0,08"
+    "0,11","0,08"
+    "0,12","0,1"
+    "0,1","0,09"
+    "0,09","0,08"
+    "0,09","0,07"
+    "0,09","0,08"
+    "0,09","0,09"
+    "0,08","0,07"
+    "0,08","0,08"
+    "0,06","0,08"
+
+a) Represente los datos en un diagrama de dispersión.
+
+.. figure:: figs/act10.png
+    :align: center
+    :scale: 200 %
+
+
+b) Calcule el coeficiente de correlación lineal.
+
+.. class:: underline
+
+    r = 0,8695680613
+
+c) Pruebe la significación del coeficiente.
+
+
+.. class:: underline
+
+    t  = 6.35 (formulas en la primer actividad)
+
+    Límites = [-2.160, 2.160]
+
+    Se rechaza la hipotesis nula por que 6.35 > 2.161, el coeficiente no
+    repreenta el ajuste
+
+
 .. ============================================================================
 .. FOOTER
 .. ============================================================================
