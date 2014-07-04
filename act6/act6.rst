@@ -540,9 +540,9 @@ d) Estime el daño pulmonar para un paciente que ha fumado 20 años.
 
    tn-2 = 2.306
 
-   Linf = 40,57 - 2.306 * 2.306 * 0.4 = 38.44
+   Linf = 40.57 - 2.306 * 346.56 * 0.4 = -279.10
 
-   Lsup = 40,57 - 2.306 * 2.306 * 0.4 = 42.69
+   Lsup = 40.57 + 2.306 * 346.56 * 0.4 = 360.24
 
 
 e) Calcule el coeficiente de determinación R2 e interprete su resultado.
@@ -559,6 +559,59 @@ e) Calcule el coeficiente de determinación R2 e interprete su resultado.
     R2 = 0.425650279531
 
     La calidad del ajuste es bastante mala, ya que tiene solo el ~42% de ajuste
+
+
+|hamster| Actividad nro. 12
+---------------------------
+
+El gerente de personal de una empresa considera que puede haber una relación
+lineal entre el ausentismo (y) y la edad (x) de los empleados. Si está
+acertado en su creencia, desea encontrar esta relación para predecir los días
+de ausentismo anuales por medio de la edad.
+
+Para llevar a cabo la experiencia, decide tomar una muestra aleatoria de
+n = 10 legajos de empleados y calcular los días ausentes durante el año 1996.
+
+Los registros obtenidos fueron:
+
+.. csv-table:: Data
+    :header-rows: 1
+
+    Empleado,Edad,Días ausentes
+    1,27,15
+    2,61,6
+    3,37,10
+    4,23,18
+    5,46,9
+    6,58,7
+    7,29,14
+    8,36,11
+    9,64,5
+    10,40,8
+
+¿Cuántos días de ausencia estimaría usted para un empleado de 40 años,
+en promedio? Estime puntualmente y por intervalos.
+
+.. class:: underline
+
+    b = cov(x,y) / V(x) = -0,2412979503
+
+    a = avg(y) - b * avg(x) = 20,458643709
+
+    y = 20,46 - 0.24 x
+
+    **Estimación**
+
+    x = 4 => y = 20.46 - 0.24 * 40 = 10.86
+
+    Sx/y = 104.44
+
+    tn-2 = 2.306
+
+    Linf = 10.86 - 2.306 * 104.44 * 0.32 = -66.2083648
+
+    Lsup = 10.86 + 2.306 * 104.44 * 0.32 = 87.92
+
 
 
 .. ============================================================================
