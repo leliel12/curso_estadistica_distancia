@@ -530,6 +530,8 @@ c) Pruebe la significación de β.
 d) Estime el daño pulmonar para un paciente que ha fumado 20 años.
    Efectúe la estimación puntualmente y por intervalos.
 
+.. class:: underline
+
    yi = 17.37 + 1.16 * 20 = 40.57
 
    (formula en pag 36 mod XIII)
