@@ -337,6 +337,40 @@ correspondiente.
     Límite superior = \ln{\psi} + 1.96 \times ES(\ln{\psi}) = 0.4189 + 1.96 \times 0.3405 = -1.086
 
 
+|hamster| Actividad nro. 7
+--------------------------
+
+Un estudio se propone conocer la prevalencia de bronquitis crónica según
+sectores urbanos con diferentes niveles de contaminación del aire con
+partículas respirables. Se tomó una muestra aleatoria de 3.000 adultos
+residentes en dos áreas urbanas: 500 residentes en área con altos niveles de
+partículas y 2.500 residentes en área con nivel más bajo de contaminación.
+
+Una vez entrevistados, los resultados obtenidos fueron:
+
+.. csv-table:: Datos
+    :header-rows: 1
+
+    Nivel de contaminación con partículas,"Enfermos con bronquitis crónica","Total residentes"
+    Alto,45,500
+    Bajo,160,2500
+    Total,205,3000
+
+Estime el riesgo relativo puntualmente y por medio de un intervalo del 95%.
+
+
+.. class:: underline
+
+    RR = (45 * 2500)/(160 * 500) = 1.406
+
+    Linf = ln(1.406) - 1.96 * 0.1614 = 0.0245
+
+    lsup = ln(1.406) + 1.96 * 0.1614 = 0.6572
+
+    [1.024, 1.9295]
+
+
+
 |hamster| Actividad nro. 8
 --------------------------
 
@@ -644,6 +678,27 @@ los diversos tipos de delitos depende de la seccional donde se cometen?
 
     Se rechaza la hiótesis nula y se concluye que existe  una  asociación
     significativa entre la seccional y los delitos.
+
+
+|hamster| Actividad nro. 14
+---------------------------
+
+Una encuesta a 12 estudiantes analizó el número de horas de estudio dedicadas
+los dos días inmediatamente previos al examen final de Estadística y los
+puntos obtenidos en la misma.
+
+Se efectuó un análisis de regresión con los siguientes resultados:
+
+R Múltiple 0,18
+R2 = :underline:`0.0324`
+R2 ajustado = 0,06
+Error estándar = 13,91
+Observaciones = 12
+
+
+Tabla de análisis de la varianza:
+
+
 
 
 .. ============================================================================
