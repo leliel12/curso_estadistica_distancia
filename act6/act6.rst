@@ -470,6 +470,7 @@ c) Pruebe la significación del coeficiente.
     Se rechaza la hipotesis nula por que 6.35 > 2.161, el coeficiente no
     repreenta el ajuste
 
+
 |hamster| Actividad nro. 11
 ---------------------------
 
@@ -508,19 +509,42 @@ b) Estime la ecuación lineal de regresión.
 
     b = cov(x,y) / V(x) = 1,1643859049
 
-    a = avg(y) - b * avg(x) =
+    a = avg(y) - b * avg(x) = 17,3560896339
 
-
-
+    y = 17,37 + 1,16 x
 
 c) Pruebe la significación de β.
 
 d) Estime el daño pulmonar para un paciente que ha fumado 20 años.
    Efectúe la estimación puntualmente y por intervalos.
 
+   yi = 17.37 + 1.16 * 20 = 40.57
+
+   (formula en pag 36 mod XIII)
+
+   Sx/y = 346.56
+
+   tn-2 = 2.306
+
+   Linf = 40,57 - 2.306 * 2.306 * 0.4 = 38.44
+
+   Lsup = 40,57 - 2.306 * 2.306 * 0.4 = 42.69
+
+
 e) Calcule el coeficiente de determinación R2 e interprete su resultado.
 
 
+.. class:: underline
+
+    SCR = 1180.1154
+
+    SCE = 1320.5754
+
+    SCT = 2772.5
+
+    R2 = 0.425650279531
+
+    La calidad del ajuste es bastante mala, ya que tiene solo el ~42% de ajuste
 
 
 .. ============================================================================
