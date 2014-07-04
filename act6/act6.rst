@@ -515,6 +515,18 @@ b) Estime la ecuación lineal de regresión.
 
 c) Pruebe la significación de β.
 
+.. class:: underline
+
+    Sb = 876.9
+
+    t = 0.00132784343129
+
+    n - 2 = 8
+
+    Limites = [-2.306, 2.306]
+
+    Se rechaza la hipótesis nula
+
 d) Estime el daño pulmonar para un paciente que ha fumado 20 años.
    Efectúe la estimación puntualmente y por intervalos.
 
