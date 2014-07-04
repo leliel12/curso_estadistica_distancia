@@ -614,6 +614,38 @@ en promedio? Estime puntualmente y por intervalos.
 
 
 
+|hamster| Actividad nro. 13
+---------------------------
+
+La siguiente actividad le resultará conocida porque ya fue utilizada
+oportunamente.
+
+En una ciudad se había recaudado información acerca de los tipos de delito que
+se cometían por seccionales.
+
+.. csv-table:: Data
+    :header-rows: 1
+
+    Seccional,Homicidio,Robo de auto,Robos mayores,Robos menores,Otros
+    1,12,239,191,122,47
+    2,17,163,278,201,54
+    3,7,98,109,44,17
+
+¿Presentan estos datos suficiente evidencia para concluir que la ocurrencia de
+los diversos tipos de delitos depende de la seccional donde se cometen?
+
+.. figure:: figs/ac13.png
+    :align: center
+    :scale: 100 %
+
+    Salida PSPP
+
+.. class:: underline
+
+    Se rechaza la hiótesis nula y se concluye que existe  una  asociación
+    significativa entre la seccional y los delitos.
+
+
 .. ============================================================================
 .. FOOTER
 .. ============================================================================
