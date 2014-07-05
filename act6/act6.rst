@@ -690,16 +690,68 @@ puntos obtenidos en la misma.
 Se efectuó un análisis de regresión con los siguientes resultados:
 
 R Múltiple 0,18
+
 R2 = :underline:`0.0324`
+
 R2 ajustado = 0,06
+
 Error estándar = 13,91
+
 Observaciones = 12
 
+.. csv-table:: Tabla de análisis de la varianza:
+    :header-rows: 1
 
-Tabla de análisis de la varianza:
+    "Fuentes de variación",Grados de libertad,Sumas de cuadrados,Cuadrados medios,F,Significación
+    Regresión,1,"67,6","67,6","0,3492962404","0,57"
+    Residual,10,"1935,32","193,532",,
+    Total,11,"2002,92",,,
 
 
+.. csv-table:: Datos
+    :header-rows: 1
 
+    ,Coeficientes,Error estándar,t,p,Límite inferior 95%,Límite superior 95%
+    Constante,"73,14","8,52",,0,"54,17","92,12"
+    Variable X,"0,36","0,6","0,6","0,57","-0,99","1,71"
+
+a) Complete los datos faltantes de la tabla.
+b) Determine la ecuación de la recta. ¿Qué significa el valor 73,14 de la constante?
+
+.. class:: underline
+
+    y = 73.14 + 0.36 x,
+
+    73.14 es la ordenada al origen, el lugar donde corta la recta el eje X
+
+c) ¿Qué significa el 13,91 del error estándar?
+
+.. class:: underline
+
+    Que la varianza de los errores de estimacion del modelo es igual a 13.91
+
+
+d) A un nivel de significación del 5%, ¿existe evidencia de que la pendiente
+   es distinta de 0?
+
+.. class:: underline
+
+    No hay ninguna evidencia, ya que t esta dentro de los límites.
+
+
+e) Según el modelo, ¿cuánto tiende a aumentar el puntaje promedio obtenido en
+   el examen por cada hora de aumento en las horas de estudio?
+
+.. class:: underline
+
+    aumenta 0.36 puntos
+
+
+f) ¿Es adecuado el modelo de regresión lineal planteado para este problema?
+
+.. class:: underline
+
+    Parece ser correcto decir que a más estudia las notas crecen linealmente.
 
 .. ============================================================================
 .. FOOTER
